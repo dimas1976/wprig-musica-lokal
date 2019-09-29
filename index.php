@@ -59,13 +59,19 @@ get_header();
                 </div>
                 <div class="col-md-5 start-img" data-aos="fade-left">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/8JzEtFdB7Yc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div>
+                        <p>
+                            ~Sing for Peace~
+                            Dieser Song ist komponiert und getextet von Kindern, Jugendlichen und den ausführenden Dozenten unserer Mai (Ferien) Workshops.
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 hidden-md-down music-kid" data-aos="zoom-in"></div>
                 <div class="col-md-12 col-lg-4 pt-5 pt-md-3 ml-md-1" data-aos="zoom-in-up">
                     <p>
-                        &nbsp;
+                       &nbsp;
                     </p>
                 </div>
             </div>
