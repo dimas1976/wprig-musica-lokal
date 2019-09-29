@@ -1,0 +1,11 @@
+{
+  "theme": {
+    "name": "musica",
+    "author": "Dmitriy Kogan"
+  },
+  "dev": {
+    "browserSync": {
+      "proxyURL": "localhost/wordpress/wprig-musica"
+    }
+  }
+}
