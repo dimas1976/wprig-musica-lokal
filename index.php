@@ -51,8 +51,7 @@ get_header();
                     <a class="btn btn-primary" href="./bewaehrtes-konzept-musizieren-in-der-gruppe-macht-stark/" role="button">ÜBER UNS</a>
                 </div>
                 <div class="col-md-5 start-img" data-aos="fade-left">
-                    <img data-src="<?= get_bloginfo("template_url"); ?>/assets/img/start_kids/start_kids.jpg" class="img-fluid lazyload" alt="Trommeln">
-                    <div class="credit">Foto: &copy; Cem Renkligül</div>
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/8JzEtFdB7Yc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="row">
@@ -67,7 +66,7 @@ get_header();
         </div>
     </div>
 
-    <div id="course-list" class="lazyload" data-bg="<?= get_bloginfo("template_url"); ?>/assets/img/kurslist_bg.jpg" data-aos="zoom-in-up">
+    <div id="course-list" class="lazyload" data-bg="<?= bloginfo("template_url"); ?>/assets/img/kurslist_bg.jpg" data-aos="zoom-in-up">
         <div class="container pb-4 pb-md-0">
             <div class="row">
                 <div class="col-md-12">

@@ -55,7 +55,6 @@ get_header(); ?>
             </div>
             <div class="col-md-3">
                 <article data-aos="flip-right">
-                    <div class="number">
                         <h2 class="pt-md-3 pb-md-3">04</h2>
                     </div>
                     <div class="registration-description">
@@ -72,10 +71,10 @@ get_header(); ?>
     <div class="container pt-3 pb-md-5">
         <div class="row">
             <div class="col-md-6"  data-aos="fade-up">
-                <a href="<?= get_bloginfo("template_url"); ?>/formulare/anmeldevertrag.pdf" target="_blank"><i class="fas fa-download"></i> Anmeldebogen runterladen </a>
+                <a href="<?= bloginfo("template_url"); ?>/formulare/anmeldevertrag.pdf" target="_blank"><i class="fas fa-download"></i> Anmeldebogen runterladen </a>
             </div>
             <div class="col-md-6"  data-aos="fade-up">
-                <a href="<?= get_bloginfo("template_url"); ?>/formulare/sepa.pdf" target="_blank"><i class="fas fa-download"></i> Erteilung einer SEPA-Basislastschrift runterladen</a>
+                <a href="<?= bloginfo("template_url"); ?>/formulare/sepa.pdf" target="_blank"><i class="fas fa-download"></i> Erteilung einer SEPA-Basislastschrift runterladen</a>
             </div>
         </div>
     </div>
