@@ -41,11 +41,18 @@ get_header();
                         wertschätzende und unterstützende Miteinander der jungen MusikerInnen legen.
                     </span>
                     </p>
-                    <p class="pb-3">
+                    <p>
                         <i class="fas fa-hand-point-up"></i>
                         <span>
                         Die Kurstgebühren sind moderat und die
                         Vereinsorganisation schlank.
+                    </span>
+                    </p>
+                    <p class="pb-3">
+                        <i class="fas fa-hand-point-up"></i>
+                        <span>
+                        Musica Altona ist eine Plattform für sozialen und künstlerischen Austausch; in einer
+                        multikulturellen Stadt, die eine weltoffene Persönlichkeitsbildung der Einzelnen unterstützt.
                     </span>
                     </p>
                     <a class="btn btn-primary" href="./bewaehrtes-konzept-musizieren-in-der-gruppe-macht-stark/" role="button">ÜBER UNS</a>
@@ -58,8 +65,7 @@ get_header();
                 <div class="col-lg-8 hidden-md-down music-kid" data-aos="zoom-in"></div>
                 <div class="col-md-12 col-lg-4 pt-5 pt-md-3 ml-md-1" data-aos="zoom-in-up">
                     <p>
-                        Musica Altona ist eine Plattform für sozialen und künstlerischen Austausch; in einer
-                        multikulturellen Stadt, die eine weltoffene Persönlichkeitsbildung der Einzelnen unterstützt.
+                        &nbsp;
                     </p>
                 </div>
             </div>
