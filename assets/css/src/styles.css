@@ -48,6 +48,9 @@ a.btn.btn-primary {
   color: #8ad2fb;
   cursor: auto;
 }
+strong {
+  font-weight: bold;
+}
 #logo .slogan {
   font-family: 'Love Ya Like A Sister', sans-serif;
   font-weight: 600;
