@@ -23,8 +23,9 @@ get_header(); ?>
                     </div>
                     <div class="registration-description">
                         <p>
-                            1. den Dozenten bzw. die Dozentin anrufen (alle Telefonnummern) und
-                            2. fragen, wann Ihr zu einer (kostenlosen) Probestunde kommen könnt.
+                            Bitte nehmt  <strong>Kontakt</strong> mit der jeweiligen Dozentin bzw. Dozent auf
+                            (siehe Menüpunkt Kurse) und erkundigt Euch, wann Ihr zu einer (kostenlosen) <strong>Probestunde</strong> kommen könnt.
+                            Dann erfahrt Ihr auch, wann und wo die Gruppe sich trifft.
                         </p>
                     </div>
                 </article>
@@ -36,7 +37,8 @@ get_header(); ?>
                     </div>
                     <div class="registration-description">
                         <p>
-                            Der Dozent / die Dozentin gibt Auskunft darüber, wann und wo sich die Gruppe trifft.
+                            Zur <strong>Anmeldung</strong> bekommst Du in Deiner ersten Unterrichtsstunde den Anmeldebogen (zweifache Ausführung). Ein Exemplar davon bekommt Musica Altona e.V. und eines behalten Deine Eltern.
+                            Außerdem gibt es zum Anmeldebogen ein SEPA-Lastschriftmandat, welches Deine Eltern bitte ausfüllen und ebenfalls dem Dozenten zurückgeben.
                         </p>
                     </div>
                 </article>
@@ -48,18 +50,22 @@ get_header(); ?>
                     </div>
                     <div class="registration-description">
                         <p>
-                            Zur Anmeldung bekommst du dort einen Anmeldebogen (doppelt). Ein Exemplar davon bekommt Musica Altona e.V. und eines sollten deine Eltern behalten.
+                            <strong>Kursgebühr:</strong> 30€ / Klavier 35€
+                            Bildungs-und Teilhabepaket(BuT) wird akzeptiert.
+                            Antrag auf Ermässigung ist möglich(nur schriftlich).
                         </p>
                     </div>
                 </article>
             </div>
             <div class="col-md-3">
                 <article data-aos="flip-right">
+                    <div class="number">
                         <h2 class="pt-md-3 pb-md-3">04</h2>
                     </div>
                     <div class="registration-description">
                         <p>
-                            Außerdem gibt es zum Anmeldebogen ein SEPA-Lastschriftmandat. Wenn du dauerhaft mitmachen möchtest, sollen Deine Eltern den Bogen bitte ausfüllen und ebenfalls dem Dozenten zurückgeben.
+                            <strong>Download:</strong><br>
+                            Hier könnt Ihr Euch das <a href="<?= get_bloginfo("template_url"); ?>/formulare/anmeldevertrag.pdf" target="_blank">Anmeldeformular</a> und die  <a href="<?= get_bloginfo("template_url"); ?>/formulare/sepa.pdf" target="_blank">Erteilung einer SEPA-Basislastschrift</a> runterladen.
                         </p>
                     </div>
                 </article>
@@ -67,17 +73,17 @@ get_header(); ?>
         </div>
     </div>
 </section>
-<div id="registration-download">
+<!--<div id="registration-download">
     <div class="container pt-3 pb-md-5">
         <div class="row">
             <div class="col-md-6"  data-aos="fade-up">
-                <a href="<?= bloginfo("template_url"); ?>/formulare/anmeldevertrag.pdf" target="_blank"><i class="fas fa-download"></i> Anmeldebogen runterladen </a>
+                <a href="<?/*= get_bloginfo("template_url"); */?>/formulare/anmeldevertrag.pdf" target="_blank"><i class="fas fa-download"></i> Anmeldebogen runterladen </a>
             </div>
             <div class="col-md-6"  data-aos="fade-up">
-                <a href="<?= bloginfo("template_url"); ?>/formulare/sepa.pdf" target="_blank"><i class="fas fa-download"></i> Erteilung einer SEPA-Basislastschrift runterladen</a>
+                <a href="<?/*= get_bloginfo("template_url"); */?>/formulare/sepa.pdf" target="_blank"><i class="fas fa-download"></i> Erteilung einer SEPA-Basislastschrift runterladen</a>
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
 <?php get_footer();?>
