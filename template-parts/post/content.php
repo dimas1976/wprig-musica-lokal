@@ -11,7 +11,7 @@
  */
 ?>
 <?php global $current_post ?>
-<div class="<?php echo is_single()? 'col' : 'col-md-6 pb-4' ?>">
+<div class="<?php echo is_single()? 'col' : 'col-md-12 pb-4' ?>">
     <article id="post-<?php the_ID();
     echo is_single() ? ' event-article' : '' ?>"
              data-aos="<?php echo 'fade-right' ?>" <?php post_class() ?>>
