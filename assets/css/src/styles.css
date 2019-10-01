@@ -225,9 +225,11 @@ nav .navbar-toggler {
   border-width: 7px;
   border-color: rgba(255, 255, 255, 0.7);
 }
-#lecturers .dumisani,
-#lecturers .oliver {
+#lecturers .dumisani {
   width: 17.1rem;
+}
+#lecturers .oliver {
+  width: 12rem;
 }
 #lecturers .ingrid {
   width: 18rem;
