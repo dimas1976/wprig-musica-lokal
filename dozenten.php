@@ -27,14 +27,14 @@ get_header(); ?>
     <div class="mb-md-2" data-aos="zoom-in">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 oliver-quotes">
+                <div class="col-md-8 order-last order-md-first pt-2 pt-md-5 pb-5 pb-md-3 oliver-quotes">
                     <blockquote>
                         <sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
                         Musica Altona als Brücke, eine besondere Form der Kommunikation – unabhängig vom Alter oder kulturellem Hintergrund, Musica Altona verbindet <sub class="pl-2"><i class="fas fa-quote-right"></i></sub>
                     </blockquote>
                     <p>Heidi Martens und Birgit Lünsmann </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" order-first order-md-last>
                     <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/heidi.jpg" class="img-fluid heidi lazyload" alt="Heidi Martens">
                 </div>
             </div>
@@ -60,7 +60,7 @@ get_header(); ?>
     <div class="mb-md-2" data-aos="zoom-in">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 olle-qoutes">
+                <div class="col-md-8 order-last order-md-first pt-2 pt-md-5 pb-5 pb-md-3 olle-qoutes">
                     <blockquote>
                         <sup class="pr-2"><i class="fas fa-quote-left"></i></sup> Musica Altona ist sozial, gutes
                         Team, in meinem Stadtteil Altona,
@@ -71,7 +71,7 @@ get_header(); ?>
                     </blockquote>
                     <p>Olle Wolski</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 order-first order-md-last">
                     <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/olle.jpg" class="img-fluid olle lazyload" alt="Olle Wolski">
                 </div>
             </div>
@@ -96,7 +96,7 @@ get_header(); ?>
     <div class="mb-md-2" data-aos="zoom-in">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 oliver-quotes">
+                <div class="col-md-8 order-last order-md-first pt-2 pt-md-5 pb-5 pb-md-3 oliver-quotes">
                     <blockquote>
                         <sup class="pr-2"><i class="fas fa-quote-left"></i></sup> die Kinder kommen freiwillig
                         zum Unterricht.<br>
@@ -104,7 +104,7 @@ get_header(); ?>
                     </blockquote>
                     <p>Oli Höppner</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 order-first order-md-last">
                     <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/oliver.jpg" class="img-fluid oliver lazyload" alt="Oli Höppner">
                     <div class="credit">Foto: &copy; EleonoraCucina</div>
                 </div>
@@ -200,18 +200,17 @@ get_header(); ?>
     <div class="mb-md-2" data-aos="zoom-in">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 dumisani-quotes">
+                <div class="col-md-8 order-last order-md-first pt-2 pt-md-5 pb-5 pb-md-3 dumisani-quotes">
                     <blockquote>
                         <sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
 
-                        Musica Altona ist die Tür und das
-                        Fenster zur Musik.
+                        Musica Altona ist die Tür und dasFenster zur Musik.
 
                         <sub class="pl-2"><i class="fas fa-quote-right"></i></sub>
                     </blockquote>
                     <p>Dumisani Mabaso</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 order-first order-md-last">
                     <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/dumisani.jpg" class="img-fluid dumisani lazyload" alt="Dumisani Mabaso">
                     <div class="credit">Foto: &copy; EleonoraCucina</div>
                 </div>

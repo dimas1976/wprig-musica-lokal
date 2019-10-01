@@ -796,6 +796,13 @@ footer .foot-note p a {
   #directors .card .credit {
     margin-top: 9rem;
   }
+  #lecturers {
+    /*    div:first-child {
+      .col-md-4 .credit {
+        margin-top: 11rem;
+      }
+    }*/
+  }
   #lecturers .col-md-4 {
     text-align: center;
   }
@@ -804,9 +811,6 @@ footer .foot-note p a {
   #lecturers > div:nth-child(8) .col-md-4 .credit,
   #lecturers > div:last-child .col-md-4 .credit {
     font-size: .8rem;
-  }
-  #lecturers div:first-child .col-md-4 .credit {
-    margin-top: 11rem;
   }
   #lecturers > div:nth-child(5) .col-md-4 .credit {
     margin-top: 17rem;
