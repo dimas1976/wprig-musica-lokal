@@ -14,15 +14,7 @@ get_header();
             <div class="col-sm-12">
                 <h2 class="pb-3" data-aos="zoom-in">Ein vielseitiges Musikprojekt in der Nachbarschaft</h2>
                 <p class="pb-3" data-aos="zoom-in-up">
-                    Der Musica Altona e. V. wurde 2002 von der BürgerStiftung Hamburg zusammen mit
-                    einigen Institutionen und engagierten Musikern in Altona-Altstadt initiiert, um Kindern und
-                    Jugendlichen in einem interkulturellen Rahmen das Musizieren zu ermöglichen.
-                    So entstand ein vielschichtiges musikalisches Angebot, das in Gruppen stattfindet,
-                    wohnortnah und auch für Familien mit geringerem Einkommen erschwinglich ist.
-                    Auf diesem Weg werden auch diejenigen gefördert, die erschwerte Zugangsmöglichkeiten
-                    zu Musikinstrumenten haben, Interesse und Talent jedoch mitbringen. Musica Altona
-                    versteht sich zudem als Plattform des sozialen und künstlerischen Austausches in einer
-                    multikulturellen Stadt, die eine weltoffene Persönlichkeitsbildung der Einzelnen unterstützt.
+                    Der Musica Altona e. V. wurde 2002 von der BürgerStiftung Hamburg zusammen mit einigen Institutionen und engagierten Musikern in Altona-Altstadt initiiert, um Kindern und Jugendlichen in einem interkulturellen Rahmen das Musizieren zu ermöglichen. So entstand ein vielschichtiges musikalisches Angebot, das in Gruppen stattfindet, wohnortnah und auch für Familien mit geringerem Einkommen erschwinglich ist. Auf diesem Weg werden auch diejenigen gefördert, die erschwerte Zugangsmöglichkeiten zu Musikinstrumenten haben, Interesse und Talent jedoch mitbringen. Inklusion ist selbstredend. Musica Altona versteht sich zudem als Plattform des sozialen und künstlerischen Austausches in einer multikulturellen Stadt, die eine weltoffene Persönlichkeitsbildung der Einzelnen unterstützt.
                 </p>
             </div>
         </div>
@@ -30,7 +22,7 @@ get_header();
             <div class="col-sm-12">
                 <h2 class="pb-3" data-aos="zoom-in">Bewährtes Konzept: Musizieren in der Gruppe macht stark</h2>
                 <p class="pb-3" data-aos="zoom-in-up">
-                    Mit dem 'Rollenden Musikkoffer', der ganzjährig durch die Kitas des Stadtteils zieht, erleben die ganz Kleinen ein lebendiges Programm der musikalischen Früherziehung. Bereits hier wird das Prinzip des Gruppenunterrichts gepflegt, der sich dann für Kinder ab dem ersten Schuljahr in den Instrumental- und natürlich auch Orchestergruppen fortsetzt. Unter der Leitung von erfahrenen Dozenten und Musikpädagogen treffen sich die SchülerInnen in Altonaer Schulen und anderen Einrichtungen. Auf einen einzigen Musikstil müssen sich die inzwischen über 300 NachwuchsmusikerInnen nicht festlegen, denn bei        Musica Altona wird in verschiedenen Gruppen »crossover« musiziert : von Schlagzeug, Blasinstrumenten, Klavier, Keyboard, afrikanischen Trommeln über, Saz und Gitarre bis zur klassischen Geige und Cello.
+                    Mit dem Rollenden Musikkoffer, der regelmäßig durch die Kitas des Stadtteils zieht, erleben die ganz Kleinen seit vielen Jahren ein lebendiges Programm der musikalischen Früherziehung. Seit Anfang 2019 gibt es Bellas Klangtonne, ein Projekt für die Elementar Kinder in Kitas. Bereits hier wird das Prinzip des Gruppenunterrichts gepflegt, der sich dann für Kinder ab dem ersten Schuljahr in den Instrumental- und natürlich auch Orchestergruppen fortsetzt. Unter der Leitung von erfahrenen Dozenten und Musikpädagogen treffen sich die SchülerInnen in Altonaer Schulen und anderen Einrichtungen. Auf einen einzigen Musikstil müssen sich die inzwischen über 300 NachwuchsmusikerInnen nicht festlegen, denn bei Musica Altona wird in verschiedenen Gruppen »crossover« musiziert : von Schlagzeug, Blasinstrumenten, Klavier, Keyboard, afrikanischen Trommeln über Saz und Gitarre bis zur klassischen Geige und Cello sowie einem Shanty Chor und zwei Band Projekten.
                 </p>
             </div>
         </div>
@@ -38,17 +30,13 @@ get_header();
             <div class="col-sm-12">
                 <h2 class="pb-3" data-aos="zoom-in">zu guter Letzt</h2>
                 <p class="pb-3" data-aos="zoom-in-up">
-                    Seit über 15 Jahren ist der große und von Herzen kommende Einsatz aller Beteiligten
-                    bezeichnend für Musica Altona.
-                    Die Kursgebühren sind moderat und die Organisation schlank. So wird es jungen
-                    Menschen ermöglicht - auch denjenigen, die neu in der Stadt sind - einen leichteren
-                    Zugang zu ihrem Stadtteil und zu anderen Jugendlichen zu finden.
+                    Seit nunmehr 19 Jahren ist der große und von Herzen kommende Einsatz aller Beteiligten bezeichnend für Musica Altona. Die Kursgebühren sind moderat und die Organisation schlank. So wird es jungen Menschen ermöglicht - auch denjenigen, die neu in der Stadt sind - einen leichteren Zugang zu ihrem Stadtteil und zu anderen Jugendlichen zu finden.
                 </p>
                 <a class="btn btn-primary" href="./unsere-kurse/" role="button" data-aos="fade-right">ZU DEN KURSEN</a>
             </div>
         </div>
         <div class="row pb-5">
-            <div class="col-sm-12 text-md-right">
+            <div class="col-sm-4 offset-sm-8 text-md-right">
                 <picture>
                     <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/refugess.gif 3.5x">
                     <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/refugess.gif 3x">

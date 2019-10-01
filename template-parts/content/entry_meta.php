@@ -12,7 +12,7 @@ $post_type_obj = get_post_type_object( get_post_type() );
 $time_string = '';
 
 // Show date only when the post type is 'post' or has an archive.
-if ( 'post' === $post_type_obj->name || $post_type_obj->has_archive ) {
+/*if ( 'post' === $post_type_obj->name || $post_type_obj->has_archive ) {
 	$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
 	if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
 		$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time><time class="updated" datetime="%3$s">%4$s</time>';
@@ -27,7 +27,7 @@ if ( 'post' === $post_type_obj->name || $post_type_obj->has_archive ) {
 	);
 
 	$time_string = '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>';
-}
+}*/
 
 $author_string = '';
 

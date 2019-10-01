@@ -10,19 +10,16 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/dumisani.jpg" class="img-fluid dumisani lazyload" alt="Dumisani Mabaso">
-                    <div class="credit">Foto: &copy; EleonoraCucina</div>
+                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/thando.jpg" class="img-fluid thando lazyload" alt="Thando Walbaum">
+                    <div class="credit">Foto: &copy; Thomas Leidig</div>
                 </div>
-                <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 dumisani-quotes">
+                <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 text-left">
                     <blockquote>
                         <sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
-
-                        Musica Altona ist die Tür und das
-                        Fenster zur Musik.
-
+                        Musica Altona bietet musikalische aber auch soziale Möglichkeiten, mit denen Kinder aufwachsen sollten.
                         <sub class="pl-2"><i class="fas fa-quote-right"></i></sub>
                     </blockquote>
-                    <p>Dumisani Mabaso</p>
+                    <p>Thando Walbaum</p>
                 </div>
             </div>
         </div>
@@ -30,18 +27,15 @@ get_header(); ?>
     <div class="mb-md-2" data-aos="zoom-in">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 order-last order-md-first pt-2 pt-md-5 pb-5 pb-md-3 ingrid-quotes">
+                <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 oliver-quotes">
                     <blockquote>
                         <sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
-                        <i class="fab fa-angellist"></i>
-                        <sub class="pl-2">
-                            <i class="fas fa-quote-right"></i>
-                        </sub>
+                        Musica Altona als Brücke, eine besondere Form der Kommunikation – unabhängig vom Alter oder kulturellem Hintergrund, Musica Altona verbindet <sub class="pl-2"><i class="fas fa-quote-right"></i></sub>
                     </blockquote>
-                    <p>Ingrid Schöller</p>
+                    <p>Heidi Martens und Birgit Lünsmann </p>
                 </div>
-                <div class="col-md-4 order-first order-md-last text-md-center">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/ingrid.jpg" class="img-fluid ingrid lazyload" alt="Ingrid Schöller">
+                <div class="col-md-4">
+                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/heidi.jpg" class="img-fluid heidi lazyload" alt="Heidi Martens">
                 </div>
             </div>
         </div>
@@ -50,8 +44,22 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/olle.jpg" class="img-fluid olle lazyload" alt="Olle Wolski">
+                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/pablo.jpg" class="img-fluid pablo lazyload" alt="Pablo Ruiz">
                 </div>
+                <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 pablo-quotes">
+                    <blockquote>
+                        <sup class="pr-2"><i class="fas fa-quote-left"></i></sup>Musica Altona fühlt sich an wie
+                        Elektrizität <sub class="pl-2"><i
+                                    class="fas fa-quote-right"></i></sub>
+                    </blockquote>
+                    <p>Pablo Ruiz</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mb-md-2" data-aos="zoom-in">
+        <div class="container">
+            <div class="row">
                 <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 olle-qoutes">
                     <blockquote>
                         <sup class="pr-2"><i class="fas fa-quote-left"></i></sup> Musica Altona ist sozial, gutes
@@ -63,32 +71,31 @@ get_header(); ?>
                     </blockquote>
                     <p>Olle Wolski</p>
                 </div>
+                <div class="col-md-4">
+                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/olle.jpg" class="img-fluid olle lazyload" alt="Olle Wolski">
+                </div>
             </div>
         </div>
     </div>
     <div class="mb-md-2" data-aos="zoom-in">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 order-last order-md-first pt-2 pt-md-5 pb-5 pb-md-3 willie-quotes">
+                <div class="col-md-4 text-md-center">
+                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/willi.jpg" class="img-fluid willi lazyload" alt="Willie Jakob">
+                </div>
+                <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 willie-quotes">
                     <blockquote>
                         <sup class="pr-2"><i class="fas fa-quote-left"></i></sup>Für mich bedeutet Musica Altona die Möglichkeit, innerhalb einer bunten Vielfalt von Kolleginnen und Kollegen mit Kindern zu musizieren und so dazu beizutragen, dass die Freude an der Musik die Gegenwart und Zukunft der Kinder bereichern kann.<sub class="pl-2"><i
                             class="fas fa-quote-right"></i></sub>
                     </blockquote>
                     <p>Willie Jakob</p>
                 </div>
-                <div class="col-md-4 order-first order-md-last text-md-center">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/willi.jpg" class="img-fluid willi lazyload" alt="Willie Jakob">
-                </div>
             </div>
         </div>
     </div>
     <div class="mb-md-2" data-aos="zoom-in">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/oliver.jpg" class="img-fluid oliver lazyload" alt="Oli Höppner">
-                    <div class="credit">Foto: &copy; EleonoraCucina</div>
-                </div>
                 <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 oliver-quotes">
                     <blockquote>
                         <sup class="pr-2"><i class="fas fa-quote-left"></i></sup> die Kinder kommen freiwillig
@@ -97,38 +104,28 @@ get_header(); ?>
                     </blockquote>
                     <p>Oli Höppner</p>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="mb-md-2" data-aos="zoom-in">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 order-last order-md-first pt-2 pt-md-5 pb-5 pb-md-3 pablo-quotes">
-                    <blockquote>
-                        <sup class="pr-2"><i class="fas fa-quote-left"></i></sup>Musica Altona fühlt sich an wie
-                        Elektrizität <sub class="pl-2"><i
-                            class="fas fa-quote-right"></i></sub>
-                    </blockquote>
-                    <p>Pablo Ruiz</p>
-                </div>
-                <div class="col-md-4 order-first order-md-last text-md-center">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/pablo.jpg" class="img-fluid pablo lazyload" alt="Pablo Ruiz">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="mb-md-2" data-aos="zoom-in">
-        <div class="container">
-            <div class="row">
                 <div class="col-md-4">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/heidi.jpg" class="img-fluid heidi lazyload" alt="Heidi Martens">
+                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/oliver.jpg" class="img-fluid oliver lazyload" alt="Oli Höppner">
+                    <div class="credit">Foto: &copy; EleonoraCucina</div>
                 </div>
-                <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 oliver-quotes">
+            </div>
+        </div>
+    </div>
+    <div class="mb-md-2" data-aos="zoom-in">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-md-center">
+                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/ingrid.jpg" class="img-fluid ingrid lazyload" alt="Ingrid Schöller">
+                </div>
+                <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 ingrid-quotes">
                     <blockquote>
                         <sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
-                        Musica Altona als Brücke, eine besondere Form der Kommunikation – unabhängig vom Alter oder kulturellem Hintergrund, Musica Altona verbindet <sub class="pl-2"><i class="fas fa-quote-right"></i></sub>
+                        <i class="fab fa-angellist"></i>
+                        <sub class="pl-2">
+                            <i class="fas fa-quote-right"></i>
+                        </sub>
                     </blockquote>
-                    <p>Heidi Martens</p>
+                    <p>Ingrid Schöller</p>
                 </div>
             </div>
         </div>
@@ -203,51 +200,37 @@ get_header(); ?>
     <div class="mb-md-2" data-aos="zoom-in">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 order-last order-md-first pt-2 pt-md-5 pb-5 pb-md-3">
+                <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 dumisani-quotes">
+                    <blockquote>
+                        <sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
+
+                        Musica Altona ist die Tür und das
+                        Fenster zur Musik.
+
+                        <sub class="pl-2"><i class="fas fa-quote-right"></i></sub>
+                    </blockquote>
+                    <p>Dumisani Mabaso</p>
+                </div>
+                <div class="col-md-4">
+                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/dumisani.jpg" class="img-fluid dumisani lazyload" alt="Dumisani Mabaso">
+                    <div class="credit">Foto: &copy; EleonoraCucina</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mb-md-2" data-aos="zoom-in">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/huseyin.jpg" class="img-fluid huseyin lazyload" alt="Hueseyin Duman">
+                </div>
+                <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3">
                     <blockquote>
                         <sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
                         Musica Altona ist wie eine Musikalische Reise um die Welt. Wie ein Regenbogen, der uns immer wieder verzaubert!
                         <sub class="pl-2"><i class="fas fa-quote-right"></i></sub>
                     </blockquote>
                     <p>Hüseyin Duman</p>
-                </div>
-                <div class="col-md-4">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/huseyin.jpg" class="img-fluid huseyin lazyload" alt="Hueseyin Duman">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="mb-md-2" data-aos="zoom-in">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/thando.jpg" class="img-fluid thando lazyload" alt="Thando Walbaum">
-                    <div class="credit">Foto: &copy; Thomas Leidig</div>
-                </div>
-                <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 text-left">
-                    <blockquote>
-                        <sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
-                        Musica Altona bietet musikalische aber auch soziale Möglichkeiten, mit denen Kinder aufwachsen sollten.
-                        <sub class="pl-2"><i class="fas fa-quote-right"></i></sub>
-                    </blockquote>
-                    <p>Thando Walbaum</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="mb-md-2" data-aos="zoom-in">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 order-last order-md-first pt-2 pt-md-5 pb-5 pb-md-3">
-                    <blockquote>
-                        <sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
-                        Musik fördert in einzigartiger Weise das harmonische Zusammenwirken von Körper, Seele und Geist; wie auch das Zusammenleben mit anderen Menschen. Hier langfristig zu wachsen schenkt Musica Altona allen Kindern im Stadtteil.
-                        <sub class="pl-2"><i class="fas fa-quote-right"></i></sub>
-                    </blockquote>
-                    <p>Mike Rutledge</p>
-                </div>
-                <div class="col-md-4">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/mike.jpg" class="img-fluid mike lazyload" alt="Mike Rutledge">
                 </div>
             </div>
         </div>
