@@ -15,7 +15,7 @@ get_header();
                             <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/bethina_md.jpg 2x">
                             <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/bethina_sm.jpg 1x">
                             <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/bethina_xs.jpg">
-                            <img class="card-img-top lazyload" data-src="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/bethina_xl.jpg"  alt="Bethina Walbaum">
+                            <img class="card-img-top lazyload director-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/bethina_xl.jpg"  alt="Bethina Walbaum">
                         </picture>
                         <div class="credit">Foto: &copy; Dahlina Sophie</div>
                         <div class="card-body" data-aos="fade-up">
@@ -34,7 +34,7 @@ get_header();
                             <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/patricia/patricia.jpg 2x">
                             <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/patricia/patricia_sm.jpg 1x">
                             <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/patricia/patricia_xs.jpg">
-                            <img class="card-img-top lazyload" data-src="<?= bloginfo("template_url"); ?>/assets/img/directors/patricia/patricia.jpg"  alt="Patricia Renz">
+                            <img class="card-img-top lazyload director-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/directors/patricia/patricia.jpg"  alt="Patricia Renz">
                         </picture>
                         <div class="card-body" data-aos="fade-up">
                             <h5 class="card-title">Patricia Renz</h5>
@@ -52,7 +52,7 @@ get_header();
                             <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/marion/marion.jpg 2x">
                             <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/marion/marion_sm.jpg 1x">
                             <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/marion/marion_xs.jpg">
-                            <img class="card-img-top lazyload" data-src="<?= bloginfo("template_url"); ?>/assets/img/directors/marion/marion.jpg"  alt="Marion Wolf-Dietrich">
+                            <img class="card-img-top lazyload director-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/directors/marion/marion.jpg"  alt="Marion Wolf-Dietrich">
                         </picture>
                         <div class="card-body" data-aos="fade-up">
                             <h5 class="card-title">Marion Wolf-Dietrich</h5>

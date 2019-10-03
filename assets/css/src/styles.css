@@ -54,7 +54,8 @@ strong {
 .card-img-top {
   width: 50% !important;
 }
-.course-img {
+.course-img,
+.director-img {
   width: 100% !important;
 }
 #logo .slogan {
