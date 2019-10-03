@@ -16,7 +16,7 @@ get_header(); ?>
                         <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/cello/cello_md.jpg 2x">
                         <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/cello/cello_sm.jpg 1x">
                         <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/cello/cello_xs.jpg">
-                        <img class="card-img-top lazyload" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/cello/cello_xlg.jpg"  alt="Unsere Kurse-Cello">
+                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/cello/cello_xlg.jpg"  alt="Unsere Kurse-Cello">
                     </picture>
                     <div class="credit">Foto: &copy; Cem Renkligül</div>
                     <div class="card-body">
@@ -36,7 +36,7 @@ get_header(); ?>
                         <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg 2x">
                         <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_sm.jpg 1x">
                         <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xsm.jpg">
-                        <img class="card-img-top lazyload" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg"  alt="Unsere Kurse-Saz">
+                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg"  alt="Unsere Kurse-Saz">
                     </picture>
                     <div class="card-body">
                         <h5 class="card-title">Saz</h5>
@@ -55,7 +55,7 @@ get_header(); ?>
                         <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/klavier/klavier_md.jpg 2x">
                         <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/klavier/klavier_sm.jpg 1x">
                         <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/klavier/klavier_xsm.jpg">
-                        <img class="card-img-top lazyload" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/klavier/klavier_xlg.jpg"  alt="Unsere Kurse-Klavier">
+                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/klavier/klavier_xlg.jpg"  alt="Unsere Kurse-Klavier">
                     </picture>
                     <div class="credit">Foto: &copy; Cem Renkligül</div>
                     <div class="card-body">
@@ -77,7 +77,7 @@ get_header(); ?>
                         <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/brass/brass.jpg 2x">
                         <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/brass/brass_xs.jpg 1x">
                         <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/brass/brass.jpg">
-                        <img class="card-img-top lazyload" data-src="<?= bloginfo("template_url"); ?>/assets/img/brass/brass.jpg"  alt="Unsere Kurse-Brass">
+                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/brass/brass.jpg"  alt="Unsere Kurse-Brass">
                     </picture>
                     <div class="card-body">
                         <h5 class="card-title">KRASS BRASS - Blasinstrumente</h5>
@@ -96,7 +96,7 @@ get_header(); ?>
                         <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/klavier-serena/klavier_serena_md.jpg 2x">
                         <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/klavier-serena/klavier_serena_sm.jpg 1x">
                         <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/klavier-serena/klavier_serena_xs.jpg">
-                        <img class="card-img-top lazyload" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/klavier-serena/klavier_serena_xl.jpg"  alt="Unsere Kurse-Klavier">
+                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/klavier-serena/klavier_serena_xl.jpg"  alt="Unsere Kurse-Klavier">
                     </picture>
                     <div class="credit">Foto: &copy; Jürgen Kolmar</div>
                     <div class="card-body">
@@ -116,7 +116,7 @@ get_header(); ?>
                         <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/trommeln/trommel_md.jpg 2x">
                         <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/trommeln/trommel_sm.jpg 1x">
                         <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/trommeln/trommel_xsm.jpg">
-                        <img class="card-img-top lazyload" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/trommeln/trommel_xlg.jpg"  alt="Unsere Kurse-Trommel">
+                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/trommeln/trommel_xlg.jpg"  alt="Unsere Kurse-Trommel">
                     </picture>
                     <div class="card-body">
                         <h5 class="card-title">The Junior Drummers (Trommeln)</h5>
@@ -137,7 +137,7 @@ get_header(); ?>
                         <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/gitarre/gitarre_md.jpg 2x">
                         <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/gitarre/gitarre_sm.jpg 1x">
                         <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/gitarre/gitarre_xs.jpg">
-                        <img class="card-img-top lazyload" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/gitarre/gitarre_xl.jpg"  alt="Unsere Kurse-Gitarre">
+                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/gitarre/gitarre_xl.jpg"  alt="Unsere Kurse-Gitarre">
                     </picture>
                     <div class="credit">Foto: &copy; Cem Renkligül</div>
                     <div class="card-body">
@@ -158,7 +158,7 @@ get_header(); ?>
                         <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/geige/geige_md.jpg 2x">
                         <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/geige/geige_sm.jpg 1x">
                         <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/geige/geige_xs.jpg">
-                        <img class="card-img-top lazyload" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/geige/geige_xl.jpg"  alt="Unsere Kurse-Geige">
+                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/geige/geige_xl.jpg"  alt="Unsere Kurse-Geige">
                     </picture>
                     <div class="credit">Foto: &copy; Cem Renkligül</div>
                     <div class="card-body">
@@ -178,7 +178,7 @@ get_header(); ?>
                         <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/schlagzeug/schlagzeug_md.jpg 2x">
                         <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/schlagzeug/schlagzeug_sm.jpg 1x">
                         <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/schlagzeug/schlagzeug_xs.jpg">
-                        <img class="card-img-top lazyload" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/schlagzeug/schlagzeug_xl.jpg"  alt="Unsere Kurse-Schlagzeug">
+                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/schlagzeug/schlagzeug_xl.jpg"  alt="Unsere Kurse-Schlagzeug">
                     </picture>
                     <div class="credit">Foto: &copy; Jürgen Kolmar</div>
                     <div class="card-body">
@@ -201,7 +201,7 @@ get_header(); ?>
                         <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/gumboots/gumboots_290w.jpg">
                         <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/gumboots/gumboots_290w.jpg">
                         <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/gumboots/gumboots_290w.jpg">
-                        <img class="card-img-top lazyload" data-src="<?= bloginfo("template_url"); ?>/assets/img/gumboots/gumboots_290w.jpg"  alt="Unsere Kurse-Gumboots">
+                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/gumboots/gumboots_290w.jpg"  alt="Unsere Kurse-Gumboots">
                     </picture>
                     <div class="credit">Foto: &copy; Nawina Walker</div>
                     <div class="card-body">
@@ -221,7 +221,7 @@ get_header(); ?>
                         <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/keyboard/keyboard.jpg 2x">
                         <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/keyboard/keyboard.jpg 1x">
                         <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/keyboard/keyboard.jpg">
-                        <img class="card-img-top lazyload" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/keyboard/keyboard.jpg"  alt="Unsere Kurse-Keyboard">
+                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/keyboard/keyboard.jpg"  alt="Unsere Kurse-Keyboard">
                     </picture>
                     <div class="card-body">
                         <h5 class="card-title">Keyboard</h5>
@@ -234,7 +234,7 @@ get_header(); ?>
             </div>
             <div class="col-sm-12 col-md-4">
                 <div class="card mb-3 mb-md-0" data-aos="flip-right">
-                        <img class="card-img-top lazyload" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/bratsche/bratsche_288w.jpg 768w,
+                        <img class="card-img-top lazyload course-img" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/bratsche/bratsche_288w.jpg 768w,
                                           <?= bloginfo("template_url"); ?>/assets/img/kurse/bratsche/bratsche_208w.jpg 992w,
                                           <?= bloginfo("template_url"); ?>/assets/img/kurse/bratsche/bratsche_288w.jpg 1200w,
                                           <?= bloginfo("template_url"); ?>/assets/img/kurse/bratsche/bratsche_348w.jpg 3200w"

@@ -51,6 +51,12 @@ a.btn.btn-primary {
 strong {
   font-weight: bold;
 }
+.card-img-top {
+  width: 50% !important;
+}
+.course-img {
+  width: 100% !important;
+}
 #logo .slogan {
   font-family: 'Love Ya Like A Sister', sans-serif;
   font-weight: 600;
