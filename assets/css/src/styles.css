@@ -58,6 +58,9 @@ strong {
 .director-img {
   width: 100% !important;
 }
+.description-bold {
+  font-weight: 700;
+}
 #logo .slogan {
   font-family: 'Love Ya Like A Sister', sans-serif;
   font-weight: 600;
@@ -803,7 +806,7 @@ footer .foot-note p a {
     margin-left: 1rem;
   }
   #directors .card .credit {
-    margin-top: 9rem;
+    margin-top: 29rem;
   }
   #lecturers {
     /*    div:first-child {
@@ -1024,7 +1027,7 @@ footer .foot-note p a {
     width: 11rem;
   }
   #directors .card .credit {
-    margin-top: 9rem;
+    margin-top: 29rem;
   }
   #lecturers .col-md-4 {
     text-align: center;

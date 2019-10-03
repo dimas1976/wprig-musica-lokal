@@ -23,8 +23,8 @@ get_header(); ?>
                     </div>
                     <div class="registration-description">
                         <p>
-                            Bitte nehmt  <strong>Kontakt</strong> mit der jeweiligen Dozentin bzw. Dozent auf
-                            (siehe Menüpunkt Kurse) und erkundigt Euch, wann Ihr zu einer (kostenlosen) <strong>Probestunde</strong> kommen könnt.
+                            Bitte nehmt <span class="description-bold">Kontakt</span> mit der jeweiligen Dozentin bzw. Dozent auf
+                            (siehe Menüpunkt Kurse) und erkundigt Euch, wann Ihr zu einer (kostenlosen) <span class="description-bold">Probestunde</span> kommen könnt.
                             Dann erfahrt Ihr auch, wann und wo die Gruppe sich trifft.
                         </p>
                     </div>
@@ -37,7 +37,7 @@ get_header(); ?>
                     </div>
                     <div class="registration-description">
                         <p>
-                            Zur <strong>Anmeldung</strong> bekommst Du in Deiner ersten Unterrichtsstunde den Anmeldebogen (zweifache Ausführung). Ein Exemplar davon bekommt Musica Altona e.V. und eines behalten Deine Eltern.
+                            Zur <span class="description-bold">Anmeldung</span> bekommst Du in Deiner ersten Unterrichtsstunde den Anmeldebogen (zweifache Ausführung). Ein Exemplar davon bekommt Musica Altona e.V. und eines behalten Deine Eltern.
                             Außerdem gibt es zum Anmeldebogen ein SEPA-Lastschriftmandat, welches Deine Eltern bitte ausfüllen und ebenfalls dem Dozenten zurückgeben.
                         </p>
                     </div>
@@ -50,7 +50,7 @@ get_header(); ?>
                     </div>
                     <div class="registration-description">
                         <p>
-                            <strong>Kursgebühr:</strong> 30€ / Klavier 35€
+                            <span class="description-bold">Kursgebühr:</span> 30€ / Klavier 35€
                             Bildungs-und Teilhabepaket(BuT) wird akzeptiert.
                             Antrag auf Ermässigung ist möglich(nur schriftlich).
                         </p>
@@ -64,7 +64,7 @@ get_header(); ?>
                     </div>
                     <div class="registration-description">
                         <p>
-                            <strong>Download:</strong><br>
+                            <span class="description-bold">Download:</span><br>
                             Hier könnt Ihr Euch das <a href="<?= get_bloginfo("template_url"); ?>/formulare/anmeldevertrag.pdf" target="_blank">Anmeldeformular</a> und die  <a href="<?= get_bloginfo("template_url"); ?>/formulare/sepa.pdf" target="_blank">Erteilung einer SEPA-Basislastschrift</a> runterladen.
                         </p>
                     </div>
