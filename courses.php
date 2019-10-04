@@ -81,7 +81,7 @@ get_header(); ?>
                     </picture>
                     <div class="card-body">
                         <h5 class="card-title">KRASS BRASS - Blasinstrumente</h5>
-                        <p class="card-text">
+                        <p class="card-text">_serena
                             Willie Jakob <br>
                             0178/331 81 98
                         </p>
