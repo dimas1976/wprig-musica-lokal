@@ -36,7 +36,7 @@ get_header();
             </div>
         </div>
         <div class="row pb-5">
-            <div class="col-sm-4 offset-sm-8 text-md-right">
+            <div class="col-sm-3 offset-sm-9 text-md-right">
                 <picture>
                     <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/refugess.gif 3.5x">
                     <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/refugess.gif 3x">
