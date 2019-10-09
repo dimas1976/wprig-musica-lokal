@@ -50,9 +50,10 @@ get_header(); ?>
                     </div>
                     <div class="registration-description">
                         <p>
-                            <span class="description-bold">Kursgebühr:</span> 30€ / Klavier 35€
-                            Bildungs-und Teilhabepaket(BuT) wird akzeptiert.
-                            Antrag auf Ermässigung ist möglich(nur schriftlich).
+                            <span class="description-bold">Kursgebühr:</span> 30€ / Klavier 35€.<br>
+                            &nbsp;<br>
+                            Bildungs-und Teilhabepaket (BuT) wird akzeptiert.<br>npm run dev
+                            Antrag auf Ermässigung ist möglich (nur schriftlich).
                         </p>
                     </div>
                 </article>
@@ -73,17 +74,4 @@ get_header(); ?>
         </div>
     </div>
 </section>
-<!--<div id="registration-download">
-    <div class="container pt-3 pb-md-5">
-        <div class="row">
-            <div class="col-md-6"  data-aos="fade-up">
-                <a href="<?/*= get_bloginfo("template_url"); */?>/formulare/anmeldevertrag.pdf" target="_blank"><i class="fas fa-download"></i> Anmeldebogen runterladen </a>
-            </div>
-            <div class="col-md-6"  data-aos="fade-up">
-                <a href="<?/*= get_bloginfo("template_url"); */?>/formulare/sepa.pdf" target="_blank"><i class="fas fa-download"></i> Erteilung einer SEPA-Basislastschrift runterladen</a>
-            </div>
-        </div>
-    </div>
-</div>-->
-
 <?php get_footer();?>
