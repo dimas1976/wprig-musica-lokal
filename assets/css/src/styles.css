@@ -54,8 +54,7 @@ strong {
 .card-img-top {
   width: 50% !important;
 }
-.course-img,
-.director-img {
+.course-img {
   width: 100% !important;
 }
 .description-bold {
@@ -417,7 +416,7 @@ nav .navbar-toggler {
 }
 #directors .card img {
   border-style: solid;
-  border-width: 7px;
+  border-width: 3px;
   border-color: rgba(132, 134, 136, 0.2);
   margin-left: 0;
 }
@@ -488,6 +487,9 @@ nav .navbar-toggler {
   color: #fff;
   right: 2rem;
   bottom: 8rem;
+}
+#courses-cards .row .card .trommel-credit {
+  bottom: 12.5rem;
 }
 #motiv-media {
   position: relative;
@@ -765,7 +767,7 @@ footer .foot-note p a {
     margin-top: 5rem;
   }
   #start-article .row .start-img {
-    display: none;
+    /*    display: none;*/
   }
   #start-article .row:last-child p {
     margin-bottom: 6rem;
@@ -1006,7 +1008,7 @@ footer .foot-note p a {
     width: 26rem;
   }
   #start-article .row .start-img {
-    display: none;
+    /*    display: none;*/
   }
   #start-article .row:last-child p {
     margin-bottom: 6rem;

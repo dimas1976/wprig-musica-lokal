@@ -29,21 +29,21 @@ get_header(); ?>
                 </div>
             </div>
             <div class="col-sm-12 col-md-4">
-                <div class="card mb-3 mb-md-0" data-aos="flip-up">
+                <div class="card mb-3 mb-md-0" data-aos="flip-left">
                     <picture>
-                        <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg 3.5x">
-                        <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg 3x">
-                        <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg 2x">
-                        <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_sm.jpg 1x">
-                        <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xsm.jpg">
-                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg"  alt="Unsere Kurse-Saz">
+                        <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/gumboots/gumboots_350w.jpg">
+                        <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/gumboots/gumboots_290w.jpg">
+                        <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/gumboots/gumboots_290w.jpg">
+                        <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/gumboots/gumboots_290w.jpg">
+                        <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/gumboots/gumboots_290w.jpg">
+                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/gumboots/gumboots_290w.jpg"  alt="Unsere Kurse-Gumboots">
                     </picture>
+                    <div class="credit trommel-credit">Foto: &copy; Nawina Walker</div>
                     <div class="card-body">
-                        <h5 class="card-title">Saz</h5>
+                        <h5 class="card-title">Trommeln, Gumboots und Recycling Groove Workshops</h5>
                         <p class="card-text">
-                            Hüseyin Duman <br>
-                            (mit Kooperationspartner)<br>
-                            <a href="mailto:kontakt@musica-altona.de">kontakt@musica-altona.de</a>
+                            Thando Walbaum<br>
+                            0171 4167627
                         </p>
                     </div>
                 </div>
@@ -197,26 +197,6 @@ get_header(); ?>
             <div class="col-sm-12 col-md-4">
                 <div class="card mb-3 mb-md-0" data-aos="flip-left">
                     <picture>
-                        <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/gumboots/gumboots_350w.jpg">
-                        <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/gumboots/gumboots_290w.jpg">
-                        <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/gumboots/gumboots_290w.jpg">
-                        <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/gumboots/gumboots_290w.jpg">
-                        <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/gumboots/gumboots_290w.jpg">
-                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/gumboots/gumboots_290w.jpg"  alt="Unsere Kurse-Gumboots">
-                    </picture>
-                    <div class="credit">Foto: &copy; Nawina Walker</div>
-                    <div class="card-body">
-                        <h5 class="card-title">Trommeln, Gumboots und Recycling Groove Workshops</h5>
-                        <p class="card-text">
-                            Thando Walbaum<br>
-                            0171 4167627
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <div class="card mb-3 mb-md-0" data-aos="flip-left">
-                    <picture>
                         <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/keyboard/keyboard.jpg 3.5x">
                         <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/keyboard/keyboard.jpg 3x">
                         <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/keyboard/keyboard.jpg 2x">
@@ -234,6 +214,26 @@ get_header(); ?>
                 </div>
             </div>
             <div class="col-sm-12 col-md-4">
+                <div class="card mb-3 mb-md-0" data-aos="flip-up">
+                    <picture>
+                        <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg 3.5x">
+                        <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg 3x">
+                        <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg 2x">
+                        <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_sm.jpg 1x">
+                        <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xsm.jpg">
+                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg"  alt="Unsere Kurse-Saz">
+                    </picture>
+                    <div class="card-body">
+                        <h5 class="card-title">Saz</h5>
+                        <p class="card-text">
+                            Hüseyin Duman <br>
+                            (Kooperation mit Musica Altona)<br>
+                            <a href="mailto:kontakt@musica-altona.de">kontakt@musica-altona.de</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
                 <div class="card mb-3 mb-md-0" data-aos="flip-right">
                         <img class="card-img-top lazyload course-img" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/bratsche/bratsche_288w.jpg 768w,
                                           <?= bloginfo("template_url"); ?>/assets/img/kurse/bratsche/bratsche_208w.jpg 992w,
@@ -245,6 +245,7 @@ get_header(); ?>
                         <h5 class="card-title">Bratsche</h5>
                         <p class="card-text">
                             Mike Rutledge<br>
+                            (Kooperation mit Musica Altona)<br>
                             <a href="musik@rutledge-blessin.de">musik@rutledge-blessin.de</a>
                         </p>
                     </div>
