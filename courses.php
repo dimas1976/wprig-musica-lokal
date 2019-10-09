@@ -82,7 +82,7 @@ get_header(); ?>
                     </picture>
                     <div class="card-body">
                         <h5 class="card-title">KRASS BRASS - Blasinstrumente</h5>
-                        <p class="card-text">_serena
+                        <p class="card-text">
                             Willie Jakob <br>
                             0178/331 81 98
                         </p>
@@ -99,7 +99,7 @@ get_header(); ?>
                         <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/klavier-serena/klavier_serena_xs.jpg">
                         <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/klavier-serena/klavier_serena_xl.jpg"  alt="Unsere Kurse-Klavier">
                     </picture>
-                    <div class="credit">Foto: &copy; Jürgen Kolmar</div>
+                    <div class="credit">Foto: &copy; Nils Kramer</div>
                     <div class="card-body">
                         <h5 class="card-title">Altonaer Tastenspaß am Klavier</h5>
                         <p class="card-text">
