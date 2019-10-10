@@ -93,7 +93,8 @@ get_header();
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
                         <li>
-                            <i class="fas fa-music"></i> The Junior Drummers (Trommeln)
+                            <i class="fas fa-music"></i> Trommeln, Gumboots und <br>
+                            Recycling Groove Workshops
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
                         <li>
@@ -143,8 +144,7 @@ get_header();
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
                         <li>
-                            <i class="fas fa-music"></i> Trommeln, Gumboots und <br>
-                            Recycling Groove Workshops
+                            <i class="fas fa-music"></i> The Junior Drummers (Trommeln)
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
                     </ul>
