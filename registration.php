@@ -52,7 +52,7 @@ get_header(); ?>
                         <p>
                             <span class="description-bold">Kursgebühr:</span> 30€ / Klavier 35€.<br>
                             &nbsp;<br>
-                            Bildungs-und Teilhabepaket (BuT) wird akzeptiert.<br>npm run dev
+                            Bildungs-und Teilhabepaket (BuT) wird akzeptiert.<br>
                             Antrag auf Ermässigung ist möglich (nur schriftlich).
                         </p>
                     </div>

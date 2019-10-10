@@ -10,18 +10,18 @@ get_header();
                 <div class="col-sm-12 col-md-4">
                     <div class="card mb-4 mb-md-0" data-aos="flip-left">
                         <picture>
-                            <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/bethina_xl.jpg 3.5x">
-                            <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/bethina_lg.jpg 3x">
-                            <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/bethina_md.jpg 2x">
-                            <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/bethina_sm.jpg 1x">
-                            <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/bethina_xs.jpg">
-                            <img class="card-img-top lazyload director-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/bethina_xl.jpg"  alt="Bethina Walbaum">
+                            <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/beth.jpg 3.5x">
+                            <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/beth.jpg 3x">
+                            <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/beth.jpg 2x">
+                            <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/beth.jpg 1x">
+                            <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/beth.jpg">
+                            <img class="card-img-top lazyload director-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/beth.jpg"  alt="Bethina Walbaum">
                         </picture>
-                        <div class="credit">Foto: &copy; Dahlina Sophie</div>
+                        <div class="credit">Foto: &copy; Gerd Wilkens</div>
                         <div class="card-body" data-aos="fade-up">
                             <h5 class="card-title">Bethina Walbaum</h5>
                             <p class="card-text">
-                                Selbständige Musikerin, Gründungsmitglied und ehrenamtliches Vorstandsmitglied. Tätigkeitsfeld: Kontakt und telefonische Ansprechperson für den Verein, Updates der Homepage in CoOp mit den Webdesignern, Betreuung und Organisation von Auftritten der Junior Drummers, Recycling Grooves und Ferien Workshops.
+                                Selbständige Musikerin, Gründungsmitglied und ehrenamtliches Vorstandsmitglied. Tätigkeitsfeld: Kontakt und telefonische Ansprechperson für den Verein, Betreuung und Organisation von Auftritten, KiMuFest und Ferien Workshops. Updates der Homepage in CoOp mit den Webdesignern.
                             </p>
                         </div>
                     </div>

@@ -1029,7 +1029,7 @@ footer .foot-note p a {
     width: 11rem;
   }
   #directors .card .credit {
-    margin-top: 29rem;
+    margin-top: 17rem;
   }
   #lecturers .col-md-4 {
     text-align: center;
@@ -1108,7 +1108,8 @@ footer .foot-note p a {
     margin-top: 8.5rem;
   }
   #directors .card .credit {
-    margin-top: 11rem;
+    margin-top: 6.5rem;
+    font-size: .5rem;
   }
   #motiv {
     height: 23rem;
@@ -1229,7 +1230,8 @@ footer .foot-note p a {
     font-size: .6rem;
   }
   #directors .card .credit {
-    margin-top: 11rem;
+    margin-top: 6.5rem;
+    font-size: .5rem;
   }
   #logo .slogan p {
     font-size: 1.6rem;
@@ -1357,7 +1359,8 @@ footer .foot-note p a {
     margin-top: 11.5rem;
   }
   #directors .card .credit {
-    margin-top: 16rem;
+    margin-top: 9rem;
+    font-size: .7rem;
   }
   #logo .slogan p {
     font-size: 1.6rem;
@@ -1449,7 +1452,7 @@ footer .foot-note p a {
     margin-top: 14rem;
   }
   #directors .card .credit {
-    margin-top: 19.5rem;
+    margin-top: 11rem;
   }
   #logo .slogan p {
     font-size: 1.7rem;
