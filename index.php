@@ -113,6 +113,11 @@ get_header();
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i
                                         class="fas fa-chevron-circle-right"></i></a>
                         </li>
+                        <li>
+                            <i class="fas fa-music"></i> Shanty Kids-Kinderchor
+                            <a href="./unsere-kurse/" title="Link zu den Kursen"><i
+                                        class="fas fa-chevron-circle-right"></i></a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-5 offset-md-1">
