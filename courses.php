@@ -193,7 +193,7 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-2">
             <div class="col-sm-12 col-md-4">
                 <div class="card mb-3 mb-md-0" data-aos="flip-left">
                     <picture>
@@ -250,6 +250,50 @@ get_header(); ?>
                         </p>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="card mb-3 mb-md-0" data-aos="flip-left">
+                    <picture>
+                        <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/musikkoffer/musikkoffer_xl.jpg 3.5x">
+                        <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/musikkoffer/musikkoffer_xl.jpg 3x">
+                        <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/musikkoffer/musikkoffer_md.jpg 2x">
+                        <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/musikkoffer/musikkoffer_sm.jpg 1x">
+                        <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/musikkoffer/musikkoffer_xs.jpg">
+                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/musikkoffer/musikkoffer_xl.jpg"  alt="Unsere Kurse-Schlagzeug">
+                    </picture>
+                    <div class="card-body">
+                        <h5 class="card-title">Rollender Musikkoffer<br> (nur für Kitas)</h5>
+                        <p class="card-text">
+                            Heidi Martens <br>
+                            <a href="mailto:heidi@musikalia-hamburg.de">heidi@musikalia-hamburg.de</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="card mb-3 mb-md-0" data-aos="flip-up">
+                    <picture>
+                        <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg 3.5x">
+                        <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg 3x">
+                        <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg 2x">
+                        <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_sm.jpg 1x">
+                        <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xsm.jpg">
+                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg"  alt="Unsere Kurse-Saz">
+                    </picture>
+                    <div class="card-body">
+                        <h5 class="card-title">Saz</h5>
+                        <p class="card-text">
+                            Hüseyin Duman <br>
+                            (Kooperation mit Musica Altona)<br>
+                            <a href="mailto:kontakt@musica-altona.de">kontakt@musica-altona.de</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                &nbsp;
             </div>
         </div>
     </div>
