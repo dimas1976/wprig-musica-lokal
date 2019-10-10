@@ -275,19 +275,19 @@ get_header(); ?>
             <div class="col-sm-12 col-md-4">
                 <div class="card mb-3 mb-md-0" data-aos="flip-up">
                     <picture>
-                        <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg 3.5x">
-                        <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg 3x">
-                        <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg 2x">
-                        <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_sm.jpg 1x">
-                        <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xsm.jpg">
-                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/saz/saz_xlg.jpg"  alt="Unsere Kurse-Saz">
+                        <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/shanty/shanty_xl.jpg 3.5x">
+                        <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/shanty/shanty_xl.jpg 3x">
+                        <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/shanty/shanty_md.jpg 2x">
+                        <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/shanty/shanty_sm.jpg 1x">
+                        <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/kurse/shanty/shanty_xs.jpg">
+                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/kurse/shanty/shanty_xl.jpg"  alt="Unsere Kurse-Schlagzeug">
                     </picture>
                     <div class="card-body">
-                        <h5 class="card-title">Saz</h5>
+                        <h5 class="card-title">Shanty Kids</h5>
                         <p class="card-text">
-                            Hüseyin Duman <br>
-                            (Kooperation mit Musica Altona)<br>
-                            <a href="mailto:kontakt@musica-altona.de">kontakt@musica-altona.de</a>
+                            Birgit Lünsmann <br>
+                            Heidi Martens<br>
+                            <a href="mailto:birgit@ladiesahoi.de">birgit@ladiesahoi.de</a>
                         </p>
                     </div>
                 </div>
