@@ -49,6 +49,12 @@ get_header();
                     <p>Herr Flitner von der Bürgerstiftung Hamburg steht weiterhin dem Verein als gute Seele zur Seite, er berät, schafft Kontakte, packt mit an. Nicht zuletzt die Spielleiter tragen, mit ihrem Engagement zum Gelingen der Idee bei.</p>
 
                     (Patricia Renz)
+                    <div class="card-body">
+                        <figure>
+                            <img class="img-fluid lazyload" data-src="<?= bloginfo("template_url"); ?>/assets/img/media/gallery/bundespraesidialamt.jpg" alt="Bundespräsident Joachim Gauck zeichnet Patricia Renz und Gino Romero Ramirez mit dem Verdienstkreuz">
+                            <figcaption>4. Oktober 2016 - Bundespräsident Joachim Gauck zeichnet Patricia Renz und <br>Gino Romero Ramirez mit dem Verdienstkreuz am Bande für das interkulturelle Kinder- <br>und Jugendmusikprojekt 'Musica Altona' bei der Ordensverleihung zum Tag der <br>Deutschen Einheit in Schloss Bellevue aus.</figcaption>
+                        </figure>
+                    </div>
                 </div>
             </div>
         </div>

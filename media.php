@@ -47,12 +47,12 @@ get_header();
                 </h5>
             </div>
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body">
+<!--                <div class="card-body">
                     <figure>
-                        <img class="img-fluid lazyload" data-src="<?= bloginfo("template_url"); ?>/assets/img/media/gallery/bundespraesidialamt.jpg" alt="Bundespräsident Joachim Gauck zeichnet Patricia Renz und Gino Romero Ramirez mit dem Verdienstkreuz">
+                        <img class="img-fluid lazyload" data-src="<?/*= bloginfo("template_url"); */?>/assets/img/media/gallery/bundespraesidialamt.jpg" alt="Bundespräsident Joachim Gauck zeichnet Patricia Renz und Gino Romero Ramirez mit dem Verdienstkreuz">
                         <figcaption>4. Oktober 2016 - Bundespräsident Joachim Gauck zeichnet Patricia Renz und <br>Gino Romero Ramirez mit dem Verdienstkreuz am Bande für das interkulturelle Kinder- <br>und Jugendmusikprojekt 'Musica Altona' bei der Ordensverleihung zum Tag der <br>Deutschen Einheit in Schloss Bellevue aus.</figcaption>
                     </figure>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
