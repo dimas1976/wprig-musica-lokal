@@ -1166,13 +1166,13 @@ footer .foot-note p a {
     margin-bottom: 4.5rem;
   }
   #motiv-foerderer.lazyloaded {
-    height: 14rem;
+    height: 17rem;
     background: url('../img/foerderer/motiv_foerderer_md.jpg') center no-repeat;
     background-size: cover;
   }
   #motiv-foerderer.lazyloaded .container .col p {
     font-size: 1.2em;
-    margin-top: 10rem;
+    margin-top: 13rem;
   }
   #motiv-media {
     height: 23rem;
@@ -1277,13 +1277,13 @@ footer .foot-note p a {
     margin-top: 19rem;
   }
   #motiv-foerderer.lazyloaded {
-    height: 17rem;
+    height: 22rem;
     background: url('../img/foerderer/motiv_foerderer_md.jpg') center no-repeat;
     background-size: cover;
   }
   #motiv-foerderer.lazyloaded .container .col p {
     font-size: 1.2em;
-    margin-top: 13rem;
+    margin-top: 17rem;
   }
   #courses-motiv {
     height: 23rem;
@@ -1390,13 +1390,13 @@ footer .foot-note p a {
     margin-top: 25.9rem;
   }
   #motiv-foerderer.lazyloaded {
-    height: 19rem;
+    height: 23rem;
     background: url('../img/foerderer/motiv_foerderer_xl.jpg') center no-repeat;
     background-size: cover;
   }
   #motiv-foerderer.lazyloaded .container .col p {
     font-size: 2rem;
-    margin-top: 14rem;
+    margin-top: 17rem;
     text-shadow: 2px 2px black;
     line-height: 2.5rem;
   }
@@ -1553,7 +1553,7 @@ footer .foot-note p a {
     margin-bottom: 1.5rem;
   }
   #motiv-foerderer.lazyloaded {
-    height: 32rem;
+    height: 42rem;
     background: url('../img/foerderer/motiv_foerderer_xl.jpg') center no-repeat;
     background-size: cover;
   }
