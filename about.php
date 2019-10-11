@@ -5,7 +5,7 @@ Template Name: Ueber Uns - statische Seite
 get_header();
 ?>
 <div id="motiv-about" class="mb-3" data-aos="fade-down">
-    <div class="credit">Foto: &copy; Jürgen Kolmar</div>
+    <div class="credit">Foto: &copy; Fayssal Boukari</div>
 </div>
 
 <section id="about-section">
