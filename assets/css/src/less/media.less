@@ -202,7 +202,7 @@
   #start-article {
     .row {
       .start-img {
-    /*    display: none;*/
+        /*    display: none;*/
       }
     }
     .row:last-child {
@@ -279,11 +279,11 @@
       }
     }
 
-/*    div:first-child {
-      .col-md-4 .credit {
-        margin-top: 11rem;
-      }
-    }*/
+    /*    div:first-child {
+          .col-md-4 .credit {
+            margin-top: 11rem;
+          }
+        }*/
 
     > div:nth-child(5) {
       .col-md-4 .credit {
@@ -585,7 +585,7 @@
   #start-article {
     .row {
       .start-img {
-    /*    display: none;*/
+        /*    display: none;*/
       }
     }
     .row:last-child {
@@ -728,6 +728,7 @@
       }
     }
   }
+
   #bsh {
     .col-md-4 .credit {
       font-size: .6rem;
@@ -937,30 +938,31 @@
 }
 
 @media (min-width: 768px) and (max-width: 799px) and (orientation: portrait) {
-#lecturers {
-  >div:nth-child(13) {
-    .col-md-4 {
-      .credit {
-        margin-top: 12rem;
+  #lecturers {
+    > div:nth-child(13) {
+      .col-md-4 {
+        .credit {
+          margin-top: 12rem;
+        }
       }
     }
   }
-}
+
   #news-articles .card .card-img-top {
     width: 8rem;
   }
 }
 
 @media (min-width: 800px) and (max-width: 992px) and (orientation: portrait) {
-#lecturers {
-  >div:nth-child(13) {
-    .col-md-4 {
-      .credit {
-        margin-top: 12rem;
+  #lecturers {
+    > div:nth-child(13) {
+      .col-md-4 {
+        .credit {
+          margin-top: 12rem;
+        }
       }
     }
   }
-}
 
 }
 
@@ -971,6 +973,7 @@
       font-size: .6rem;
     }
   }
+
   #directors {
     .card {
       .credit {
@@ -1344,13 +1347,13 @@
   #courses-cards {
     .container {
       .row:first-child {
-      div:nth-child(2) {
-        .card {
-          .trommel-credit {
-            bottom: 11rem;
+        div:nth-child(2) {
+          .card {
+            .trommel-credit {
+              bottom: 11rem;
+            }
           }
         }
-      }
         div:nth-child(3) {
           .card {
             .credit {
@@ -1396,6 +1399,14 @@
     }
   }
 
+}
+
+@media (min-width: 1048px) and (max-width: 1344px ) {
+  #motiv-foerderer.lazyloaded {
+    height: 29rem;
+    background: url('../img/foerderer/motiv_foerderer_xl.jpg') center no-repeat;
+    background-size: cover;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -1534,7 +1545,7 @@
   }
 
   #motiv-foerderer.lazyloaded {
-    height: 23rem;
+    height: 29rem;
     background: url('../img/foerderer/motiv_foerderer_xl.jpg') center no-repeat;
     background-size: cover;
 
@@ -1566,6 +1577,14 @@
   #motiv-registration {
     height: 35rem;
     background: url('../img/motiv_anmeldung/anmeldung_motiv_xl.jpg') top center no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1344px) and (max-width: 1668px ) {
+  #motiv-foerderer.lazyloaded {
+    height: 37rem;
+    background: url('../img/foerderer/motiv_foerderer_xl.jpg') center no-repeat;
     background-size: cover;
   }
 }

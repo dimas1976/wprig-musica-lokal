@@ -825,10 +825,10 @@ footer .foot-note p a {
   }
   #lecturers {
     /*    div:first-child {
-      .col-md-4 .credit {
-        margin-top: 11rem;
-      }
-    }*/
+          .col-md-4 .credit {
+            margin-top: 11rem;
+          }
+        }*/
   }
   #lecturers .col-md-4 {
     text-align: center;
@@ -979,6 +979,9 @@ footer .foot-note p a {
   }
   #courses-cards .container {
     width: 20rem;
+  }
+  #courses-cards .container .row:first-child div:nth-child(2) .card .trommel-credit {
+    bottom: 11rem;
   }
   #courses-cards .container .row:first-child div:last-child .card .credit {
     margin-bottom: 1.5rem;
@@ -1367,7 +1370,7 @@ footer .foot-note p a {
     margin-top: 12rem;
   }
 }
-@media (min-width: 993px) and (max-width: 1299px) {
+@media (min-width: 992px) and (max-width: 1299px) {
   #bsh .col-md-4 .credit {
     margin-top: 11.5rem;
   }
@@ -1444,6 +1447,9 @@ footer .foot-note p a {
     color: #fff;
     text-shadow: 0.5px 0.5px #000;
   }
+  #courses-cards .container .row:first-child div:nth-child(2) .card .trommel-credit {
+    bottom: 11rem;
+  }
   #courses-cards .container .row:first-child div:nth-child(3) .card .credit {
     margin-bottom: 1.5rem;
   }
@@ -1458,6 +1464,13 @@ footer .foot-note p a {
   }
   #courses-cards .container .row:last-child div:first-child .card .credit {
     margin-bottom: 3rem;
+  }
+}
+@media (min-width: 1048px) and (max-width: 1344px) {
+  #motiv-foerderer.lazyloaded {
+    height: 29rem;
+    background: url('../img/foerderer/motiv_foerderer_xl.jpg') center no-repeat;
+    background-size: cover;
   }
 }
 @media (min-width: 1200px) {
@@ -1498,12 +1511,15 @@ footer .foot-note p a {
     margin-left: -6rem;
   }
   #course-list {
-    height: 26.7rem;
+    height: 28.7rem;
     background: url('../img/kurslist_bg.jpg') top center no-repeat;
     background-size: cover;
   }
   #logos {
     margin-top: 7rem;
+  }
+  #courses-cards .container .row:first-child div:nth-child(2) .card .trommel-credit {
+    bottom: 9.5rem;
   }
   #courses-cards .container .row:first-child div:nth-child(3) .card .credit {
     margin-bottom: 0;
@@ -1532,7 +1548,7 @@ footer .foot-note p a {
     text-shadow: 4px 4px black;
   }
   #motiv-foerderer.lazyloaded {
-    height: 23rem;
+    height: 29rem;
     background: url('../img/foerderer/motiv_foerderer_xl.jpg') center no-repeat;
     background-size: cover;
   }
@@ -1555,6 +1571,13 @@ footer .foot-note p a {
   #motiv-registration {
     height: 35rem;
     background: url('../img/motiv_anmeldung/anmeldung_motiv_xl.jpg') top center no-repeat;
+    background-size: cover;
+  }
+}
+@media (min-width: 1344px) and (max-width: 1668px) {
+  #motiv-foerderer.lazyloaded {
+    height: 37rem;
+    background: url('../img/foerderer/motiv_foerderer_xl.jpg') center no-repeat;
     background-size: cover;
   }
 }
