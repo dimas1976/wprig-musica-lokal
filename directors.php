@@ -15,7 +15,7 @@ get_header();
                             <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/beth.jpg 2x">
                             <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/beth.jpg 1x">
                             <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/beth.jpg">
-                            <img class="card-img-top lazyload director-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/beth.jpg"  alt="Bethina Walbaum">
+                            <img class="card-img-top lazyload director-img beth" data-src="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/beth.jpg"  alt="Bethina Walbaum">
                         </picture>
                         <div class="credit">Foto: &copy; Gerd Wilkens</div>
                         <div class="card-body" data-aos="fade-up">
@@ -57,7 +57,7 @@ get_header();
                         <div class="card-body" data-aos="fade-up">
                             <h5 class="card-title">Marion Wolf-Dietrich</h5>
                             <p class="card-text">
-                                Erzieherin und Leiterin einer Elbkinder Kita in Altona - jetzt im Ruhestand. Mitgründerin des Vereins und ehrenamtliches Mitglied im Vorstand. Tätigkeitsfeld: Programme musikalischer Grundbildung für Kleinkinder und Vorschüler, Koordination des Angebots "Musikalischer Koffer", Beratung und Vernetzung des Vereins im Stadtteil, Veranstaltungen des Vereins, Kontakte zu Förderinstitutionen und dem Bezirk.
+                                Erzieherin und Leiterin einer Elbkinder Kita in Altona - jetzt im Ruhestand. Mitgründerin des Vereins und ehrenamtliches Mitglied im Vorstand. Tätigkeitsfeld: Programme musikalischer Grundbildung für Kleinkinder und Vorschüler, Koordination der Angebote für Kitas, Beratung und Vernetzung des Vereins im Stadtteil, Veranstaltungen des Vereins, Kontakte zu Förderinstitutionen und dem Bezirk.
                             </p>
                         </div>
                     </div>
