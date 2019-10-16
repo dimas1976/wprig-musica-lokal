@@ -135,10 +135,6 @@ get_header();
                             <i class="fas fa-music"></i> Altona Laut (Schlagzeug)
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
-                        <li>
-                            <i class="fas fa-music"></i> Rollender Musikkoffer
-                            <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
-                        </li>
                         <li class="drummers">
                             <i class="fas fa-music"></i> The Junior Drummers (Trommeln)
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
@@ -147,6 +143,10 @@ get_header();
                             <i class="fas fa-music"></i> Shanty Kids-Kinderchor
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i
                                         class="fas fa-chevron-circle-right"></i></a>
+                        </li>
+                        <li>
+                            <i class="fas fa-music"></i> Projekte für Kitas
+                            <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
                     </ul>
                 </div>
