@@ -32,22 +32,26 @@ get_header();
                 <p class="pb-3" data-aos="zoom-in-up">
                     Seit nunmehr 19 Jahren ist der große und von Herzen kommende Einsatz aller Beteiligten bezeichnend für Musica Altona. Die Kursgebühren sind moderat und die Organisation schlank. So wird es jungen Menschen ermöglicht - auch denjenigen, die neu in der Stadt sind - einen leichteren Zugang zu ihrem Stadtteil und zu anderen Jugendlichen zu finden.
                 </p>
-                <a class="btn btn-primary" href="./unsere-kurse/" role="button" data-aos="fade-right">ZU DEN KURSEN</a>
+                <!--<a class="btn btn-primary" href="./unsere-kurse/" role="button" data-aos="fade-right">ZU DEN KURSEN</a>-->
             </div>
         </div>
         <div class="row pb-5">
-            <div class="col-sm-3 offset-sm-9 text-md-right">
+            <div class="col-sm col-md-6 mt-4 mb-4 about-links-container">
+                    <a class="mb-2" href="./vorstand" title="Zur Vorstand-Seite">der Vorstand von Musica Altona <i class="fas fa-chevron-circle-right ml-2"></i></a>
+                    <a href="./geschichte" title="Zur Geschichte-Seite">die Gründungsgeschichte von Musica Altona <i class="fas fa-chevron-circle-right ml-2"></i></a>
+            </div>
+            <div class="col-sm col-md-3 offset-md-3">
                 <picture>
                     <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/refugess.gif 3.5x">
                     <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/refugess.gif 3x">
                     <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/refugess.gif 2x">
                     <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/refugess.gif 1x">
                     <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/refugess.gif">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/refugess.gif" class="img-fluid lazyload" alt="Bewährtes Konzept: Musizieren in der Gruppe macht stark" data-aos="fade-right">
+                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/refugess.gif" class="img-fluid lazyload refugees-image" alt="Bewährtes Konzept: Musizieren in der Gruppe macht stark" data-aos="fade-right">
                 </picture>
             </div>
 </section>
-<div id="links">
+<!--<div id="links">
     <div class="container pt-3 pb-3">
         <div class="row">
             <div class="col-md-6 pb-3 pb-md-0 text-center">
@@ -58,7 +62,7 @@ get_header();
             </div>
         </div>
     </div>
-</div>
+</div>-->
 <?php
 get_footer();
 ?>

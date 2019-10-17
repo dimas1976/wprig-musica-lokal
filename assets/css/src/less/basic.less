@@ -1,7 +1,7 @@
-
 @import "mixins";
 @import "variables";
-*{
+
+* {
   margin: 0;
   padding: 0;
 }
@@ -19,7 +19,7 @@ h1 {
 
 h2 {
   font-family: 'Lato', sans-serif !important;
-  font-size:1.2rem !important;
+  font-size: 1.2rem !important;
   font-weight: 700 !important;
 }
 
@@ -48,14 +48,10 @@ a.btn.btn-primary {
   border-color: #fa6900;
 }
 
-
-
 .navbar-nav .nav-item a.nav-link:hover {
-    border-bottom: 1px solid #c90f0d;
-    color: #8ad2fb;
-  }
-
-
+  border-bottom: 1px solid #c90f0d;
+  color: #8ad2fb;
+}
 
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link,
@@ -64,22 +60,38 @@ a.btn.btn-primary {
   color: #8ad2fb;
   cursor: auto;
 }
-strong{
+
+strong {
   font-weight: bold;
 }
 
 .card-img-top {
   width: 50% !important;
 }
+
 .beth {
   width: 42% !important;
 }
 
+.course-img {
+  width: 100% !important;
+}
 
-  .course-img{
-    width: 100% !important;
+.description-bold {
+  font-weight: 700;
+}
+
+.about-links-container {
+  a {
+    display: block;
+    text-decoration: underline;
+    color: #000;
+    font-family: Lato,sans-serif;
+    font-weight: 700;
+    .fa-chevron-circle-right {
+      color: #fa6900;
+    }
   }
 
-  .description-bold {
-    font-weight:700;
-  }
+}
+

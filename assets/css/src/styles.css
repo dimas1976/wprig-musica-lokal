@@ -63,6 +63,16 @@ strong {
 .description-bold {
   font-weight: 700;
 }
+.about-links-container a {
+  display: block;
+  text-decoration: underline;
+  color: #000;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+}
+.about-links-container a .fa-chevron-circle-right {
+  color: #fa6900;
+}
 #logo .slogan {
   font-family: 'Love Ya Like A Sister', sans-serif;
   font-weight: 600;
@@ -902,6 +912,9 @@ footer .foot-note p a {
   #event-article .row {
     margin-top: 0;
     margin-bottom: 0;
+  }
+  .refugees-image {
+    width: 50%;
   }
   footer .foot-note .col-md-4 {
     padding-bottom: 1rem;
