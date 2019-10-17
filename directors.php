@@ -20,7 +20,7 @@ get_header();
                         <div class="credit">Foto: &copy; Gerd Wilkens</div>
                         <div class="card-body" data-aos="fade-up">
                             <h5 class="card-title">Bethina Walbaum</h5>
-                            <p class="card-text">
+                            <p class="card-text text-left">
                                 Selbständige Musikerin, Gründungsmitglied und ehrenamtliches Vorstandsmitglied. Tätigkeitsfeld: Kontakt und telefonische Ansprechperson für den Verein, Betreuung und Organisation von Auftritten, KiMuFest und Ferien Workshops. Updates der Homepage in CoOp mit den Webdesignern.
                             </p>
                         </div>
@@ -38,7 +38,7 @@ get_header();
                         </picture>
                         <div class="card-body" data-aos="fade-up">
                             <h5 class="card-title">Patricia Renz</h5>
-                            <p class="card-text">
+                            <p class="card-text text-left">
                                 Schulleiterin der Louise-Schröder Schule und Gründungsmitglied. Tätigkeitsfeld: ehrenamtliche Vereins-Vorsitzende, Fundraising und Antragstellung, Eltern- und Dozentenberatung, Koordination, Konzept-Arbeit.
                             </p>
                         </div>
@@ -56,7 +56,7 @@ get_header();
                         </picture>
                         <div class="card-body" data-aos="fade-up">
                             <h5 class="card-title">Marion Wolf-Dietrich</h5>
-                            <p class="card-text">
+                            <p class="card-text text-left">
                                 Erzieherin und Leiterin einer Elbkinder Kita in Altona - jetzt im Ruhestand. Mitgründerin des Vereins und ehrenamtliches Mitglied im Vorstand. Tätigkeitsfeld: Programme musikalischer Grundbildung für Kleinkinder und Vorschüler, Koordination der Angebote für Kitas, Beratung und Vernetzung des Vereins im Stadtteil, Veranstaltungen des Vereins, Kontakte zu Förderinstitutionen und dem Bezirk.
                             </p>
                         </div>
