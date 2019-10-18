@@ -320,15 +320,11 @@ nav .navbar-toggler {
   color: #000;
   font-family: 'Love Ya Like A Sister', sans-serif;
 }
-#accordion .card:last-child {
-  /*.card-body {
-      img {        padding-bottom: .5em;
-      }
-      figcaption {
-        font-family: 'Lato', sans-serif;
-        font-weight: 300;
-      }
-    }*/
+#accordion figcaption {
+  width: 90%;
+  font-size: 1rem;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
 }
 #pinwall {
   background-color: #f2f6f8;
@@ -745,7 +741,7 @@ footer .foot-note p a {
     font-size: .8rem;
   }
   #accordion .card:first-child .card-body {
-    text-align: center;
+    /* text-align: center;*/
   }
   #accordion .card:first-child .card-body iframe {
     width: 320px;
@@ -1033,7 +1029,7 @@ footer .foot-note p a {
     background-size: cover;
   }
   #accordion .card:first-child .card-body {
-    text-align: center;
+    /* text-align: center;*/
   }
   #accordion .card:first-child .card-body iframe {
     width: 320px;

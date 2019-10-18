@@ -11,22 +11,46 @@ get_header();
         <div class="card" data-aos="fade-right">
             <div class="card-header" id="headingOne">
                 <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
                         VIDEO
                     </button>
                 </h5>
             </div>
+            <div class="container">
+                <div class="row">
+                    <div id="collapseOne" class="collapse show col-sm-12 col-md-6" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <iframe class="lazyload" width="100%" height="250" src="https://www.youtube.com/embed/wHPF73e3x7w"
+                                    allowfullscreen title="Der Film über Musica Altona e.V."></iframe>
+                        </div>
+                    </div>
+                    <div id="collapseOne" class="collapse show col-sm-12 col-md-6" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <figure>
+                                <iframe class="lazyload" width=100%" height="250" src="https://www.youtube.com/embed/NunezH2-Vf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <figcaption>
+                                    Dieser Workshop fand von Frühjahr bis Herbst 2018 in der Louise-Schröder Schule statt.
+                                    In lockeren Zeitabständen ging es um das Einstudieren verschiedener Rhythmen und Sounds
+                                    auf (entsorgten) Alltagsgegenständen.
+                                    Dumisani Mabaso: „Wir möchten den Kindern zeigen, dass man auch ohne 'richtige'
+                                    Instrumente wunderbar Musik machen kann. Beats und Sounds kreieren z.B. nur mit der
+                                    eigenen Stimme oder vermeintlich abstrakten Dingen.“
+                                    Thando Walbaum: „Die Kinder haben angefangen, sich mehr Gedanken über 'Müll' zu machen
+                                    und was daraus noch entstehen kann; anstatt Sachen gleich wegzuwerfen.“
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
 
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                    <iframe class="lazyload" width="560" height="315" src="https://www.youtube.com/embed/wHPF73e3x7w"  allowfullscreen title="Der Film über Musica Altona e.V."></iframe>
                 </div>
             </div>
         </div>
         <div class="card" data-aos="fade-right">
             <div class="card-header" id="headingTwo">
                 <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                            aria-expanded="false" aria-controls="collapseTwo">
                         AUDIO
                     </button>
                 </h5>
@@ -41,19 +65,13 @@ get_header();
         <div class="card" data-aos="fade-right">
             <div class="card-header" id="headingThree">
                 <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                            aria-expanded="false" aria-controls="collapseThree">
                         GALLERY
                     </button>
                 </h5>
             </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-<!--                <div class="card-body">
-                    <figure>
-                        <img class="img-fluid lazyload" data-src="<?/*= bloginfo("template_url"); */?>/assets/img/media/gallery/bundespraesidialamt.jpg" alt="Bundespräsident Joachim Gauck zeichnet Patricia Renz und Gino Romero Ramirez mit dem Verdienstkreuz">
-                        <figcaption>4. Oktober 2016 - Bundespräsident Joachim Gauck zeichnet Patricia Renz und <br>Gino Romero Ramirez mit dem Verdienstkreuz am Bande für das interkulturelle Kinder- <br>und Jugendmusikprojekt 'Musica Altona' bei der Ordensverleihung zum Tag der <br>Deutschen Einheit in Schloss Bellevue aus.</figcaption>
-                    </figure>
-                </div>-->
-            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion"></div>
         </div>
     </div>
 <?php
