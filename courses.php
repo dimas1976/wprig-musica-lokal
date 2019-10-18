@@ -279,7 +279,7 @@ get_header(); ?>
                     <div class="card-body">
                         <h5 class="card-title">Projekte für Kitas - <br>Bellas Klangtonne & Rollender Musikkoffer</h5>
                         <p class="card-text">
-                            Marion Wolff Dietrich <br>
+                            Marion Wolf-Dietrich <br>
                             <a href="mailto:heidi@musikalia-hamburg.de">m.wolf-dietrich@t-online.de</a>
                         </p>
                     </div>
