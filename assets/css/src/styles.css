@@ -748,7 +748,7 @@ footer .foot-note p a {
     height: 200px;
   }
   #accordion .card:last-child .card-body {
-    width: 23rem;
+    /*width: 23rem;*/
   }
   #motiv-history {
     height: 14.75rem;
@@ -1036,7 +1036,7 @@ footer .foot-note p a {
     height: 200px;
   }
   #accordion .card:last-child .card-body {
-    width: 26rem;
+    /*width: 26rem;*/
   }
   #start-article .row .start-img {
     /*    display: none;*/
@@ -1211,7 +1211,7 @@ footer .foot-note p a {
     background-size: cover;
   }
   #accordion .card:last-child .card-body {
-    width: 48rem;
+    /*  width: 48rem;*/
   }
   #motiv-registration {
     height: 23rem;
@@ -1296,7 +1296,7 @@ footer .foot-note p a {
     background-size: cover;
   }
   #accordion .card:last-child .card-body {
-    width: 43rem;
+    /* width: 43rem;*/
   }
   #motiv-history {
     height: 23rem;
