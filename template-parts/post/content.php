@@ -14,17 +14,19 @@
 <div class="<?php echo is_single()? 'col' : 'col-md-12 pb-4' ?>">
     <article id="post-<?php the_ID();
     echo is_single() ? ' event-article' : '' ?>"
-             data-aos="<?php echo 'fade-right' ?>" <?php post_class() ?>>
+             data-aos="<?php echo 'fade-right' ?>" <?php post_class() ?> >
         <header class="entry-header">
             <?php
             if ('post' === get_post_type()) {
                 echo '<div class="entry-meta">';
-                if (is_single()) {
+/*                if (is_single()) {
                     //twentyseventeen_posted_on();
                 } else {
                     // echo twentyseventeen_time_link();
-                    twentyseventeen_edit_link();
-                };
+                    //twentyseventeen_edit_link();
+
+
+                };*/
                 echo '</div><!-- .entry-meta -->';
             };
             ?>

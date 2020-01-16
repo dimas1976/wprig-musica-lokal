@@ -791,9 +791,6 @@ footer .foot-note p a {
     font-size: .9rem;
     margin-top: 5rem;
   }
-  #start-article .row .start-img {
-    /*    display: none;*/
-  }
   #start-article .row:last-child p {
     margin-bottom: 6rem;
   }
@@ -1037,9 +1034,6 @@ footer .foot-note p a {
   }
   #accordion .card:last-child .card-body {
     /*width: 26rem;*/
-  }
-  #start-article .row .start-img {
-    /*    display: none;*/
   }
   #start-article .row:last-child p {
     margin-bottom: 6rem;

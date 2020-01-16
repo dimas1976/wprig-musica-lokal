@@ -68,7 +68,7 @@ call_user_func( 'WP_Rig\WP_Rig\wp_rig' );
 /**
  * Enqueue scripts and styles.
  */
-function wps_scripts()
+function musica_register_styles()
 {
 	/* Bootstrap CSS CDN*/
 	wp_enqueue_style(
@@ -108,7 +108,25 @@ function wps_scripts()
 
 }
 
-add_action('wp_enqueue_scripts', 'wps_scripts');
+add_action('wp_enqueue_scripts', 'musica_register_styles');
+
+function musica_register_scripts() {
+	wp_enqueue_script('jq', 'https://code.jquery.com/jquery-3.4.1.min.js');
+	wp_script_add_data( 'jq', 'async', true );
+	wp_enqueue_script('lazysizes', 'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.4/plugins/unveilhooks/ls.unveilhooks.min.js');
+	wp_enqueue_script('unveilshooks', 'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.4/lazysizes.min.js');
+	wp_enqueue_script('aos', 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js');
+	wp_enqueue_script('cookie', get_template_directory_uri() . '/assets/js/cookie-law-info-public.js');
+	wp_script_add_data( 'cookie', 'async', true );
+	wp_enqueue_script('musica-js', get_template_directory_uri() . '/assets/js/scripts.min.js');
+	wp_script_add_data( 'musica-js', 'async', true );
+	wp_enqueue_script('bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js');
+	wp_script_add_data( 'bootstrap', 'async', true );
+	wp_enqueue_script('fontawesome', 'https://use.fontawesome.com/releases/v5.0.6/js/all.js');
+	wp_script_add_data( 'fontawesome', 'async', true );
+}
+
+add_action('wp_enqueue_scripts', 'musica_register_scripts');
 
 /**
  * Style von dem Bild im Beitrag wird geändert
