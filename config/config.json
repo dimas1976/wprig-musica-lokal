@@ -6,7 +6,7 @@
   },
   "dev": {
     "browserSync": {
-      "proxyURL": "localhost/wordpress/wprig-musica"
+      "proxyURL": "dev.local/wordpress/"
     }
   }
 }
