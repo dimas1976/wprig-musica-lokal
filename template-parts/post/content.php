@@ -19,14 +19,6 @@
             <?php
             if ('post' === get_post_type()) {
                 echo '<div class="entry-meta">';
-/*                if (is_single()) {
-                    //twentyseventeen_posted_on();
-                } else {
-                    // echo twentyseventeen_time_link();
-                    //twentyseventeen_edit_link();
-
-
-                };*/
                 echo '</div><!-- .entry-meta -->';
             };
             ?>
