@@ -10,7 +10,7 @@
     <div class="contact">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <h2>Anschrift:</h2>
                     <p>
                         Musica Altona e.V. <br>
@@ -20,7 +20,7 @@
                         22767 Hamburg
                     </p>
                 </div>
-                <div class="col-md-4">
+<!--                <div class="col-md-4">
                     <h2>Telefonische Ansprechpartnerin:</h2>
                     <p>
                         Bethina Walbaum <br>
@@ -29,8 +29,8 @@
                         oder per Email: <br>
                         kontakt@musica-altona.de
                     </p>
-                </div>
-                <div class="col-md-4">
+                </div>-->
+                <div class="col-md-6">
                     <h2>Spendenkonto:</h2>
                     <p>
                         IBAN: DE05 2005 0550 1268 1123 70<br>
