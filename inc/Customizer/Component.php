@@ -86,9 +86,9 @@ class Component implements Component_Interface {
 	public function action_enqueue_customize_preview_js() {
 		wp_enqueue_script(
 			'wp-rig-customizer',
-			get_theme_file_uri( '/assets/js/customizer.min.js' ),
+			get_theme_file_uri( '/js/customizer.min.js' ),
 			[ 'customize-preview' ],
-			wp_rig()->get_asset_version( get_theme_file_path( '/assets/js/customizer.min.js' ) ),
+			wp_rig()->get_asset_version( get_theme_file_path( '/js/customizer.min.js' ) ),
 			true
 		);
 	}

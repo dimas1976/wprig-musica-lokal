@@ -10,7 +10,7 @@
     <div class="contact">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <h2>Anschrift:</h2>
                     <p>
                         Musica Altona e.V. <br>
@@ -20,7 +20,7 @@
                         22767 Hamburg
                     </p>
                 </div>
-                <div class="col-md-4">
+              <!--  <div class="col-md-4">
                     <h2>Telefonische Ansprechpartnerin:</h2>
                     <p>
                         Bethina Walbaum <br>
@@ -29,8 +29,8 @@
                         oder per Email: <br>
                         kontakt@musica-altona.de
                     </p>
-                </div>
-                <div class="col-md-4">
+                </div>-->
+                <div class="col-md-6">
                     <h2>Spendenkonto:</h2>
                     <p>
                         IBAN: DE05 2005 0550 1268 1123 70<br>
@@ -58,8 +58,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.4/lazysizes.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.4/plugins/unveilhooks/ls.unveilhooks.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
-<script async src="<?php bloginfo('template_directory');?>/assets/js/scripts.min.js"></script>
-<script async src="<?php bloginfo('template_directory');?>/assets/js/cookie-law-info-public.js"></script>
+<script async src="<?php bloginfo('template_directory');?>/js/scripts.min.js"></script>
+<script async src="<?php bloginfo('template_directory');?>/js/cookie-law-info-public.js"></script>
 <script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 <script async src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 

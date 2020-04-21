@@ -78,7 +78,7 @@ get_header();
         </div>
     </div>
 
-    <div id="course-list" class="lazyload" data-bg="<?= bloginfo("template_url"); ?>/assets/img/kurslist_bg.jpg" data-aos="zoom-in-up">
+    <div id="course-list" class="lazyload" data-bg="<?= bloginfo("template_url"); ?>/img/kurslist_bg.jpg" data-aos="zoom-in-up">
         <div class="container pb-4 pb-md-0">
             <div class="row">
                 <div class="col-md-12">

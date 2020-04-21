@@ -135,9 +135,9 @@ class Component implements Component_Interface {
 	public function action_enqueue_lazyload_assets() {
 		wp_enqueue_script(
 			'wp-rig-lazy-load-img',
-			get_theme_file_uri( '/assets/js/lazyload.min.js' ),
+			get_theme_file_uri( '/js/lazyload.min.js' ),
 			[],
-			wp_rig()->get_asset_version( get_theme_file_path( '/assets/js/lazyload.min.js' ) ),
+			wp_rig()->get_asset_version( get_theme_file_path( '/js/lazyload.min.js' ) ),
 			false
 		);
 		wp_script_add_data( 'wp-rig-lazy-load-img', 'defer', true );
@@ -313,7 +313,7 @@ class Component implements Component_Interface {
 	 * @return string The URL to the placeholder image.
 	 */
 	protected function lazyload_get_placeholder_image() : string {
-		return get_theme_file_uri( '/assets/img/placeholder.svg' );
+		return get_theme_file_uri( '/img/placeholder.svg' );
 	}
 
 	/**

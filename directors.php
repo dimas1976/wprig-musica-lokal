@@ -10,12 +10,12 @@ get_header();
                 <div class="col-sm-12 col-md-4">
                     <div class="card mb-4 mb-md-0" data-aos="flip-left">
                         <picture>
-                            <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/beth.jpg 3.5x">
-                            <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/beth.jpg 3x">
-                            <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/beth.jpg 2x">
-                            <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/beth.jpg 1x">
-                            <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/beth.jpg">
-                            <img class="card-img-top lazyload director-img beth" data-src="<?= bloginfo("template_url"); ?>/assets/img/directors/bethina/beth.jpg"  alt="Bethina Walbaum">
+                            <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth.jpg 3.5x">
+                            <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth.jpg 3x">
+                            <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth.jpg 2x">
+                            <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth.jpg 1x">
+                            <source data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth.jpg">
+                            <img class="card-img-top lazyload director-img beth" data-src="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth.jpg"  alt="Bethina Walbaum">
                         </picture>
                         <div class="credit">Foto: &copy; Gerd Wilkens</div>
                         <div class="card-body" data-aos="fade-up">
@@ -29,12 +29,12 @@ get_header();
                 <div class="col-sm-12 col-md-4">
                     <div class="card mb-4 mb-md-0" data-aos="flip-left">
                         <picture>
-                            <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/patricia/patricia.jpg 3.5x">
-                            <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/patricia/patricia.jpg 3x">
-                            <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/patricia/patricia.jpg 2x">
-                            <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/patricia/patricia_sm.jpg 1x">
-                            <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/patricia/patricia_xs.jpg">
-                            <img class="card-img-top lazyload director-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/directors/patricia/patricia.jpg"  alt="Patricia Renz">
+                            <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/patricia/patricia.jpg 3.5x">
+                            <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/patricia/patricia.jpg 3x">
+                            <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/patricia/patricia.jpg 2x">
+                            <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/patricia/patricia_sm.jpg 1x">
+                            <source data-srcset="<?= bloginfo("template_url"); ?>/img/directors/patricia/patricia_xs.jpg">
+                            <img class="card-img-top lazyload director-img" data-src="<?= bloginfo("template_url"); ?>/img/directors/patricia/patricia.jpg"  alt="Patricia Renz">
                         </picture>
                         <div class="card-body" data-aos="fade-up">
                             <h5 class="card-title">Patricia Renz</h5>
@@ -47,12 +47,12 @@ get_header();
                 <div class="col-sm-12 col-md-4">
                     <div class="card mb-md-0" data-aos="flip-left">
                         <picture>
-                            <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/marion/marion.jpg 3.5x">
-                            <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/marion/marion.jpg 3x">
-                            <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/marion/marion.jpg 2x">
-                            <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/marion/marion_sm.jpg 1x">
-                            <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/directors/marion/marion_xs.jpg">
-                            <img class="card-img-top lazyload director-img" data-src="<?= bloginfo("template_url"); ?>/assets/img/directors/marion/marion.jpg"  alt="Marion Wolf-Dietrich">
+                            <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/marion/marion.jpg 3.5x">
+                            <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/marion/marion.jpg 3x">
+                            <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/marion/marion.jpg 2x">
+                            <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/marion/marion_sm.jpg 1x">
+                            <source data-srcset="<?= bloginfo("template_url"); ?>/img/directors/marion/marion_xs.jpg">
+                            <img class="card-img-top lazyload director-img" data-src="<?= bloginfo("template_url"); ?>/img/directors/marion/marion.jpg"  alt="Marion Wolf-Dietrich">
                         </picture>
                         <div class="card-body" data-aos="fade-up">
                             <h5 class="card-title">Marion Wolf-Dietrich</h5>

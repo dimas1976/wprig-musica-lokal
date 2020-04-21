@@ -1,11 +1,10 @@
 # Ignore everything:
 /*
 /.github/
-!/assets/
-!/assets/css/src/less
-!/assets/css/src/
-!/assets/js/src/
-!/assets/img/src/
+!/css/src/less
+!/css/src/
+!/js/src/
+!/img/src/
 /languages/
 
 !style.css

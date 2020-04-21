@@ -1,4 +1,4 @@
-/assets/js/libs/**
+/js/libs/**
 /node_modules/**
 /vendor/**
 /config/**

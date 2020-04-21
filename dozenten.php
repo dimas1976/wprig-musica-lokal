@@ -10,7 +10,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/thando.jpg" class="img-fluid thando lazyload" alt="Thando Walbaum">
+                    <img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/thando.jpg" class="img-fluid thando lazyload" alt="Thando Walbaum">
                     <div class="credit">Foto: &copy; Thomas Leidig</div>
                 </div>
                 <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 text-left">
@@ -35,7 +35,7 @@ get_header(); ?>
                     <p>Heidi Martens und Birgit Lünsmann </p>
                 </div>
                 <div class="col-md-4" order-first order-md-last>
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/heidi.jpg" class="img-fluid heidi lazyload" alt="Heidi Martens">
+                    <img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/heidi.jpg" class="img-fluid heidi lazyload" alt="Heidi Martens">
                 </div>
             </div>
         </div>
@@ -44,7 +44,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/pablo.jpg" class="img-fluid pablo lazyload" alt="Pablo Ruiz">
+                    <img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/pablo.jpg" class="img-fluid pablo lazyload" alt="Pablo Ruiz">
                 </div>
                 <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 pablo-quotes">
                     <blockquote>
@@ -72,7 +72,7 @@ get_header(); ?>
                     <p>Olle Wolski</p>
                 </div>
                 <div class="col-md-4 order-first order-md-last">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/olle.jpg" class="img-fluid olle lazyload" alt="Olle Wolski">
+                    <img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/olle.jpg" class="img-fluid olle lazyload" alt="Olle Wolski">
                 </div>
             </div>
         </div>
@@ -81,7 +81,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-md-4 text-md-center">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/willi.jpg" class="img-fluid willi lazyload" alt="Willie Jakob">
+                    <img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/willi.jpg" class="img-fluid willi lazyload" alt="Willie Jakob">
                 </div>
                 <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 willie-quotes">
                     <blockquote>
@@ -105,7 +105,7 @@ get_header(); ?>
                     <p>Oli Höppner</p>
                 </div>
                 <div class="col-md-4 order-first order-md-last">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/oliver.jpg" class="img-fluid oliver lazyload" alt="Oli Höppner">
+                    <img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/oliver.jpg" class="img-fluid oliver lazyload" alt="Oli Höppner">
                     <div class="credit">Foto: &copy; EleonoraCucina</div>
                 </div>
             </div>
@@ -115,7 +115,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-md-4 text-md-center">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/ingrid.jpg" class="img-fluid ingrid lazyload" alt="Ingrid Schöller">
+                    <img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/ingrid.jpg" class="img-fluid ingrid lazyload" alt="Ingrid Schöller">
                 </div>
                 <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 ingrid-quotes">
                     <blockquote>
@@ -142,7 +142,7 @@ get_header(); ?>
                     <p>Krischa Weber</p>
                 </div>
                 <div class="col-md-4 order-first order-md-last text-md-center">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/krischa.jpg" class="img-fluid krischa lazyload" alt="Krischa Weber">
+                    <img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/krischa.jpg" class="img-fluid krischa lazyload" alt="Krischa Weber">
                     <div class="credit">Foto: &copy; Eibe Krebs</div>
                 </div>
             </div>
@@ -152,7 +152,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/gino.jpg" class="img-fluid gino lazyload" alt="Gino Ramirez">
+                    <img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/gino.jpg" class="img-fluid gino lazyload" alt="Gino Ramirez">
                 </div>
                 <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3">
                     <blockquote>
@@ -176,7 +176,7 @@ get_header(); ?>
                     <p>Jan Feddersen</p>
                 </div>
                 <div class="col-md-4 order-first order-md-last text-md-center">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/jan.jpg" class="img-fluid jan lazyload" alt="Jan Feddersen">
+                    <img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/jan.jpg" class="img-fluid jan lazyload" alt="Jan Feddersen">
                 </div>
             </div>
         </div>
@@ -185,7 +185,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/serena.jpg" class="img-fluid serena lazyload" alt="Serena Kahnert">
+                    <img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/serena.jpg" class="img-fluid serena lazyload" alt="Serena Kahnert">
                 </div>
                 <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3">
                     <blockquote>
@@ -211,7 +211,7 @@ get_header(); ?>
                     <p>Dumisani Mabaso</p>
                 </div>
                 <div class="col-md-4 order-first order-md-last">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/dumisani.jpg" class="img-fluid dumisani lazyload" alt="Dumisani Mabaso">
+                    <img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/dumisani.jpg" class="img-fluid dumisani lazyload" alt="Dumisani Mabaso">
                     <div class="credit">Foto: &copy; EleonoraCucina</div>
                 </div>
             </div>
@@ -221,7 +221,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/dozenten/huseyin.jpg" class="img-fluid huseyin lazyload" alt="Hueseyin Duman">
+                    <img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/huseyin.jpg" class="img-fluid huseyin lazyload" alt="Hueseyin Duman">
                 </div>
                 <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3">
                     <blockquote>
