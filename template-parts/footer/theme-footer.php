@@ -17,7 +17,8 @@
                         Hospitalstraße 111 <br>
                         im August Lütgens Park <br>
                         (im Haus 7)
-                        22767 Hamburg
+                        22767 Hamburg<br>
+                        musica-altona@t-online.de
                     </p>
                 </div>
               <!--  <div class="col-md-4">
