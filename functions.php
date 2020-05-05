@@ -78,23 +78,6 @@ function musica_register_styles()
 		'4.0.0'
 	);
 
-
-	/* Musica CSS */
-	/*wp_enqueue_style(
-		'wps-style',
-		get_template_directory_uri() . '/css/styles.min.css',
-		array('bootstrap'),
-		'1.0.0'
-	);*/
-
-	/* Google Fonts*/
-	wp_enqueue_style(
-		'google-fonts',
-		'https://fonts.googleapis.com/css?family=Lato:300|Love+Ya+Like+A+Sister',
-		array('bootstrap'),
-		'1.0.0'
-	);
-
 	/* AOS Library*/
 	wp_enqueue_style(
 		'aos',
