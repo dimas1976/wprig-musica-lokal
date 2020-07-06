@@ -94,13 +94,10 @@ function musica_register_styles()
 add_action('wp_enqueue_scripts', 'musica_register_styles');
 
 function musica_register_scripts() {
-	wp_enqueue_script('jq', 'https://code.jquery.com/jquery-3.4.1.min.js');
-	wp_script_add_data( 'jq', 'async', true );
+	wp_enqueue_script('jq', 'https://code.jquery.com/jquery-3.5.1.min.js', array(), '', false);
 	wp_enqueue_script('lazysizes', 'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.4/plugins/unveilhooks/ls.unveilhooks.min.js');
 	wp_enqueue_script('unveilshooks', 'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.4/lazysizes.min.js');
 	wp_enqueue_script('aos', 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js');
-	wp_enqueue_script('cookie', get_template_directory_uri() . '/js/cookie-law-info-public.js');
-	wp_script_add_data( 'cookie', 'async', true );
 	wp_enqueue_script('musica-js', get_template_directory_uri() . '/js/scripts.min.js');
 	wp_script_add_data( 'musica-js', 'async', true );
 	wp_enqueue_script('bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js');
