@@ -109,48 +109,30 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4" data-aos="flip-right">
-                <div class="card mb-3 mb-md-0">
-                    <picture>
-                        <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/trommeln/trommel_xlg.jpg 3.5x">
-                        <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/trommeln/trommel_lg.jpg 3x">
-                        <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/trommeln/trommel_md.jpg 2x">
-                        <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/trommeln/trommel_sm.jpg 1x">
-                        <source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/trommeln/trommel_xsm.jpg">
-                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/img/kurse/trommeln/trommel_xlg.jpg"  alt="Unsere Kurse-Trommel">
-                    </picture>
-                    <div class="card-body">
-                        <h5 class="card-title">The Junior Drummers (Trommeln)</h5>
-                        <p class="card-text">
-                            Dumisani Mabaso <br>
-                            0171/416 76 27
-                        </p>
-                    </div>
-                </div>
-            </div>
+			<div class="col-sm-12 col-md-4">
+				<div class="card mb-3 mb-md-0" data-aos="flip-left">
+					<picture>
+						<source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gitarre/gitarre_xl.jpg 3.5x">
+						<source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gitarre/gitarre_lg.jpg 3x">
+						<source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gitarre/gitarre_md.jpg 2x">
+						<source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gitarre/gitarre_sm.jpg 1x">
+						<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gitarre/gitarre_xs.jpg">
+						<img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/img/kurse/gitarre/gitarre_xl.jpg"  alt="Unsere Kurse-Gitarre">
+					</picture>
+					<div class="credit card__credit__ukulele">Foto: &copy; Cem Renkligül</div>
+					<div class="card-body">
+						<h5 class="card-title">Altonaer Gitarren/Ukulele und Band</h5>
+						<p class="card-text">
+							Pablo Ruiz<br>
+							0152 23590886<br>
+							<a href="mailto:pablesa@gmx.de">pablesa@gmx.de</a>
+						</p>
+					</div>
+				</div>
+			</div>
         </div>
         <div class="row mb-2">
-            <div class="col-sm-12 col-md-4">
-                <div class="card mb-3 mb-md-0" data-aos="flip-left">
-                    <picture>
-                        <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gitarre/gitarre_xl.jpg 3.5x">
-                        <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gitarre/gitarre_lg.jpg 3x">
-                        <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gitarre/gitarre_md.jpg 2x">
-                        <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gitarre/gitarre_sm.jpg 1x">
-                        <source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gitarre/gitarre_xs.jpg">
-                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/img/kurse/gitarre/gitarre_xl.jpg"  alt="Unsere Kurse-Gitarre">
-                    </picture>
-                    <div class="credit">Foto: &copy; Cem Renkligül</div>
-                    <div class="card-body">
-                        <h5 class="card-title">Altonaer Gitarren/Ukulele und Band</h5>
-                        <p class="card-text">
-                            Pablo Ruiz<br>
-                            040/ 76 79 74 42<br>
-                            <a href="mailto:pablesa@hotmail.com">pablesa@hotmail.com</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+
             <div class="col-sm-12 col-md-4">
                 <div class="card mb-3 mb-md-0" data-aos="flip-up">
                     <picture>
