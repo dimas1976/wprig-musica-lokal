@@ -174,6 +174,18 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
+			<div class="col-sm-12 col-md-4">
+				<div class="card mb-3 mb-md-0" data-aos="flip-left">
+					<img class="card-img-top lazyload course-img" src="<?= bloginfo("template_url");?>/img/kurse/kita/bella.jpg"  alt="Unsere Kurse-Kitas">
+					<div class="card-body">
+						<h5 class="card-title">Projekte für Kitas - <br>Bellas Klangtonne & Rollender Musikkoffer</h5>
+						<p class="card-text">
+							Marion Wolf-Dietrich <br>
+							<a href="mailto:musica-altona@t-online.de">musica-altona@t-online.de</a>
+						</p>
+					</div>
+				</div>
+			</div>
         </div>
         <div class="row mb-2">
             <div class="col-sm-12 col-md-4">
@@ -251,18 +263,6 @@ get_header(); ?>
                             Birgit Lünsmann <br>
                             Heidi Martens<br>
                             <a href="mailto:birgit@ladiesahoi.de">birgit@ladiesahoi.de</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <div class="card mb-3 mb-md-0" data-aos="flip-left">
-                    <img class="card-img-top lazyload course-img" src="<?= bloginfo("template_url");?>/img/kurse/kita/bella.jpg"  alt="Unsere Kurse-Kitas">
-                    <div class="card-body">
-                        <h5 class="card-title">Projekte für Kitas - <br>Bellas Klangtonne & Rollender Musikkoffer</h5>
-                        <p class="card-text">
-                            Marion Wolf-Dietrich <br>
-                            <a href="mailto:musica-altona@t-online.de">musica-altona@t-online.de</a>
                         </p>
                     </div>
                 </div>
