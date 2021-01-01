@@ -204,32 +204,14 @@ get_header(); ?>
                     <blockquote>
                         <sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
 
-                        Musica Altona ist die Tür und dasFenster zur Musik.
+						Musica Altona ist wie eine Musikalische Reise um die Welt. Wie ein Regenbogen, der uns immer wieder verzaubert!
 
                         <sub class="pl-2"><i class="fas fa-quote-right"></i></sub>
                     </blockquote>
-                    <p>Dumisani Mabaso</p>
+                    <p>Hüseyin Duman</p>
                 </div>
                 <div class="col-md-4 order-first order-md-last">
-                    <img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/dumisani.jpg" class="img-fluid dumisani lazyload" alt="Dumisani Mabaso">
-                    <div class="credit">Foto: &copy; EleonoraCucina</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="mb-md-2" data-aos="zoom-in">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/huseyin.jpg" class="img-fluid huseyin lazyload" alt="Hueseyin Duman">
-                </div>
-                <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3">
-                    <blockquote>
-                        <sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
-                        Musica Altona ist wie eine Musikalische Reise um die Welt. Wie ein Regenbogen, der uns immer wieder verzaubert!
-                        <sub class="pl-2"><i class="fas fa-quote-right"></i></sub>
-                    </blockquote>
-                    <p>Hüseyin Duman</p>
+					<img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/huseyin.jpg" class="img-fluid huseyin lazyload" alt="Hueseyin Duman">
                 </div>
             </div>
         </div>
