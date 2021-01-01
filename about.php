@@ -42,12 +42,12 @@ get_header();
             </div>
             <div class="col-sm col-md-3 offset-md-3">
                 <picture>
-                    <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/refugess.gif 3.5x">
-                    <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/refugess.gif 3x">
-                    <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/refugess.gif 2x">
-                    <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/assets/img/refugess.gif 1x">
-                    <source data-srcset="<?= bloginfo("template_url"); ?>/assets/img/refugess.gif">
-                    <img data-src="<?= bloginfo("template_url"); ?>/assets/img/refugess.gif" class="img-fluid lazyload refugees-image" alt="Bewährtes Konzept: Musizieren in der Gruppe macht stark" data-aos="fade-right">
+                    <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/refugess.gif 3.5x">
+                    <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/refugess.gif 3x">
+                    <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/img/refugess.gif 2x">
+                    <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/img/refugess.gif 1x">
+                    <source data-srcset="<?= bloginfo("template_url"); ?>/img/refugess.gif">
+                    <img data-src="<?= bloginfo("template_url"); ?>/img/refugess.gif" class="img-fluid lazyload refugees-image" alt="Bewährtes Konzept: Musizieren in der Gruppe macht stark" data-aos="fade-right">
                 </picture>
             </div>
 </section>

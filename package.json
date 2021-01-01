@@ -117,7 +117,7 @@
     "test:gulp:prod:run": "cross-env NODE_ENV=production jest gulp/tests/prod-build",
     "test:gulp:prod": "run-s test:gulp:prod:setup bundle test:gulp:prod:run test:gulp:prod:teardown",
     "test:gulp": "run-s test:gulp:dev test:gulp:prod",
-    "lint": "eslint assets/js/src/",
+    "lint": "eslint js/src/",
     "lint:gulp": "eslint gulp/",
     "lint:gulp:fix": "eslint --fix gulp/"
   }

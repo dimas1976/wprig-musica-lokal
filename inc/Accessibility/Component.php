@@ -55,9 +55,9 @@ class Component implements Component_Interface {
 		// Enqueue the navigation script.
 		wp_enqueue_script(
 			'wp-rig-navigation',
-			get_theme_file_uri( '/assets/js/navigation.min.js' ),
+			get_theme_file_uri( '/js/navigation.min.js' ),
 			[],
-			wp_rig()->get_asset_version( get_theme_file_path( '/assets/js/navigation.min.js' ) ),
+			wp_rig()->get_asset_version( get_theme_file_path( '/js/navigation.min.js' ) ),
 			false
 		);
 		wp_script_add_data( 'wp-rig-navigation', 'async', true );

@@ -104,8 +104,8 @@ class Component implements Component_Interface, Templating_Component_Interface {
 			wp_enqueue_style( 'wp-rig-fonts', $google_fonts_url, [], null ); // phpcs:ignore WordPress.WP.EnqueuedResourceParameters.MissingVersion
 		}
 
-		$css_uri = get_theme_file_uri( '/assets/css/' );
-		$css_dir = get_theme_file_path( '/assets/css/' );
+		$css_uri = get_theme_file_uri( '/css/' );
+		$css_dir = get_theme_file_path( '/css/' );
 
 		$preloading_styles_enabled = $this->preloading_styles_enabled();
 
@@ -185,7 +185,7 @@ class Component implements Component_Interface, Templating_Component_Interface {
 		}
 
 		// Enqueue block editor stylesheet.
-		add_editor_style( 'assets/css/editor/editor-styles.min.css' );
+		add_editor_style( 'css/editor/editor-styles.min.css' );
 	}
 
 	/**
@@ -322,7 +322,7 @@ class Component implements Component_Interface, Templating_Component_Interface {
 		 * Filters default CSS files.
 		 *
 		 * @param array $css_files Associative array of CSS files, as $handle => $data pairs.
-		 *                         $data must be an array with keys 'file' (file path relative to 'assets/css'
+		 *                         $data must be an array with keys 'file' (file path relative to 'css'
 		 *                         directory), and optionally 'global' (whether the file should immediately be
 		 *                         enqueued instead of just being registered) and 'preload_callback' (callback)
 		 *                         function determining whether the file should be preloaded for the current request).
@@ -363,8 +363,9 @@ class Component implements Component_Interface, Templating_Component_Interface {
 		}
 
 		$google_fonts = [
-			'Roboto Condensed' => [ '400', '400i', '700', '700i' ],
-			'Crimson Text'     => [ '400', '400i', '600', '600i' ],
+			'Roboto Condensed'      => [ '400', '400i', '700', '700i' ],
+			'Lato'                  => ['300', '700'],
+			'Love Ya Like A Sister' => ['400']
 		];
 
 		/**

@@ -21,16 +21,6 @@
                         musica-altona@t-online.de
                     </p>
                 </div>
-<!--                <div class="col-md-4">
-                    <h2>Telefonische Ansprechpartnerin:</h2>
-                    <p>
-                        Bethina Walbaum <br>
-                        Telefon: 0171/416 76 27 <br>
-                        Mo.-Fr. von 10 - 19 Uhr <br>
-                        oder per Email: <br>
-                        kontakt@musica-altona.de
-                    </p>
-                </div>-->
                 <div class="col-md-6">
                     <h2>Spendenkonto:</h2>
                     <p>
@@ -55,12 +45,5 @@
         </div>
     </div>
 </footer>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.4/lazysizes.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.4/plugins/unveilhooks/ls.unveilhooks.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
-<script async src="<?php bloginfo('template_directory');?>/assets/js/scripts.min.js"></script>
-<script async src="<?php bloginfo('template_directory');?>/assets/js/cookie-law-info-public.js"></script>
-<script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-<script async src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
 

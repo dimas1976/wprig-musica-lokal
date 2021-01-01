@@ -25,7 +25,8 @@ get_header(); ?>
                         <p>
                             Bitte nehmt <span class="description-bold">Kontakt</span> mit der jeweiligen Dozentin bzw. Dozent auf
                             (siehe Menüpunkt Kurse) und erkundigt Euch, wann Ihr zu einer (kostenlosen) <span class="description-bold">Probestunde</span> kommen könnt.
-                            Dann erfahrt Ihr auch, wann und wo die Gruppe sich trifft.
+                            Dann erfahrt Ihr auch, wann und wo die Gruppe sich trifft.<br>
+                            Mehr Infos bekommt Ihr <a href="<?= get_bloginfo("template_url"); ?>/formulare/Willkommen.pdf" target="_blank" style="text-decoration: underline">hier</a>.
                         </p>
                     </div>
                 </article>
@@ -66,7 +67,8 @@ get_header(); ?>
                     <div class="registration-description">
                         <p>
                             <span class="description-bold">Download:</span><br>
-                            Hier könnt Ihr Euch das <a href="<?= get_bloginfo("template_url"); ?>/formulare/anmeldevertrag.pdf" target="_blank">Anmeldeformular</a> und die  <a href="<?= get_bloginfo("template_url"); ?>/formulare/sepa.pdf" target="_blank">Erteilung einer SEPA-Basislastschrift</a> runterladen.
+                            Hier könnt Ihr Euch das <a href="<?= get_bloginfo("template_url"); ?>/formulare/anmeldevertrag.pdf" target="_blank">Anmeldeformular</a> und die  <a href="<?= get_bloginfo("template_url"); ?>/formulare/sepa.pdf" target="_blank">Erteilung einer SEPA-Basislastschrift</a> runterladen.<br>
+                            SEPA, An-und Abmeldungen unter <a href="mailto:info@musica-altona.de">info@musica-altona.de</a>
                         </p>
                     </div>
                 </article>
