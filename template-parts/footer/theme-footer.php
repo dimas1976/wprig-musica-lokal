@@ -21,16 +21,6 @@
                         musica-altona@t-online.de
                     </p>
                 </div>
-              <!--  <div class="col-md-4">
-                    <h2>Telefonische Ansprechpartnerin:</h2>
-                    <p>
-                        Bethina Walbaum <br>
-                        Telefon: 0171/416 76 27 <br>
-                        Mo.-Fr. von 10 - 19 Uhr <br>
-                        oder per Email: <br>
-                        kontakt@musica-altona.de
-                    </p>
-                </div>-->
                 <div class="col-md-6">
                     <h2>Spendenkonto:</h2>
                     <p>
