@@ -114,25 +114,6 @@ get_header(); ?>
     <div class="mb-md-2" data-aos="zoom-in">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 text-md-center">
-                    <img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/ingrid.jpg" class="img-fluid ingrid lazyload" alt="Ingrid Schöller">
-                </div>
-                <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 ingrid-quotes">
-                    <blockquote>
-                        <sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
-                        <i class="fab fa-angellist"></i>
-                        <sub class="pl-2">
-                            <i class="fas fa-quote-right"></i>
-                        </sub>
-                    </blockquote>
-                    <p>Ingrid Schöller</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="mb-md-2" data-aos="zoom-in">
-        <div class="container">
-            <div class="row">
                 <div class="col-md-8 order-last order-md-first pt-2 pt-md-5 pb-5 pb-md-3 krischa-quotes">
                     <blockquote>
                         <sup class="pr-2"><i class="fas fa-quote-left"></i></sup>

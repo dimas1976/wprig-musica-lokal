@@ -145,10 +145,8 @@ get_header(); ?>
                     </picture>
                     <div class="credit">Foto: &copy; Cem Renkligül</div>
                     <div class="card-body">
-                        <h5 class="card-title">Altonaer Geigensterne</h5>
                         <p class="card-text">
-                            Ingrid Schöller <br>
-                            040/ 35 22 86
+							<a href="mailto:kontakt@musica-altona.de">kontakt@musica-altona.de</a>
                         </p>
                     </div>
                 </div>
