@@ -31,16 +31,16 @@ get_header(); ?>
             <div class="col-sm-12 col-md-4">
                 <div class="card mb-3 mb-md-0" data-aos="flip-left">
                     <picture>
-                        <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_350w.jpg">
-                        <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_290w.jpg">
-                        <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_290w.jpg">
-                        <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_290w.jpg">
-                        <source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_290w.jpg">
-                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/img/gumboots/gumboots_290w.jpg"  alt="Unsere Kurse-Gumboots">
+                        <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_xlg.jpg">
+                        <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_lg.jpg">
+                        <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_md.jpg">
+                        <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_sm.jpg">
+                        <source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_xsm.jpg">
+                        <img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/img/gumboots/gumboots_xlg.jpg"  alt="Unsere Kurse-Gumboots">
                     </picture>
                     <div class="credit trommel-credit">Foto: &copy; Nawina Walker</div>
                     <div class="card-body">
-                        <h5 class="card-title">Trommeln, Gumboots und Recycling Groove Workshops</h5>
+                        <h5 class="card-title">IBITHI - Rhythmus, Trommeln & Schlagzeug</h5>
                         <p class="card-text">
                             Thando Walbaum<br>
                             0171 4167627
@@ -145,7 +145,9 @@ get_header(); ?>
                     </picture>
                     <div class="credit">Foto: &copy; Cem Renkligül</div>
                     <div class="card-body">
+						<h5 class="card-title">Geigenkurs Violino Altona</h5>
                         <p class="card-text">
+							Talita Pichler<br>
 							<a href="mailto:kontakt@musica-altona.de">kontakt@musica-altona.de</a>
                         </p>
                     </div>

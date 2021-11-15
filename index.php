@@ -98,7 +98,7 @@ get_header();
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
                         <li>
-                            <i class="fas fa-music"></i> Altonaer Geigensterne
+                            <i class="fas fa-music"></i> Violino Altona
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
                         <li>
