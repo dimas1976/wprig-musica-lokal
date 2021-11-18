@@ -9,7 +9,7 @@ import postcssPresetEnv from 'postcss-preset-env';
 import AtImport from 'postcss-import';
 import pump from 'pump';
 import cssnano from 'cssnano';
-import stylelint from 'stylelint';
+//import stylelint from 'stylelint';
 import reporter from 'postcss-reporter';
 import calc from 'postcss-calc';
 import { pipeline } from 'mississippi';
@@ -50,7 +50,7 @@ export function stylesAfterReplacementStream() {
 	const config = getThemeConfig();
 
 	const postcssPlugins = [
-		stylelint(),
+	//	stylelint(),
 		postcssPresetEnv( {
 			importFrom: (
 				configValueDefined( 'config.dev.styles.importFrom' ) ?
@@ -105,7 +105,7 @@ export function stylesAfterReplacementStream() {
 			AtImport( {
 				path: [ paths.styles.srcDir ],
 				plugins: [
-					stylelint(),
+					//stylelint(),
 				],
 			} ),
 		] ),
