@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Form_1" data-name="Form 1" class="cls-1" d="M10,10.25L10.25,10,21,20.75,20.75,21Z"/>
+  <path id="Form_2" data-name="Form 2" class="cls-1" d="M10.25,21L10,20.75,20.75,10,21,10.25Z"/>
+</svg>
