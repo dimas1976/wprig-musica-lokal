@@ -85,7 +85,7 @@ get_header(); ?>
                 </div>
                 <div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3 willie-quotes">
                     <blockquote>
-                        <sup class="pr-2"><i class="fas fa-quote-left"></i></sup>Für mich bedeutet Musica Altona die Möglichkeit, innerhalb einer bunten Vielfalt von Kolleginnen und Kollegen mit Kindern zu musizieren und so dazu beizutragen, dass die Freude an der Musik die Gegenwart und Zukunft der Kinder bereichern kann.<sub class="pl-2"><i
+                        <sup class="pr-2"><i class="fas fa-quote-left"></i></sup>Musica Altona: in einem tollen Team bei Kindern die Freude an Musik fördern!<sub class="pl-2"><i
                             class="fas fa-quote-right"></i></sub>
                     </blockquote>
                     <p>Willie Jakob</p>
