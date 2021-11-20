@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5138c3a-1f06-4a22-a520-8103e38a43de" name="Default" comment="remove ingrid scholz">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dozenten.php" beforeDir="false" afterPath="$PROJECT_DIR$/dozenten.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="test_branch" />
+        <entry key="$PROJECT_DIR$" value="willie" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -117,23 +117,27 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="C:\xampp\htdocs\wordpress\wp-content\themes\wprig-musica\node_modules\gulp" />
     <property name="js.eslint.eslintPackage" value="C:\xampp\htdocs\wordpress\wp-content\themes\musica\node_modules\eslint" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/kurse/gumboots" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/media.php.bkp" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\wordpress\wp-content\themes\wprig-musica\css\src" />
+      <recent name="C:\xampp\htdocs\wordpress\wp-content\themes\wprig-musica\formulare" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\wordpress\wp-content\themes\wprig-musica\css" />
       <recent name="C:\xampp\htdocs\wordpress\wp-content\themes\wprig-musica\img\kurse\gumboots" />
       <recent name="C:\xampp\htdocs\wordpress\wp-content\themes\wprig-musica" />
       <recent name="C:\xampp\htdocs\wordpress\wp-content\themes\wprig-musica\assets\css\src" />
       <recent name="C:\xampp\htdocs\wordpress\wp-content\themes\wprig-musica\assets\css" />
-      <recent name="C:\xampp\htdocs\wordpress\wp-content\themes\wprig-musica\assets\css\src\less" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\wordpress\wp-content\themes\wprig-musica\formulare" />
     </key>
   </component>
   <component name="RunManager">
@@ -228,7 +232,8 @@
       <workItem from="1637231574191" duration="677000" />
       <workItem from="1637232528052" duration="1628000" />
       <workItem from="1637235361733" duration="93000" />
-      <workItem from="1637235653787" duration="1636000" />
+      <workItem from="1637235653787" duration="18613000" />
+      <workItem from="1637402696854" duration="1174000" />
     </task>
     <task id="LOCAL-00010" summary="kurseite-&gt;husein mit kooperationspartner">
       <created>1570633776446</created>
@@ -640,6 +645,7 @@
                   </entry>
                 </map>
               </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -703,23 +709,44 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="362" y="92" key="#Notifications/0.0.1536.864/3840.0.2194.1234@0.0.1536.864" timestamp="1637235440587" />
+    <state x="225" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1637251002212">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="225" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864/3840.0.2194.1234@0.0.1536.864" timestamp="1637251002212" />
+    <state x="550" y="156" width="676" height="588" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1637252127241">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="550" y="156" width="676" height="588" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.864/3840.0.2194.1234@0.0.1536.864" timestamp="1637252127241" />
+    <state x="392" y="118" width="753" height="664" key="EditFileWatcherDialog" timestamp="1637252129332">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="392" y="118" width="753" height="664" key="EditFileWatcherDialog/0.0.1536.864/3840.0.2194.1234@0.0.1536.864" timestamp="1637252129332" />
     <state x="550" y="188" key="FileChooserDialogImpl" timestamp="1637233250300">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="550" y="188" key="FileChooserDialogImpl/0.0.1536.864/3840.0.2194.1234@0.0.1536.864" timestamp="1637233250300" />
-    <state x="279" y="76" key="SettingsEditor" timestamp="1637232023082">
+    <state x="523" y="144" key="RollbackChangesDialog" timestamp="1637254168123">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state x="523" y="144" key="RollbackChangesDialog/0.0.1536.864/3840.0.2194.1234@0.0.1536.864" timestamp="1637254168123" />
+    <state x="279" y="76" key="SettingsEditor" timestamp="1637252132560">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="279" y="76" key="SettingsEditor/0.0.1536.864/3840.0.2194.1234@0.0.1536.864" timestamp="1637252132560" />
     <state x="279" y="76" key="SettingsEditor/0.0.1536.864/3840.0.2560.1440@0.0.1536.864" timestamp="1637232023082" />
-    <state x="4507" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1637235654241">
+    <state x="3942" y="253" width="1349" height="677" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1637250846205">
       <screen x="3840" y="0" width="2194" height="1234" />
     </state>
-    <state x="4507" y="367" key="com.intellij.ide.util.TipDialog/0.0.1536.864/3840.0.2194.1234@0.0.1536.864" timestamp="1637235654241" />
+    <state x="3942" y="253" width="1349" height="677" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.864/3840.0.2194.1234@0.0.1536.864" timestamp="1637250846205" />
+    <state x="4507" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1637402717226">
+      <screen x="3840" y="0" width="2194" height="1234" />
+    </state>
+    <state x="4507" y="367" key="com.intellij.ide.util.TipDialog/0.0.1536.864/3840.0.2194.1234@0.0.1536.864" timestamp="1637402717226" />
     <state x="4618" y="428" key="com.intellij.ide.util.TipDialog/0.0.1536.864/3840.0.2560.1440@3840.0.2560.1440" timestamp="1637231576308" />
-    <state x="461" y="164" width="615" height="536" key="find.popup" timestamp="1637234134999">
+    <state x="461" y="164" width="615" height="536" key="find.popup" timestamp="1637246157810">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="461" y="164" width="615" height="536" key="find.popup/0.0.1536.864/3840.0.2194.1234@0.0.1536.864" timestamp="1637234134999" />
+    <state x="461" y="164" width="615" height="536" key="find.popup/0.0.1536.864/3840.0.2194.1234@0.0.1536.864" timestamp="1637246157810" />
     <state x="461" y="164" width="615" height="536" key="find.popup/0.0.1536.864/3840.0.2560.1440@0.0.1536.864" timestamp="1636976738731" />
   </component>
 </project>

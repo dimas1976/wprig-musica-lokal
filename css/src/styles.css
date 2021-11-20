@@ -391,7 +391,6 @@ nav .navbar-toggler {
   flex-direction: row;
 }
 #news-articles .card .card-img-top {
-  /* width: 10rem;*/
   height: 100%;
 }
 #news-articles .card .card-body {
@@ -504,20 +503,16 @@ nav .navbar-toggler {
   margin-top: -1rem;
 }
 #courses-cards .row .card {
-  position: relative;
   text-align: center;
 }
-#courses-cards .row .card .credit {
+#courses-cards .row .card .card-head {
+  position: relative;
+}
+#courses-cards .row .card .card-head .credit {
   position: absolute;
   color: #fff;
   right: 2rem;
-  bottom: 8rem;
-}
-#courses-cards .row .card .card__credit__ukulele {
-  bottom: 11rem;
-}
-#courses-cards .row .card .trommel-credit {
-  bottom: 12.5rem;
+  bottom: 1rem;
 }
 #motiv-media {
   position: relative;
@@ -753,9 +748,6 @@ footer .foot-note p a {
     width: 320px;
     height: 200px;
   }
-  #accordion .card:last-child .card-body {
-    /*width: 23rem;*/
-  }
   #motiv-history {
     height: 14.75rem;
     background: url('../img/history/history_motiv_xs.jpg') top center no-repeat;
@@ -772,15 +764,6 @@ footer .foot-note p a {
   }
   #courses-cards .container {
     width: 20rem;
-  }
-  #courses-cards .container .row:first-child div:last-child .card .credit {
-    margin-bottom: 1.5rem;
-  }
-  #courses-cards .container .row:nth-child(2) div:nth-child(2) .credit {
-    margin-bottom: 1.5rem;
-  }
-  #courses-cards .container .row:nth-child(3) div:first-child .card .credit {
-    margin-bottom: 3rem;
   }
   #courses-cards .container .row:nth-child(3) div:last-child .card .credit {
     margin-bottom: 1.5rem;
@@ -1001,20 +984,14 @@ footer .foot-note p a {
   #courses-cards .container .row:first-child div:nth-child(2) .card .trommel-credit {
     bottom: 11rem;
   }
-  #courses-cards .container .row:first-child div:last-child .card .credit {
-    margin-bottom: 1.5rem;
-  }
-  #courses-cards .container .row:nth-child(2) div:nth-child(2) .card .credit {
-    margin-bottom: 1.5rem;
-  }
   #courses-cards .container .row:nth-child(3) div:first-child .card .credit {
-    margin-bottom: 3rem;
+    margin-bottom: 0;
   }
   #courses-cards .container .row:nth-child(3) div:last-child .card .credit {
     margin-bottom: 1.5rem;
   }
   #courses-cards .container .row:last-child div:first-child .card .credit {
-    margin-bottom: 3rem;
+    margin-bottom: 7rem;
   }
   #motiv-foerderer.lazyloaded {
     display: none;
@@ -1178,18 +1155,6 @@ footer .foot-note p a {
   #course-list ul:first-child li:last-child {
     white-space: nowrap;
   }
-  #courses-cards .row:first-child div:last-child .card .credit {
-    margin-bottom: 3rem;
-  }
-  #courses-cards .row:nth-child(2) div:nth-child(2) .card .credit {
-    margin-bottom: 3rem;
-  }
-  #courses-cards .row:nth-child(3) div:first-child .card .credit {
-    margin-bottom: 4.4rem;
-  }
-  #courses-cards .row:nth-child(3) div:nth-child(2) .card .credit {
-    margin-bottom: 1.5rem;
-  }
   #courses-cards .row:nth-child(3) div:last-child .card .credit {
     margin-bottom: 3rem;
   }
@@ -1350,18 +1315,6 @@ footer .foot-note p a {
     width: 10rem;
     height: 100%;
   }
-  #courses-cards .container .row:first-child div:nth-child(3) .card .credit {
-    margin-bottom: 3rem;
-  }
-  #courses-cards .container .row:nth-child(2) div:nth-child(2) .card .credit {
-    margin-bottom: 3rem;
-  }
-  #courses-cards .container .row:nth-child(3) div:first-child .card .credit {
-    margin-bottom: 4.5rem;
-  }
-  #courses-cards .container .row:nth-child(3) div:nth-child(2) .card .credit {
-    margin-bottom: 1.5rem;
-  }
   #courses-cards .container .row:nth-child(3) div:last-child .card .credit {
     margin-bottom: 3rem;
   }
@@ -1464,12 +1417,6 @@ footer .foot-note p a {
   }
   #courses-cards .container .row:first-child div:nth-child(2) .card .trommel-credit {
     bottom: 11rem;
-  }
-  #courses-cards .container .row:first-child div:nth-child(3) .card .credit {
-    margin-bottom: 1.5rem;
-  }
-  #courses-cards .container .row:nth-child(2) div:nth-child(2) .card .credit {
-    margin-bottom: 1.5rem;
   }
   #courses-cards .container .row:nth-child(3) div:first-child .card .credit {
     margin-bottom: 0rem;
@@ -1597,9 +1544,6 @@ footer .foot-note p a {
   }
 }
 @media (min-width: 1669px) {
-  #courses-cards .container .row:nth-child(3) div:first-child .card .credit {
-    margin-bottom: 3rem;
-  }
   #courses-cards .container .row:nth-child(3) div:last-child .card .credit {
     margin-bottom: 1.5rem;
   }
