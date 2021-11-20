@@ -160,7 +160,7 @@ get_header(); ?>
 						<h5 class="card-title">Geigenkurs Violino Altona</h5>
                         <p class="card-text">
 							Talita Pichler<br>
-							<a href="mailto:kontakt@musica-altona.de">kontakt@musica-altona.de</a>
+							<a href="mailto:pichlertalita@gmail.com">pichlertalita@gmail.com</a>
                         </p>
                     </div>
                 </div>
