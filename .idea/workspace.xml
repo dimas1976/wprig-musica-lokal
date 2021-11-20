@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c5138c3a-1f06-4a22-a520-8103e38a43de" name="Default" comment="remove ingrid scholz">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dozenten.php" beforeDir="false" afterPath="$PROJECT_DIR$/dozenten.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses.php" beforeDir="false" afterPath="$PROJECT_DIR$/courses.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -725,10 +725,11 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="550" y="188" key="FileChooserDialogImpl/0.0.1536.864/3840.0.2194.1234@0.0.1536.864" timestamp="1637233250300" />
-    <state x="523" y="144" key="RollbackChangesDialog" timestamp="1637254168123">
+    <state x="523" y="144" key="RollbackChangesDialog" timestamp="1637421777828">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="523" y="144" key="RollbackChangesDialog/0.0.1536.864/3840.0.2194.1234@0.0.1536.864" timestamp="1637254168123" />
+    <state x="523" y="144" key="RollbackChangesDialog/0.0.1536.864/3840.0.2560.1440@0.0.1536.864" timestamp="1637421777828" />
     <state x="279" y="76" key="SettingsEditor" timestamp="1637252132560">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
