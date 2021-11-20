@@ -181,9 +181,10 @@ get_header(); ?>
                     <div class="card-body">
                         <h5 class="card-title">ALTONA LAUT Schlagzeug</h5>
                         <p class="card-text">
-                            Olle Wolski <br>
+                      <!--      Olle Wolski <br>
                             01590/ 231 83 97<br>
-                            <a href="mailto:olle.wolski@gmx.de">olle.wolski@gmx.de</a>
+                            <a href="mailto:olle.wolski@gmx.de">olle.wolski@gmx.de</a>-->
+							Neuanmeldungen zur Zeit nicht möglich. Anfragen für Schlagzeug bitte an: <a href="mailto:kontakt@musica-altona.de">kontakt@musica-altona.de</a>
                         </p>
                     </div>
                 </div>
