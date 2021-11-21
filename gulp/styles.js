@@ -117,7 +117,7 @@ export function stylesAfterReplacementStream() {
 		gulpPlugins.rename( {
 			suffix: '.min',
 		} ),
-		server.stream( { match: '**/*.css' } ),
+		server.stream( { match: '**/styles.css' } ),
 	] );
 }
 
