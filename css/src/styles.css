@@ -1,3 +1,13 @@
+.anniversary-container {
+  height: 50vh;
+  background: url("../img/anniversary/konfetti_bg.png") no-repeat center;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+}
+.anniversary-container__image {
+  width: 84%;
+}
 * {
   margin: 0;
   padding: 0;
