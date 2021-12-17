@@ -10,12 +10,10 @@ Template Name: Anniversary
 
 get_header();
 ?>
-<main>
-	<h1>
-		Das ist die Jubiläumsseite
-	</h1>
-</main>
-<?php get_footer();?>
+
+	<div class="container anniversary-container">
+		<img class="anniversary-container__image" src="<?php bloginfo('template_directory');?>/img/anniversary/teaser.png" alt="teaser">
+	</div>
 <script>
 	// do this for 30 seconds
 	var duration = 0.3 * 1000;
@@ -40,5 +38,8 @@ get_header();
 	}());
 
 </script>
+
+<?php get_footer();?>
+
 
 
