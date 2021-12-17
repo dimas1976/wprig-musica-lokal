@@ -94,7 +94,7 @@ function musica_register_styles()
 add_action('wp_enqueue_scripts', 'musica_register_styles');
 
 function musica_register_scripts() {
-	wp_enqueue_script('confetti', 'https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js');
+
 	wp_enqueue_script('jq', 'https://code.jquery.com/jquery-3.5.1.min.js', array(), '', false);
 	wp_enqueue_script('lazysizes', 'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.4/plugins/unveilhooks/ls.unveilhooks.min.js');
 	wp_enqueue_script('unveilshooks', 'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.4/lazysizes.min.js');

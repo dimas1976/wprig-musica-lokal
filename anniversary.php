@@ -1,19 +1,22 @@
-
-
-
-
-
 <?php
 /**
 Template Name: Anniversary
  */
 
-get_header();
+//get_header();
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anniversary</title>
+	<link rel="stylesheet" href="<?php bloginfo('template_directory') ;?>/css/styles.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+</head>
 
-	<div class="container anniversary-container">
-		<img class="anniversary-container__image" src="<?php bloginfo('template_directory');?>/img/anniversary/teaser.png" alt="teaser">
-	</div>
+<body>
+<div class="container anniversary-container">
+	<img class="anniversary-container__image" src="<?php bloginfo('template_directory');?>/img/anniversary/teaser.png" alt="teaser">
+</div>
 <script>
 	// do this for 30 seconds
 	var duration = 0.3 * 1000;
@@ -38,8 +41,13 @@ get_header();
 	}());
 
 </script>
+</body>
 
-<?php get_footer();?>
+</html>
+
+
+
+<?php //get_footer();?>
 
 
 
