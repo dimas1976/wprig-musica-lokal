@@ -9,6 +9,7 @@ Template Name: Anniversary
 <html>
 <head>
 	<title>Anniversary</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ;?>/css/styles.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
 </head>
@@ -16,6 +17,7 @@ Template Name: Anniversary
 <body>
 <div class="container anniversary-container">
 	<img class="anniversary-container__image" src="<?php bloginfo('template_directory');?>/img/anniversary/teaser.png" alt="teaser">
+	<a href="https://dev.local/wordpress/musica/kinder-foerdern-durch-musik">zu startseite</a>
 </div>
 <script>
 	// do this for 30 seconds
