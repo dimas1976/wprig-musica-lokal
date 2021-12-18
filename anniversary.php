@@ -8,7 +8,8 @@ Template Name: Anniversary
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Anniversary</title>
+	<title>Anniversary-Musica Altona</title>
+	<link rel="icon" type="image/png" href="<?php bloginfo('template_directory') ;?>/favicon/favicon-16x16.png"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ;?>/css/styles.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
@@ -17,7 +18,7 @@ Template Name: Anniversary
 <body>
 <div class="container anniversary-container">
 	<img class="anniversary-container__image" src="<?php bloginfo('template_directory');?>/img/anniversary/teaser.png" alt="teaser">
-	<a href="https://dev.local/wordpress/musica/kinder-foerdern-durch-musik">zu startseite</a>
+	<a class="anniversary-container__link" href="https://dev.local/wordpress/musica/kinder-foerdern-durch-musik">ZUR STARTSEITE</a>
 </div>
 <script>
 	// do this for 30 seconds
