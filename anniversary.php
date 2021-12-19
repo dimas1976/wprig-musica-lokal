@@ -11,6 +11,7 @@ Template Name: Anniversary
 	<title>Anniversary-Musica Altona</title>
 	<link rel="icon" type="image/png" href="<?php bloginfo('template_directory') ;?>/favicon/favicon-16x16.png"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="" http-equiv="expires" content="0">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory') ;?>/css/styles.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
 </head>
