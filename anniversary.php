@@ -22,7 +22,7 @@ Template Name: Anniversary
 			</div>
 			<script>
 				// do this for 30 seconds
-				var duration = 0.3 * 1000;
+				var duration = 0.5 * 1000;
 				var end = Date.now() + duration;
 
 				(function frame() {
