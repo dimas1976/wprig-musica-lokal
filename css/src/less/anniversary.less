@@ -1,12 +1,28 @@
 .anniversary-container {
+	height: 100vh;
 	background: url("../img/anniversary/konfetti_bg.png") no-repeat center;
 	background-size: cover;
 	display: grid;
 	justify-items: center;
-
+	align-items: center;
 }
 .anniversary-container__image {
-	width: 100%;
+	width: 70%;
 	height: auto;
-	margin-bottom: 3rem;
+}
+
+.anniversary-container__link {
+	align-self: start;
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-decoration: none;
+	color: #fa6900;
+	text-shadow: 0px 2px 11px #FA470B;
+}
+
+@media (min-width: 1200px) {
+	.anniversary-container__image {
+		width: 50%;
+		height: auto;
+	}
 }
