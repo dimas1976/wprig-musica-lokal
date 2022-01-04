@@ -16,7 +16,7 @@ Template Name: Anniversary
 		<body>
 			<div class="container anniversary-container">
 				<img class="anniversary-container__image" src="<?php bloginfo('template_directory');?>/img/anniversary/teaser.png?123" alt="teaser">
-				<a class="anniversary-container__link" href="https://musica-altona.de/kinder-foerdern-durch-musik">ZUR STARTSEITE</a>
+				<a class="anniversary-container__link" href="http://dev.local/wordpress/musica/kinder-foerdern-durch-musik">ZUR STARTSEITE</a>
 			</div>
 			<script>
 				// do this for 30 seconds
