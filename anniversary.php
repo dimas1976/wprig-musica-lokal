@@ -3,8 +3,6 @@
 Template Name: Anniversary
  */
 
-//get_header();
-
 ?>
 <!DOCTYPE html>
 	<html>
@@ -48,9 +46,6 @@ Template Name: Anniversary
 
 	</html>
 
-
-
-<?php //get_footer();?>
 
 
 
