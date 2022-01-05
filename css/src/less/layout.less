@@ -619,10 +619,21 @@ footer {
 
 .years {
 	.years__wrapper {
-		display: grid;
-		justify-content: center;
-		gap: 1em;
-		padding-bottom: 3em;
+		.video {
+			position: relative;
+			padding-bottom: 30vh;
+			padding-top: 0;
+			margin-bottom: 1em;
+			height: 0;
+			overflow: hidden;
+			iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				max-width: 100%;
+				max-height: 100%;
+			}
+		}
 	}
 }
 
