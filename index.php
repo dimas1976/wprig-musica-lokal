@@ -30,13 +30,6 @@ get_header();
                     <p>
                         <i class="fas fa-hand-point-up"></i>
                         <span>
-                        Ein bewährtes Konzept: Musizieren in der Gruppe macht stark
-                    </span>
-                    </p>
-
-                    <p>
-                        <i class="fas fa-hand-point-up"></i>
-                        <span>
                         Engagierte DozentInnen, die neben der Liebe zur Musik auch großen Wert auf das freundliche,
                         wertschätzende und unterstützende Miteinander der jungen MusikerInnen legen.
                     </span>
@@ -93,12 +86,11 @@ get_header();
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
                         <li>
-                            <i class="fas fa-music"></i> Trommeln, Gumboots und <br>
-                            Recycling Groove Workshops
+                            <i class="fas fa-music"></i> IBITHI – Rhythmus, Trommeln & Schlagzeug
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
                         <li>
-                            <i class="fas fa-music"></i> Violino Altona
+                            <i class="fas fa-music"></i> Geigenkurs Violino Altona
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
                         <li>
@@ -106,37 +98,23 @@ get_header();
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
                         <li>
-                            <i class="fas fa-music"></i> KRASS BRASS - Blasinstrumente
+                            <i class="fas fa-music"></i> KrassBrass - Blasinstrumente
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
-                        <li>
-                            <i class="fas fa-music"></i> Bratsche
-                            <a href="./unsere-kurse/" title="Link zu den Kursen"><i
-                                        class="fas fa-chevron-circle-right"></i></a>
-                        </li>
-
                     </ul>
                 </div>
                 <div class="col-md-5 offset-md-1">
                     <ul>
-                        <li>
-                            <i class="fas fa-music"></i> Saz
-                            <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
-                        </li>
+						<li>
+							<i class="fas fa-music"></i> Saz
+							<a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
+						</li>
                         <li>
                             <i class="fas fa-music"></i> Keyboard
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
                         <li>
-                            <i class="fas fa-music"></i> Altonaer Gitarren und Band
-                            <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
-                        </li>
-                        <li>
-                            <i class="fas fa-music"></i> Altona Laut (Schlagzeug)
-                            <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
-                        </li>
-                        <li class="drummers">
-                            <i class="fas fa-music"></i> The Junior Drummers (Trommeln)
+                            <i class="fas fa-music"></i> Altonaer Gitarren, Ukulele und Band
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
                         <li>
