@@ -253,14 +253,14 @@ nav .navbar-toggler {
 #lecturers {
   font-family: 'Lato', sans-serif;
   /*  .ingrid-quotes {
-    padding-left: 5rem;
-  }*/
+		padding-left: 5rem;
+	  }*/
   /*  .olle-qoutes {
-    padding-left: 4.5rem;
-  }*/
+		padding-left: 4.5rem;
+	  }*/
   /*  .willie-quotes {
-    padding-left: 10rem;
-  }*/
+		padding-left: 10rem;
+	  }*/
 }
 #lecturers blockquote {
   font-size: 1.3rem;
@@ -362,7 +362,7 @@ nav .navbar-toggler {
   width: 42rem;
   height: auto;
   background: url('../img/pinwall/music_note_frame.png') center center no-repeat;
-  background-size: cover ;
+  background-size: cover;
 }
 #pinwall .container.lazyloaded .img-wrapper {
   margin-left: 4rem;
@@ -502,9 +502,9 @@ nav .navbar-toggler {
 }
 #about-section h2 {
   font-family: 'Love Ya Like A Sister' !important;
-  font-size: 2em!important;
-  font-weight: 700!important;
-  color: #000!important;
+  font-size: 2em !important;
+  font-weight: 700 !important;
+  color: #000 !important;
 }
 #bsh .col-md-4 {
   position: relative;
@@ -576,6 +576,21 @@ footer .foot-note h2 a,
 footer .foot-note p a {
   color: #000;
   text-decoration: none;
+}
+.years .years__wrapper .video {
+  position: relative;
+  padding-bottom: 30vh;
+  padding-top: 0;
+  margin-bottom: 1em;
+  height: 0;
+  overflow: hidden;
+}
+.years .years__wrapper .video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
 }
 @-moz-keyframes arrowMoveRight {
   0% {
