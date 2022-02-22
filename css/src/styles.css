@@ -592,6 +592,11 @@ footer .foot-note p a {
   max-width: 100%;
   max-height: 100%;
 }
+.greeting p {
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
 @-moz-keyframes arrowMoveRight {
   0% {
     left: 0;
