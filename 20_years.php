@@ -19,7 +19,7 @@ get_header();
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen></iframe>
 			</iframe>
-		</article>
+		</article >
 	</div>
 </section>
 <section class="greeting">
