@@ -197,6 +197,23 @@ get_header(); ?>
             </div>
         </div>
     </div>
+	<div class="mb-md-2" data-aos="zoom-in">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/talita.jpg" class="img-fluid talita lazyload" alt="Talita Pichler">
+				</div>
+				<div class="col-md-8 pt-2 pt-md-5 pb-5 pb-md-3">
+					<blockquote>
+						<sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
+						Musica Altona verbindet Kinder und Lehrer:innen. Die Musik wirkt hier wie ein magischer Magnet der uns anzieht und vereint!<sub class="pl-2"><i class="fas fa-quote-right"></i></sub>
+					</blockquote>
+					<p>Talita Pichler</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
 </div>
 
 <?php get_footer();?>
