@@ -116,6 +116,19 @@ nav .navbar-toggler {
 .credit {
   font-size: 0.8rem;
 }
+#motiv {
+  position: relative;
+}
+#motiv .container .col p {
+  font-size: clamp(0.9rem, 2.3vw, 3rem);
+}
+#motiv .credit {
+  font-size: .8rem;
+  position: absolute;
+  color: #fff;
+  right: 2rem;
+  bottom: 1rem;
+}
 #motiv .container,
 #motiv-foerderer .container,
 #motiv-history .container {
@@ -775,7 +788,6 @@ footer .foot-note p a {
     background-size: cover;
   }
   #motiv .container .row .col .quotes {
-    font-size: .9rem;
     margin-top: 10.6rem;
   }
   #motiv-about {
@@ -1002,7 +1014,6 @@ footer .foot-note p a {
     background-size: cover;
   }
   #motiv .container .col p {
-    font-size: 1rem;
     margin-top: 12rem;
   }
   #motiv-about {
@@ -1186,7 +1197,6 @@ footer .foot-note p a {
     background-size: cover;
   }
   #motiv .container .col p {
-    font-size: 1.7rem;
     margin-top: 17rem;
     text-shadow: 2px 2px black;
   }
@@ -1299,7 +1309,6 @@ footer .foot-note p a {
     background-size: cover;
   }
   #motiv .container .col p {
-    font-size: 2rem;
     margin-top: 17rem;
     text-shadow: 2px 2px black;
   }
@@ -1421,7 +1430,6 @@ footer .foot-note p a {
     background-size: cover;
   }
   #motiv .container .col p {
-    font-size: 2.3rem;
     margin-top: 12rem;
     text-shadow: 4px 4px black;
   }
@@ -1431,7 +1439,6 @@ footer .foot-note p a {
     background-size: cover;
   }
   #motiv-history .container .row .col .quotes {
-    font-size: 2rem;
     margin-top: 25.9rem;
   }
   #motiv-foerderer.lazyloaded {
@@ -1512,7 +1519,6 @@ footer .foot-note p a {
     background-size: cover;
   }
   #motiv .container .col p {
-    font-size: 3rem;
     margin-top: 17rem;
     text-shadow: 4px 4px black;
   }
@@ -1566,7 +1572,6 @@ footer .foot-note p a {
     background-size: cover;
   }
   #motiv .container .col p {
-    font-size: 3rem;
     margin-top: 33rem;
     text-shadow: 4px 4px black;
   }

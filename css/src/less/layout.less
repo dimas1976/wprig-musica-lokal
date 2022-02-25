@@ -29,6 +29,25 @@ nav {
 	font-size: @credit-font-size-big;
 }
 
+#motiv {
+	position: relative;
+	.container {
+		.col {
+			p {
+				font-size: clamp(0.9rem, 3.8vw - 1.5rem, 3rem);
+			}
+		}
+	}
+
+	.credit {
+		font-size: .8rem;
+		position: absolute;position: absolute;
+		color: #fff;
+		right: 2rem;
+		bottom: 1rem;
+	}
+}
+
 #motiv,
 #motiv-foerderer,
 #motiv-history {
