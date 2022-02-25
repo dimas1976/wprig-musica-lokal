@@ -81,23 +81,23 @@ get_header();
             <div class="row">
                 <div class="col-md-6 col-lg-5 offset-lg-1">
                     <ul>
-                        <li class="course-list__item">
+                        <li>
                             <i class="fas fa-music"></i> Altonaer Tastenspaß am Klavier
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
-                        <li class="course-list__item">
+                        <li>
                             <i class="fas fa-music"></i> IBITHI – Rhythmus, Trommeln & Schlagzeug
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
-                        <li class="course-list__item">
+                        <li>
                             <i class="fas fa-music"></i> Geigenkurs Violino Altona
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
-                        <li class="course-list__item">
+                        <li>
                             <i class="fas fa-music"></i> Cello
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
-                        <li class="course-list__item">
+                        <li>
                             <i class="fas fa-music"></i> KrassBrass - Blasinstrumente
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
