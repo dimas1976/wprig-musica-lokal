@@ -247,6 +247,9 @@ nav .navbar-toggler {
   color: #fa6900;
   padding-left: .2rem;
 }
+#course-list .container ul li:nth-child(even) {
+  padding-left: 1rem;
+}
 #course-list .container ul .drummers {
   white-space: nowrap;
 }
