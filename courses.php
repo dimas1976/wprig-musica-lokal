@@ -12,14 +12,14 @@ get_header(); ?>
                 <div class="card mb-3 mb-md-0" data-aos="flip-left">
 					<div class="card-head">
 						<picture>
-							<source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/cello/cello_xlg.jpg 3.5x">
-							<source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/cello/cello_lg.jpg 3x">
-							<source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/cello/cello_md.jpg 2x">
-							<source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/cello/cello_sm.jpg 1x">
-							<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/cello/cello_xs.jpg">
-							<img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/img/kurse/cello/cello_xlg.jpg"  alt="Unsere Kurse-Cello">
+							<source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/cello/cello_xlg_new.jpg 3.5x">
+							<source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/cello/cello_lg_new.jpg 3x">
+							<source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/cello/cello_md_new.jpg 2x">
+							<source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/cello/cello_sm_new.jpg 1x">
+							<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/cello/cello_xs_new.jpg">
+							<img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/img/kurse/cello/cello_xlg_new.jpg"  alt="Unsere Kurse-Cello">
 						</picture>
-						<div class="credit">Foto: &copy; Cem Renkligül</div>
+						<div class="credit">Foto: &copy; Andreas Bock</div>
 					</div>
                     <div class="card-body">
                         <h5 class="card-title">Cello</h5>
@@ -34,14 +34,14 @@ get_header(); ?>
                 <div class="card mb-3 mb-md-0" data-aos="flip-left">
 					<div class="card-head">
 						<picture>
-							<source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_xlg.jpg">
-							<source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_lg.jpg">
-							<source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_md.jpg">
-							<source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_sm.jpg">
+							<source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_xlg_new.jpg">
+							<source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_lg_new.jpg">
+							<source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_md_new.jpg">
+							<source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_sm_new.jpg">
 							<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_xsm.jpg">
-							<img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/img/gumboots/gumboots_xlg.jpg"  alt="Unsere Kurse-Gumboots">
+							<img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/img/gumboots/gumboots_xlg_new.jpg"  alt="Unsere Kurse-Gumboots">
 						</picture>
-						<div class="credit">Foto: &copy; Nawina Walker</div>
+						<div class="credit">Foto: &copy; Dally</div>
 					</div>
 
                     <div class="card-body">
@@ -57,14 +57,14 @@ get_header(); ?>
                 <div class="card mb-3 mb-md-0" data-aos="flip-right">
 					<div class="card-head">
 						<picture>
-							<source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/klavier/klavier_xlg.jpg 3.5x">
-							<source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/klavier/klavier_lg.jpg 3x">
-							<source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/klavier/klavier_md.jpg 2x">
-							<source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/klavier/klavier_sm.jpg 1x">
-							<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/klavier/klavier_xsm.jpg">
-							<img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/img/kurse/klavier/klavier_xlg.jpg"  alt="Unsere Kurse-Klavier">
+							<source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/klavier/klavier_xlg_new.jpg 3.5x">
+							<source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/klavier/klavier_lg_new.jpg 3x">
+							<source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/klavier/klavier_md_new.jpg 2x">
+							<source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/klavier/klavier_sm_new.jpg 1x">
+							<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/klavier/klavier_xsm_new.jpg">
+							<img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/img/kurse/klavier/klavier_xlg_new.jpg"  alt="Unsere Kurse-Klavier">
 						</picture>
-						<div class="credit">Foto: &copy; Cem Renkligül</div>
+						<div class="credit">Foto: &copy; Fayssal Boukari</div>
 					</div>
                     <div class="card-body">
                         <h5 class="card-title">Altonaer Tastenspaß am Klavier</h5>
