@@ -377,6 +377,9 @@ nav .navbar-toggler {
   -webkit-column-gap: 0.5em;
   column-gap: 0.5em;
 }
+#pinwall .container.lazyloaded .img-wrapper .image {
+  position: relative;
+}
 #pinwall .container.lazyloaded .img-wrapper .image:nth-child(even) {
   transform: rotate(12deg);
 }
@@ -537,12 +540,6 @@ nav .navbar-toggler {
 #courses-cards .row .card .card-head {
   position: relative;
 }
-#courses-cards .row .card .card-head .credit {
-  position: absolute;
-  color: #fff;
-  right: 2rem;
-  bottom: 1rem;
-}
 #motiv-media {
   position: relative;
   text-align: center;
@@ -611,6 +608,12 @@ footer .foot-note p a {
   font-size: 1rem;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+}
+.credit {
+  position: absolute;
+  color: #fff;
+  right: 2rem;
+  bottom: 1rem;
 }
 @-moz-keyframes arrowMoveRight {
   0% {
