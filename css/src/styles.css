@@ -121,35 +121,32 @@ nav .navbar-toggler {
 }
 #motiv .container .col p {
   font-size: clamp(0.9rem, 2.3vw, 3rem);
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   font-weight: 700;
+  text-shadow: 2px 0px black;
 }
 #motiv .credit {
-  font-size: .7rem;
+  font-size: .6rem;
   position: absolute;
   color: #fff;
   right: 2rem;
-  bottom: .3rem;
+  bottom: .1rem;
 }
-#motiv .container,
 #motiv-foerderer .container,
 #motiv-history .container {
   max-width: 100%;
   background-color: rgba(220, 160, 140, 0);
 }
-#motiv .container .col,
 #motiv-foerderer .container .col,
 #motiv-history .container .col {
   margin: auto;
 }
-#motiv .container .col p,
 #motiv-foerderer .container .col p,
 #motiv-history .container .col p {
   font-family: 'LORA-REGULAR';
   font-style: italic;
   color: #fff;
 }
-#motiv .container .col p q,
 #motiv-foerderer .container .col p q,
 #motiv-history .container .col p q {
   quotes: ' \201C ' ' \201D ';
@@ -790,7 +787,8 @@ footer .foot-note p a {
     background-size: cover;
   }
   #motiv .container .row .col .quotes {
-    margin-top: 9.6rem;
+    margin-top: 7.6rem;
+    margin-bottom: 3rem;
   }
   #motiv-about {
     height: 14.75rem;
@@ -898,10 +896,10 @@ footer .foot-note p a {
   }
   #lecturers {
     /*    div:first-child {
-          .col-md-4 .credit {
-            margin-top: 11rem;
-          }
-        }*/
+			  .col-md-4 .credit {
+				margin-top: 11rem;
+			  }
+			}*/
   }
   #lecturers .col-md-4 {
     text-align: center;
@@ -1016,7 +1014,8 @@ footer .foot-note p a {
     background-size: cover;
   }
   #motiv .container .col p {
-    margin-top: 12rem;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
   }
   #motiv-about {
     height: 15.4rem;
@@ -1200,7 +1199,6 @@ footer .foot-note p a {
   }
   #motiv .container .col p {
     margin-top: 17rem;
-    text-shadow: 2px 2px black;
   }
   #motiv-history {
     height: 23rem;
@@ -1311,8 +1309,8 @@ footer .foot-note p a {
     background-size: cover;
   }
   #motiv .container .col p {
-    margin-top: 17rem;
-    text-shadow: 2px 2px black;
+    margin-top: 15rem;
+    margin-bottom: 3rem;
   }
   #motiv-about {
     height: 23rem;
@@ -1433,7 +1431,6 @@ footer .foot-note p a {
   }
   #motiv .container .col p {
     margin-top: 12rem;
-    text-shadow: 4px 4px black;
   }
   #motiv-history {
     height: 31rem;
@@ -1522,7 +1519,6 @@ footer .foot-note p a {
   }
   #motiv .container .col p {
     margin-top: 17rem;
-    text-shadow: 4px 4px black;
   }
   #courses-motiv {
     height: 44rem;
@@ -1575,7 +1571,6 @@ footer .foot-note p a {
   }
   #motiv .container .col p {
     margin-top: 33rem;
-    text-shadow: 4px 4px black;
   }
   #motiv-foerderer.lazyloaded {
     height: 29rem;
