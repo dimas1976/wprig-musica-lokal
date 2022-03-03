@@ -10,13 +10,14 @@ get_header();
         <div class="container mt-4">
             <div class="row">
                 <div class="col">
-                    <p class="quotes text-center">
-                        <q>Wenn du ein Instrument erlernst, dann lernst du auch Wahrnehmung, Teamarbeit und Respekt.</q><br>
-                        (Mahani Teave)
-                    </p>
+
                 </div>
             </div>
         </div>
+		<p class="quotes text-center">
+			<q>Wenn du ein Instrument erlernst, dann lernst du auch Wahrnehmung, Teamarbeit und Respekt.</q><br>
+			(Mahani Teave)
+		</p>
 		<div class="credit">Foto: @Andreas Bock</div>
 	</div>
 

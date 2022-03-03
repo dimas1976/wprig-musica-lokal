@@ -119,10 +119,15 @@ nav .navbar-toggler {
 #motiv {
   position: relative;
 }
-#motiv .container .col p {
-  font-size: clamp(0.9rem, 2.3vw, 3rem);
-  margin-bottom: 1.5rem;
+#motiv .quotes {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: clamp(0.9rem, 1.9vw, 3rem);
+  font-family: LORA-REGULAR;
+  bottom: 1rem;
   font-weight: 700;
+  color: #fff;
   text-shadow: 2px 0px black;
 }
 #motiv .credit {
@@ -786,10 +791,6 @@ footer .foot-note p a {
     background: url('../img/motiv/gino_banner_xs.jpg') top center no-repeat;
     background-size: cover;
   }
-  #motiv .container .row .col .quotes {
-    margin-top: 7.6rem;
-    margin-bottom: 3rem;
-  }
   #motiv-about {
     height: 14.75rem;
     background: url('../img/motiv_about/about_motiv_xs.jpg') top center no-repeat;
@@ -1013,10 +1014,6 @@ footer .foot-note p a {
     background: url('../img/motiv/gino_banner_sm.jpg') top center no-repeat;
     background-size: cover;
   }
-  #motiv .container .col p {
-    margin-top: 8rem;
-    margin-bottom: 3rem;
-  }
   #motiv-about {
     height: 15.4rem;
     background: url('../img/motiv_about/about_motiv_sm.jpg') top center no-repeat;
@@ -1192,14 +1189,6 @@ footer .foot-note p a {
     margin-top: 6.5rem;
     font-size: .5rem;
   }
-  #motiv {
-    height: 23rem;
-    background: url('../img/motiv/gino_banner_md.jpg') top center no-repeat;
-    background-size: cover;
-  }
-  #motiv .container .col p {
-    margin-top: 17rem;
-  }
   #motiv-history {
     height: 23rem;
     background: url('../img/history/history_motiv_md.jpg') top center no-repeat;
@@ -1307,10 +1296,6 @@ footer .foot-note p a {
     height: 23rem;
     background: url('../img/motiv/gino_banner_md.jpg') top center no-repeat;
     background-size: cover;
-  }
-  #motiv .container .col p {
-    margin-top: 15rem;
-    margin-bottom: 3rem;
   }
   #motiv-about {
     height: 23rem;
@@ -1429,9 +1414,6 @@ footer .foot-note p a {
     background: url('../img/motiv/gino_banner_lg.jpg') center center no-repeat;
     background-size: cover;
   }
-  #motiv .container .col p {
-    margin-top: 12rem;
-  }
   #motiv-history {
     height: 31rem;
     background: url('../img/history/history_motiv_xl.jpg') top center no-repeat;
@@ -1517,9 +1499,6 @@ footer .foot-note p a {
     background: url('../img/motiv/gino_banner_lg.jpg') center center no-repeat;
     background-size: cover;
   }
-  #motiv .container .col p {
-    margin-top: 17rem;
-  }
   #courses-motiv {
     height: 44rem;
     background: url('../img/courses_motiv/courses_motiv_xlg.jpg') center center no-repeat;
@@ -1568,9 +1547,6 @@ footer .foot-note p a {
     height: 44rem;
     background: url('../img/motiv/gino_banner_xlg.jpg') center center no-repeat;
     background-size: cover;
-  }
-  #motiv .container .col p {
-    margin-top: 33rem;
   }
   #motiv-foerderer.lazyloaded {
     height: 29rem;
