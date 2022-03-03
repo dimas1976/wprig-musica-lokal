@@ -63,6 +63,12 @@ a.btn.btn-primary {
   background-color: #fa6900;
   border-color: #fa6900;
 }
+.navbar-nav .nav-item a.nav-link {
+  font-family: Lato, sans-serif;
+  font-size: .938em;
+  font-weight: 700;
+  color: #0099ed;
+}
 .navbar-nav .nav-item a.nav-link:hover {
   border-bottom: 1px solid #c90f0d;
   color: #8ad2fb;
