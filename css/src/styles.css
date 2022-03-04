@@ -63,6 +63,12 @@ a.btn.btn-primary {
   background-color: #fa6900;
   border-color: #fa6900;
 }
+.navbar-nav .nav-item a.nav-link {
+  font-family: Lato, sans-serif;
+  font-size: .938em;
+  font-weight: 700;
+  color: #0099ed;
+}
 .navbar-nav .nav-item a.nav-link:hover {
   border-bottom: 1px solid #c90f0d;
   color: #8ad2fb;
@@ -116,25 +122,42 @@ nav .navbar-toggler {
 .credit {
   font-size: 0.8rem;
 }
-#motiv .container,
+#motiv {
+  position: relative;
+}
+#motiv .quotes {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: clamp(0.9rem, 1.9vw, 3rem);
+  font-family: LORA-REGULAR;
+  bottom: 1rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 0px black;
+}
+#motiv .credit {
+  font-size: .6rem;
+  position: absolute;
+  color: #fff;
+  right: 2rem;
+  bottom: .1rem;
+}
 #motiv-foerderer .container,
 #motiv-history .container {
   max-width: 100%;
   background-color: rgba(220, 160, 140, 0);
 }
-#motiv .container .col,
 #motiv-foerderer .container .col,
 #motiv-history .container .col {
   margin: auto;
 }
-#motiv .container .col p,
 #motiv-foerderer .container .col p,
 #motiv-history .container .col p {
   font-family: 'LORA-REGULAR';
   font-style: italic;
   color: #fff;
 }
-#motiv .container .col p q,
 #motiv-foerderer .container .col p q,
 #motiv-history .container .col p q {
   quotes: ' \201C ' ' \201D ';
@@ -777,10 +800,6 @@ footer .foot-note p a {
     background: url('../img/motiv/gino_banner_xs.jpg') top center no-repeat;
     background-size: cover;
   }
-  #motiv .container .row .col .quotes {
-    font-size: .9rem;
-    margin-top: 10.6rem;
-  }
   #motiv-about {
     height: 14.75rem;
     background: url('../img/motiv_about/about_motiv_xs.jpg') top center no-repeat;
@@ -887,10 +906,10 @@ footer .foot-note p a {
   }
   #lecturers {
     /*    div:first-child {
-          .col-md-4 .credit {
-            margin-top: 11rem;
-          }
-        }*/
+			  .col-md-4 .credit {
+				margin-top: 11rem;
+			  }
+			}*/
   }
   #lecturers .col-md-4 {
     text-align: center;
@@ -1003,10 +1022,6 @@ footer .foot-note p a {
     height: 15.4rem;
     background: url('../img/motiv/gino_banner_sm.jpg') top center no-repeat;
     background-size: cover;
-  }
-  #motiv .container .col p {
-    font-size: 1rem;
-    margin-top: 12rem;
   }
   #motiv-about {
     height: 15.4rem;
@@ -1183,16 +1198,6 @@ footer .foot-note p a {
     margin-top: 6.5rem;
     font-size: .5rem;
   }
-  #motiv {
-    height: 23rem;
-    background: url('../img/motiv/gino_banner_md.jpg') top center no-repeat;
-    background-size: cover;
-  }
-  #motiv .container .col p {
-    font-size: 1.7rem;
-    margin-top: 17rem;
-    text-shadow: 2px 2px black;
-  }
   #motiv-history {
     height: 23rem;
     background: url('../img/history/history_motiv_md.jpg') top center no-repeat;
@@ -1300,11 +1305,6 @@ footer .foot-note p a {
     height: 23rem;
     background: url('../img/motiv/gino_banner_md.jpg') top center no-repeat;
     background-size: cover;
-  }
-  #motiv .container .col p {
-    font-size: 2rem;
-    margin-top: 17rem;
-    text-shadow: 2px 2px black;
   }
   #motiv-about {
     height: 23rem;
@@ -1423,18 +1423,12 @@ footer .foot-note p a {
     background: url('../img/motiv/gino_banner_lg.jpg') center center no-repeat;
     background-size: cover;
   }
-  #motiv .container .col p {
-    font-size: 2.3rem;
-    margin-top: 12rem;
-    text-shadow: 4px 4px black;
-  }
   #motiv-history {
     height: 31rem;
     background: url('../img/history/history_motiv_xl.jpg') top center no-repeat;
     background-size: cover;
   }
   #motiv-history .container .row .col .quotes {
-    font-size: 2rem;
     margin-top: 25.9rem;
   }
   #motiv-foerderer.lazyloaded {
@@ -1514,11 +1508,6 @@ footer .foot-note p a {
     background: url('../img/motiv/gino_banner_lg.jpg') center center no-repeat;
     background-size: cover;
   }
-  #motiv .container .col p {
-    font-size: 3rem;
-    margin-top: 17rem;
-    text-shadow: 4px 4px black;
-  }
   #courses-motiv {
     height: 44rem;
     background: url('../img/courses_motiv/courses_motiv_xlg.jpg') center center no-repeat;
@@ -1567,11 +1556,6 @@ footer .foot-note p a {
     height: 44rem;
     background: url('../img/motiv/gino_banner_xlg.jpg') center center no-repeat;
     background-size: cover;
-  }
-  #motiv .container .col p {
-    font-size: 3rem;
-    margin-top: 33rem;
-    text-shadow: 4px 4px black;
   }
   #motiv-foerderer.lazyloaded {
     height: 29rem;
