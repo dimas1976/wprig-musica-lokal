@@ -29,7 +29,29 @@ nav {
 	font-size: @credit-font-size-big;
 }
 
-#motiv,
+#motiv {
+	position: relative;
+	.quotes {
+		position: absolute;
+		left: 0;
+		right: 0;
+		font-size: clamp(0.9rem, 3.4vw - 1.5rem, 3rem);
+		font-family: LORA-REGULAR;
+		bottom: 1rem;
+		font-weight: 700;
+		color: #fff;
+		text-shadow: 2px 0px black;
+	}
+	.credit {
+		font-size: .6rem;
+		position: absolute;
+		color: #fff;
+		right: 2rem;
+		bottom: .1rem;
+	}
+}
+
+
 #motiv-foerderer,
 #motiv-history {
 	.container {

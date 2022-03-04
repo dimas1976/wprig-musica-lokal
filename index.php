@@ -10,15 +10,16 @@ get_header();
         <div class="container mt-4">
             <div class="row">
                 <div class="col">
-                    <p class="quotes text-center">
-                        <q>Das wundervolle an Musik ist für mich,
-                            dass sie wildfremde Menschen zusammenbringt</q>
-                        (Bobby McFerrin)
-                    </p>
+
                 </div>
             </div>
         </div>
-    </div>
+		<p class="quotes text-center">
+			<q>Wenn du ein Instrument erlernst, dann lernst du auch Wahrnehmung, Teamarbeit und Respekt.</q><br>
+			(Mahani Teave)
+		</p>
+		<div class="credit">Foto: @Andreas Bock</div>
+	</div>
 
     <div id="start-article">
         <div class="container pt-md-5">
