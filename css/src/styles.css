@@ -403,6 +403,9 @@ nav .navbar-toggler {
 #pinwall .container.lazyloaded .img-wrapper .image {
   position: relative;
 }
+#pinwall .container.lazyloaded .img-wrapper .image .credit {
+  position: absolute;
+}
 #pinwall .container.lazyloaded .img-wrapper .image:nth-child(even) {
   transform: rotate(12deg);
 }
