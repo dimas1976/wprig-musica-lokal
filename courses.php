@@ -83,7 +83,7 @@ get_header(); ?>
 							<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/gumboots/gumboots_xsm.jpg">
 							<img class="card-img-top lazyload course-img" data-src="<?= bloginfo("template_url"); ?>/img/gumboots/gumboots_xlg_new.jpg"  alt="Unsere Kurse-Gumboots">
 						</picture>
-						<div class="credit">Foto: &copy; Dally</div>
+						<div class="credit">Foto: &copy; BWalbaum</div>
 					</div>
 
                     <div class="card-body">
