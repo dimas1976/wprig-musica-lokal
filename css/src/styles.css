@@ -124,6 +124,13 @@ nav .navbar-toggler {
 }
 #motiv {
   position: relative;
+  /*	.credit {
+		font-size: .6rem;
+		position: absolute;
+		color: #fff;
+		right: 2rem;
+		bottom: .1rem;
+	}*/
 }
 #motiv .quotes {
   position: absolute;
@@ -135,13 +142,6 @@ nav .navbar-toggler {
   font-weight: 700;
   color: #fff;
   text-shadow: 2px 0px black;
-}
-#motiv .credit {
-  font-size: .6rem;
-  position: absolute;
-  color: #fff;
-  right: 2rem;
-  bottom: .1rem;
 }
 #motiv-foerderer .container,
 #motiv-history .container {
@@ -404,7 +404,17 @@ nav .navbar-toggler {
   position: relative;
 }
 #pinwall .container.lazyloaded .img-wrapper .image .credit {
-  position: absolute;
+  bottom: .1rem;
+  font-size: .6rem;
+}
+#pinwall .container.lazyloaded .img-wrapper .image .credit-cem {
+  left: .4rem;
+}
+#pinwall .container.lazyloaded .img-wrapper .image .credit-dally {
+  left: .4rem;
+}
+#pinwall .container.lazyloaded .img-wrapper .image .credit-walbaum {
+  left: .4rem;
 }
 #pinwall .container.lazyloaded .img-wrapper .image:nth-child(even) {
   transform: rotate(12deg);
@@ -639,7 +649,7 @@ footer .foot-note p a {
   position: absolute;
   color: #fff;
   right: 2rem;
-  bottom: 1rem;
+  bottom: .1rem;
 }
 @-moz-keyframes arrowMoveRight {
   0% {

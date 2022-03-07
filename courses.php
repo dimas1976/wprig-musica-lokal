@@ -13,7 +13,7 @@ get_header(); ?>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/3.3.jpg" alt="Pinwall">
-				<div class="credit">Foto:@ Cem Renkligül</div>
+				<div class="credit credit-cem">Foto:@ Cem Renkligül</div>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/4.4.jpg" alt="Pinwall">
@@ -29,21 +29,21 @@ get_header(); ?>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/5.5.jpg" alt="Pinwall">
-				<div class="credit">Foto:@ Dally</div>
+				<div class="credit credit-dally">Foto:@ Dally</div>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/8.8.jpg" alt="Pinwall">
-				<div class="credit">Foto:@ Fayssal Boukari</div>
+				<div class="credit">Foto:@ Cem Renkligül</div>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/9.9.jpg" alt="Pinwall">
-				<div class="credit">Foto:@ Bethina Walbaum</div>
+				<div class="credit credit-walbaum">Foto:@ Bethina Walbaum</div>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/10.10.jpg" alt="Pinwall">
 				<div class="credit">Foto:@ Dally</div>
 			</div>
-			<div class="image"><img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/torte.jpg" alt="Pinwall"></div>
+			<div class="image"><img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/jubilaum.jpg" alt="Pinwall"></div>
 		</div>
 	</div>
 </div>
