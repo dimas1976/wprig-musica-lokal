@@ -403,6 +403,10 @@ nav .navbar-toggler {
 #pinwall .container.lazyloaded .img-wrapper .image {
   position: relative;
 }
+#pinwall .container.lazyloaded .img-wrapper .image:last-child {
+  top: 1rem;
+  left: -1rem;
+}
 #pinwall .container.lazyloaded .img-wrapper .image .credit {
   bottom: .1rem;
   font-size: .6rem;
@@ -414,6 +418,9 @@ nav .navbar-toggler {
   left: .4rem;
 }
 #pinwall .container.lazyloaded .img-wrapper .image .credit-walbaum {
+  left: .4rem;
+}
+#pinwall .container.lazyloaded .img-wrapper .image .credit-fayssal {
   left: .4rem;
 }
 #pinwall .container.lazyloaded .img-wrapper .image:nth-child(even) {

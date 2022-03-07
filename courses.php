@@ -21,7 +21,7 @@ get_header(); ?>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/7.7.jpg" alt="Pinwall">
-				<div class="credit">Foto:@ Fayssal Boukari</div>
+				<div class="credit credit-dally">Foto:@ Dally</div>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/6.6.jpg" alt="Pinwall">
@@ -29,7 +29,7 @@ get_header(); ?>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/5.5.jpg" alt="Pinwall">
-				<div class="credit credit-dally">Foto:@ Dally</div>
+				<div class="credit credit-fayssal">Foto:@ Fayssal Boukari</div>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/8.8.jpg" alt="Pinwall">
