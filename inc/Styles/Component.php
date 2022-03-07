@@ -313,8 +313,8 @@ class Component implements Component_Interface, Templating_Component_Interface {
 		];*/
 		$css_files = [
 			'wp-rig-styles'    => [
-				'file'             => 'styles.min.css',
-				'preload_callback' => '__return_true',
+				'file'             => 'styles.min.css'
+				//'preload_callback' => '__return_true',
 			]
 		];
 

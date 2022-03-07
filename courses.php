@@ -4,9 +4,51 @@ Template Name: Kurse
  */
 
 get_header(); ?>
-
+<div id="pinwall" data-aos="fade">
+	<div class="container lazyload">
+		<div class="img-wrapper">
+			<div class="image">
+				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/1.1.jpg" alt="Pinwall">
+				<div class="credit">Foto:@ Andreas Bock</div>
+			</div>
+			<div class="image">
+				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/3.3.jpg" alt="Pinwall">
+				<div class="credit credit-cem">Foto:@ Cem Renkligül</div>
+			</div>
+			<div class="image">
+				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/4.4.jpg" alt="Pinwall">
+				<div class="credit">Foto:@ Cem Renkligül</div>
+			</div>
+			<div class="image">
+				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/7.7.jpg" alt="Pinwall">
+				<div class="credit credit-dally">Foto:@ Dally</div>
+			</div>
+			<div class="image">
+				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/6.6.jpg" alt="Pinwall">
+				<div class="credit">Foto:@ M.Wolf-Dietrich</div>
+			</div>
+			<div class="image">
+				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/5.5.jpg" alt="Pinwall">
+				<div class="credit credit-fayssal">Foto:@ Fayssal Boukari</div>
+			</div>
+			<div class="image">
+				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/8.8.jpg" alt="Pinwall">
+				<div class="credit">Foto:@ Cem Renkligül</div>
+			</div>
+			<div class="image">
+				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/9.9.jpg" alt="Pinwall">
+				<div class="credit credit-walbaum">Foto:@ Bethina Walbaum</div>
+			</div>
+			<div class="image">
+				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/10.10.jpg" alt="Pinwall">
+				<div class="credit">Foto:@ Dally</div>
+			</div>
+			<div class="image"><img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/jubilaum.jpg" alt="Pinwall"></div>
+		</div>
+	</div>
+</div>
 <section id="courses-cards">
-    <div class="container pt-4">
+    <div class="container pt-4 pb-4">
         <div class="row mb-2">
             <div class="col-sm-12 col-md-4">
                 <div class="card mb-3 mb-md-0" data-aos="flip-left">
@@ -181,9 +223,6 @@ get_header(); ?>
                     <div class="card-body">
                         <h5 class="card-title">ALTONA LAUT Schlagzeug</h5>
                         <p class="card-text">
-                      <!--      Olle Wolski <br>
-                            01590/ 231 83 97<br>
-                            <a href="mailto:olle.wolski@gmx.de">olle.wolski@gmx.de</a>-->
 							Neuanmeldungen zur Zeit nicht möglich. Anfragen für Schlagzeug bitte an: <a href="mailto:kontakt@musica-altona.de">kontakt@musica-altona.de</a>
                         </p>
                     </div>
@@ -285,21 +324,4 @@ get_header(); ?>
         </div>
     </div>
 </section>
-<div id="pinwall" data-aos="fade">
-    <div class="container lazyload">
-        <div class="img-wrapper">
-            <div class="image"><img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/1.jpg" alt="Pinwall"></div>
-            <div class="image"><img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/3.jpg" alt="Pinwall"></div>
-            <div class="image"><img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/4.jpg" alt="Pinwall"></div>
-            <div class="image"><img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/5.jpg" alt="Pinwall"></div>
-            <div class="image"><img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/6.jpg" alt="Pinwall"></div>
-            <div class="image"><img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/7.jpg" alt="Pinwall"></div>
-            <div class="image"><img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/8.jpg" alt="Pinwall"></div>
-            <div class="image"><img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/9.jpg" alt="Pinwall"></div>
-            <div class="image"><img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/10.jpg" alt="Pinwall"></div>
-            <div class="image"><img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/torte.jpg" alt="Pinwall"></div>
-        </div>
-    </div>
-</div>
-
 <?php get_footer();?>
