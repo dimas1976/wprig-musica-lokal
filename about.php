@@ -40,7 +40,7 @@ get_header();
                     <a class="mb-2" href="./vorstand" title="Zur Vorstand-Seite">der Vorstand von Musica Altona <i class="fas fa-chevron-circle-right ml-2"></i></a>
                     <a href="./geschichte" title="Zur Geschichte-Seite">die Gründungsgeschichte von Musica Altona <i class="fas fa-chevron-circle-right ml-2"></i></a>
             </div>
-            <div class="col-sm col-md-3 offset-md-3">
+            <div class="col-sm-4 offset-sm-2 col-md-3 offset-md-3 col-lg-2 offset-lg-4">
                 <picture>
                     <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/refugess.gif 3.5x">
                     <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/refugess.gif 3x">
