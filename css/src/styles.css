@@ -124,13 +124,6 @@ nav .navbar-toggler {
 }
 #motiv {
   position: relative;
-  /*	.credit {
-		font-size: .6rem;
-		position: absolute;
-		color: #fff;
-		right: 2rem;
-		bottom: .1rem;
-	}*/
 }
 #motiv .quotes {
   position: absolute;
@@ -436,12 +429,6 @@ nav .navbar-toggler {
 #motiv-registration {
   position: relative;
   text-align: center;
-}
-#motiv-registration .credit {
-  position: absolute;
-  color: #fff;
-  right: 2rem;
-  bottom: .5rem;
 }
 #registration-articles article {
   border-top: 1px solid #fa6900;

@@ -6,8 +6,7 @@
 get_header(); ?>
 
 <div id="motiv-registration" class="mb-3" data-aos="fade-down">
-	<!--    <div class="credit">Foto: &copy; Cem Renkligül</div>
-	-->
+	<div class="credit">Foto: &copy; Dally</div>
 </div>
 <section id="registration-articles">
 	<div class="container pt-3 pt-md-5 pb-md-5">
