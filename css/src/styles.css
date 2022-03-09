@@ -818,7 +818,7 @@ footer .foot-note p a {
   #motiv-registration {
     height: 12.75rem;
     background: url('../img/motiv_anmeldung/anmeldung_motiv_xs.jpg') top center no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   #motiv-registration .credit {
     font-size: .8rem;
@@ -1038,7 +1038,7 @@ footer .foot-note p a {
   #motiv-registration {
     height: 15.4rem;
     background: url('../img/motiv_anmeldung/anmeldung_motiv_sm.jpg') top center no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   #motiv-history {
     height: 15.4rem;
@@ -1252,7 +1252,7 @@ footer .foot-note p a {
   #motiv-registration {
     height: 23rem;
     background: url('../img/motiv_anmeldung/anmeldung_motiv_md.jpg') top center no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   #news-articles {
     margin-top: 2rem;
@@ -1319,7 +1319,7 @@ footer .foot-note p a {
   #motiv-registration {
     height: 23rem;
     background: url('../img/motiv_anmeldung/anmeldung_motiv_md.jpg') top center no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   #motiv-media {
     height: 23rem;
@@ -1452,7 +1452,7 @@ footer .foot-note p a {
   #motiv-registration {
     height: 27rem;
     background: url('../img/motiv_anmeldung/anmeldung_motiv_xl.jpg') top center no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   #start-article .music-kid {
     width: 335px;
@@ -1518,7 +1518,7 @@ footer .foot-note p a {
   #motiv-registration {
     height: 29rem;
     background: url('../img/motiv_anmeldung/anmeldung_motiv_xl.jpg') top center no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   #start-article .music-kid {
     width: 335px;
@@ -1583,7 +1583,7 @@ footer .foot-note p a {
   #motiv-registration {
     height: 35rem;
     background: url('../img/motiv_anmeldung/anmeldung_motiv_xl.jpg') top center no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
 }
 @media (min-width: 1344px) and (max-width: 1668px) {
@@ -1611,6 +1611,6 @@ footer .foot-note p a {
   #motiv-registration {
     height: 42rem;
     background: url('../img/motiv_anmeldung/anmeldung_motiv_xl.jpg') top center no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
 }
