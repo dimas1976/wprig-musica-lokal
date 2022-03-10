@@ -32,7 +32,6 @@ get_header();
                 <p class="pb-3" data-aos="zoom-in-up">
                     Seit nunmehr 19 Jahren ist der große und von Herzen kommende Einsatz aller Beteiligten bezeichnend für Musica Altona. Die Kursgebühren sind moderat und die Organisation schlank. So wird es jungen Menschen ermöglicht - auch denjenigen, die neu in der Stadt sind - einen leichteren Zugang zu ihrem Stadtteil und zu anderen Jugendlichen zu finden.
                 </p>
-                <!--<a class="btn btn-primary" href="./unsere-kurse/" role="button" data-aos="fade-right">ZU DEN KURSEN</a>-->
             </div>
         </div>
         <div class="row pb-5">
@@ -40,7 +39,7 @@ get_header();
                     <a class="mb-2" href="./vorstand" title="Zur Vorstand-Seite">der Vorstand von Musica Altona <i class="fas fa-chevron-circle-right ml-2"></i></a>
                     <a href="./geschichte" title="Zur Geschichte-Seite">die Gründungsgeschichte von Musica Altona <i class="fas fa-chevron-circle-right ml-2"></i></a>
             </div>
-            <div class="col-sm col-md-3 offset-md-3">
+            <div class="col-sm-4 offset-sm-2 col-md-3 offset-md-3 col-lg-2 offset-lg-4">
                 <picture>
                     <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/refugess.gif 3.5x">
                     <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/refugess.gif 3x">
