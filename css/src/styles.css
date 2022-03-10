@@ -124,13 +124,6 @@ nav .navbar-toggler {
 }
 #motiv {
   position: relative;
-  /*	.credit {
-		font-size: .6rem;
-		position: absolute;
-		color: #fff;
-		right: 2rem;
-		bottom: .1rem;
-	}*/
 }
 #motiv .quotes {
   position: absolute;
@@ -436,12 +429,6 @@ nav .navbar-toggler {
 #motiv-registration {
   position: relative;
   text-align: center;
-}
-#motiv-registration .credit {
-  position: absolute;
-  color: #fff;
-  right: 2rem;
-  bottom: .5rem;
 }
 #registration-articles article {
   border-top: 1px solid #fa6900;
@@ -830,7 +817,7 @@ footer .foot-note p a {
   }
   #motiv-registration {
     height: 12.75rem;
-    background: url('../img/motiv_anmeldung/anmeldung_motiv_xs.jpg') top center no-repeat;
+    background: url('../img/motiv_anmeldung/anmeldung_motiv_xs.jpg') top right no-repeat;
     background-size: cover;
   }
   #motiv-registration .credit {
@@ -1050,12 +1037,7 @@ footer .foot-note p a {
   }
   #motiv-registration {
     height: 15.4rem;
-    background: url('../img/motiv_anmeldung/anmeldung_motiv_sm.jpg') top center no-repeat;
-    background-size: cover;
-  }
-  #motiv-registration {
-    height: 15.4rem;
-    background: url('../img/motiv_anmeldung/anmeldung_motiv_sm.jpg') top center no-repeat;
+    background: url('../img/motiv_anmeldung/anmeldung_motiv_sm.jpg') top right no-repeat;
     background-size: cover;
   }
   #motiv-history {
@@ -1269,7 +1251,7 @@ footer .foot-note p a {
   }
   #motiv-registration {
     height: 23rem;
-    background: url('../img/motiv_anmeldung/anmeldung_motiv_md.jpg') top center no-repeat;
+    background: url('../img/motiv_anmeldung/anmeldung_motiv_md.jpg') top right no-repeat;
     background-size: cover;
   }
   #news-articles {
@@ -1336,7 +1318,7 @@ footer .foot-note p a {
   }
   #motiv-registration {
     height: 23rem;
-    background: url('../img/motiv_anmeldung/anmeldung_motiv_md.jpg') top center no-repeat;
+    background: url('../img/motiv_anmeldung/anmeldung_motiv_md.jpg') top right no-repeat;
     background-size: cover;
   }
   #motiv-media {
@@ -1469,7 +1451,7 @@ footer .foot-note p a {
   }
   #motiv-registration {
     height: 27rem;
-    background: url('../img/motiv_anmeldung/anmeldung_motiv_xl.jpg') top center no-repeat;
+    background: url('../img/motiv_anmeldung/anmeldung_motiv_xl.jpg') top right no-repeat;
     background-size: cover;
   }
   #start-article .music-kid {
@@ -1535,7 +1517,7 @@ footer .foot-note p a {
   }
   #motiv-registration {
     height: 29rem;
-    background: url('../img/motiv_anmeldung/anmeldung_motiv_xl.jpg') top center no-repeat;
+    background: url('../img/motiv_anmeldung/anmeldung_motiv_xl.jpg') top right no-repeat;
     background-size: cover;
   }
   #start-article .music-kid {
@@ -1600,7 +1582,7 @@ footer .foot-note p a {
   }
   #motiv-registration {
     height: 35rem;
-    background: url('../img/motiv_anmeldung/anmeldung_motiv_xl.jpg') top center no-repeat;
+    background: url('../img/motiv_anmeldung/anmeldung_motiv_xl.jpg') top right no-repeat;
     background-size: cover;
   }
 }
@@ -1628,7 +1610,7 @@ footer .foot-note p a {
   }
   #motiv-registration {
     height: 42rem;
-    background: url('../img/motiv_anmeldung/anmeldung_motiv_xl.jpg') top center no-repeat;
+    background: url('../img/motiv_anmeldung/anmeldung_motiv_xl.jpg') top right no-repeat;
     background-size: cover;
   }
 }
