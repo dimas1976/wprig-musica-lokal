@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2>Anschrift:</h2>
+                    <h2>Postanschrift:</h2>
                     <p>
                         Musica Altona e.V. <br>
                         Hospitalstraße 111 <br>
