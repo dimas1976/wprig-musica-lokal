@@ -134,7 +134,7 @@ nav .navbar-toggler {
   bottom: 1rem;
   font-weight: 700;
   color: #fff;
-  text-shadow: 2px 0px black;
+  text-shadow: 2px 0px 5px black;
 }
 #motiv-foerderer .container,
 #motiv-history .container {
