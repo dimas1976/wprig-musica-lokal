@@ -186,7 +186,7 @@ get_header(); ?>
 						<div class="credit">Foto: &copy; Nils Kramer</div>
 					</div>
 					<div class="card-body">
-						<h5 class="card-title">2. Altonaer Tastenspaß am Klavier</h5>
+						<h5 class="card-title">Altonaer Tastenspaß am Klavier 2</h5>
 						<p class="card-text">
 							Serena Kahnert <br>
 							040/ 430 39 61
