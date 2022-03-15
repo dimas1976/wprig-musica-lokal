@@ -625,7 +625,21 @@ footer {
 		background-color: #3bade6;
 
 		.container {
-			padding-top: 2rem;
+			padding: 1rem 0;
+			.row {
+				justify-content: space-between;
+				.contact__adress,
+				.contact__bank {
+					max-width: fit-content;
+				}
+				.contact__donation-logo {
+					text-align: center;
+					.donation-logo {
+						max-width: 80%;
+					}
+				}
+
+			}
 		}
 	}
 

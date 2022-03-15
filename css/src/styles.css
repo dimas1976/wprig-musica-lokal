@@ -592,7 +592,20 @@ footer .contact {
   background-color: #3bade6;
 }
 footer .contact .container {
-  padding-top: 2rem;
+  padding: 1rem 0;
+}
+footer .contact .container .row {
+  justify-content: space-between;
+}
+footer .contact .container .row .contact__adress,
+footer .contact .container .row .contact__bank {
+  max-width: fit-content;
+}
+footer .contact .container .row .contact__donation-logo {
+  text-align: center;
+}
+footer .contact .container .row .contact__donation-logo .donation-logo {
+  max-width: 80%;
 }
 footer .foot-note {
   background-color: #fff;
@@ -991,8 +1004,20 @@ footer .foot-note p a {
   footer .foot-note .col-md-4 {
     padding-bottom: 1rem;
   }
-  footer .container {
+  footer .contact .container {
     text-align: center;
+  }
+  footer .contact .container .row {
+    justify-content: center;
+  }
+  footer .contact .container .row .contact__adress {
+    text-align: center;
+  }
+  footer .contact .container .row .contact__donation-logo {
+    padding-bottom: 1rem;
+  }
+  footer .contact .container .row .contact__donation-logo .donation-logo {
+    max-width: 30%;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -1184,8 +1209,20 @@ footer .foot-note p a {
   footer .foot-note .col-md-4 {
     padding-bottom: 1rem;
   }
-  footer .container {
+  footer .contact .container {
     text-align: center;
+  }
+  footer .contact .container .row {
+    justify-content: center;
+  }
+  footer .contact .container .row .contact__adress {
+    text-align: center;
+  }
+  footer .contact .container .row .contact__donation-logo {
+    padding-bottom: 1rem;
+  }
+  footer .contact .container .row .contact__donation-logo .donation-logo {
+    max-width: 30%;
   }
 }
 @media (min-width: 768px) and (max-width: 799px) {
