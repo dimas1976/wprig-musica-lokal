@@ -7,13 +7,6 @@ get_header();
 ?>
 
     <div id="motiv" data-aos="fade-down">
-        <div class="container mt-4">
-            <div class="row">
-                <div class="col">
-
-                </div>
-            </div>
-        </div>
 		<p class="quotes text-center">
 			<q>Wenn du ein Instrument erlernst, dann lernst du auch Wahrnehmung, Teamarbeit und Respekt.</q><br>
 			(Mahani Teave)

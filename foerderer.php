@@ -5,15 +5,9 @@ Template Name: Foerderer
 get_header();
 ?>
     <div id="motiv-foerderer" data-aos="fade-down" class="lazyload">
-        <div class="container mt-4">
-            <div class="row">
-                <div class="col">
-                    <p class="quotes text-center">
-                        Wir bedanken uns bei nachfolgenden Förderern, die unsere Arbeit durch finanzielle Zuwendungen und/oder Beratung ermöglichen.
-                    </p>
-                </div>
-            </div>
-        </div>
+		<p class="quotes text-center">
+			Wir bedanken uns bei nachfolgenden Förderern, die unsere Arbeit durch finanzielle Zuwendungen und/oder Beratung ermöglichen.
+		</p>
     </div>
     <div id="bsh">
         <div class="container mt-3 mt-md-5 mb-5 pt-3 pt-md-3 pb-4">
