@@ -130,7 +130,7 @@ get_header(); ?>
 						<div class="credit">Foto: &copy; Fayssal Boukari</div>
 					</div>
 					<div class="card-body">
-						<h5 class="card-title">1. Altonaer Tastenspaß am Klavier</h5>
+						<h5 class="card-title">Tastenspaß am Klavier I</h5>
 						<p class="card-text">
 							Jan Feddersen <br>
 							<a href="mailto:jan_feddersen@gmx.net"><span
@@ -186,7 +186,7 @@ get_header(); ?>
 						<div class="credit">Foto: &copy; Nils Kramer</div>
 					</div>
 					<div class="card-body">
-						<h5 class="card-title">Altonaer Tastenspaß am Klavier 2</h5>
+						<h5 class="card-title">Altonaer Tastenspaß am Klavier II</h5>
 						<p class="card-text">
 							Serena Kahnert <br>
 							040/ 430 39 61
