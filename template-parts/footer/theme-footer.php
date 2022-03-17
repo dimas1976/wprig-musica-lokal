@@ -10,7 +10,7 @@
     <div class="contact">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-4 contact__adress">
+                <div class="col-md-6">
                     <h2>Postanschrift:</h2>
                     <p>
                         Musica Altona e.V. <br>
@@ -21,10 +21,7 @@
                         musica-altona@t-online.de
                     </p>
                 </div>
-				<div class="col-sm-12 col-md-4 contact__donation-logo">
-					<img class="donation-logo" src="<?= bloginfo("template_url"); ?>/img/logos/spende.jpg" alt="Spende Logo">
-				</div>
-                <div class="col-sm-12 col-md-4 contact__bank">
+                <div class="col-md-6">
                     <h2>Spendenkonto:</h2>
                     <p>
                         IBAN: DE05 2005 0550 1268 1123 70<br>

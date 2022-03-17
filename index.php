@@ -44,7 +44,7 @@ get_header();
                     </p>
                     <a class="btn btn-primary" href="./bewaehrtes-konzept-musizieren-in-der-gruppe-macht-stark/" role="button">ÜBER UNS</a>
                 </div>
-                <div class="col-sm-12 mt-5 mt-md-0 col-md-5 start-img" data-aos="fade-left">
+                <div class="col-sm-12 mt-5 mt-md-0 col-md-5" data-aos="fade-left">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/8JzEtFdB7Yc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div>
                         <p>
@@ -55,11 +55,11 @@ get_header();
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 hidden-md-down music-kid" data-aos="zoom-in"></div>
-                <div class="col-md-12 col-lg-4 pt-5 pt-md-3 ml-md-1" data-aos="zoom-in-up">
-                    <p>
-                       &nbsp;
-                    </p>
+                <div class=" col-md-7 col-lg-7 d-none d-md-block music-kid" data-aos="zoom-in">
+					<img src="<?=bloginfo("template_url"); ?>/img/sanger.png" alt="Sänger">
+				</div>
+                <div class="col-md-5 col-lg-4 pt-5 pt-md-3 pb-3 donation" data-aos="zoom-in-up">
+					<img src="<?=bloginfo("template_url"); ?>/img/start/spende.jpg" alt="Spende Aufruf">
                 </div>
             </div>
         </div>
