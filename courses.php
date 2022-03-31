@@ -254,14 +254,27 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-4">
-				<div class="card mb-3 mb-md-0" data-aos="flip-left">
-					<img class="card-img-top lazyload course-img"
-						 src="<?= bloginfo("template_url"); ?>/img/kurse/kita/bella.jpg" alt="Unsere Kurse-Kitas">
+				<div class="card mb-3 mb-md-0" data-aos="flip-up">
+					<picture>
+						<source media="(min-width:1200px)"
+								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/shanty/shanty_xl.jpg 3.5x">
+						<source media="(min-width:992px)"
+								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/shanty/shanty_xl.jpg 3x">
+						<source media="(min-width:768px)"
+								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/shanty/shanty_md.jpg 2x">
+						<source media="(min-width:576px)"
+								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/shanty/shanty_sm.jpg 1x">
+						<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/shanty/shanty_xs.jpg">
+						<img class="card-img-top lazyload course-img"
+							 data-src="<?= bloginfo("template_url"); ?>/img/kurse/shanty/shanty_xl.jpg"
+							 alt="Unsere Kurse-Musikkoffer">
+					</picture>
 					<div class="card-body">
-						<h5 class="card-title">Projekte für Kitas - <br>Bellas Klangtonne & Rollender Musikkoffer</h5>
+						<h5 class="card-title">Shanty Kids</h5>
 						<p class="card-text">
-							Marion Wolf-Dietrich <br>
-							<a href="mailto:musica-altona@t-online.de">musica-altona@t-online.de</a>
+							Birgit Lünsmann <br>
+							Heidi Martens<br>
+							<a href="mailto:birgit@ladiesahoi.de">birgit@ladiesahoi.de</a>
 						</p>
 					</div>
 				</div>
@@ -320,27 +333,14 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-4">
-				<div class="card mb-3 mb-md-0" data-aos="flip-up">
-					<picture>
-						<source media="(min-width:1200px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/shanty/shanty_xl.jpg 3.5x">
-						<source media="(min-width:992px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/shanty/shanty_xl.jpg 3x">
-						<source media="(min-width:768px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/shanty/shanty_md.jpg 2x">
-						<source media="(min-width:576px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/shanty/shanty_sm.jpg 1x">
-						<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/shanty/shanty_xs.jpg">
-						<img class="card-img-top lazyload course-img"
-							 data-src="<?= bloginfo("template_url"); ?>/img/kurse/shanty/shanty_xl.jpg"
-							 alt="Unsere Kurse-Musikkoffer">
-					</picture>
+				<div class="card mb-3 mb-md-0" data-aos="flip-left">
+					<img class="card-img-top lazyload course-img"
+						 src="<?= bloginfo("template_url"); ?>/img/kurse/kita/bella.jpg" alt="Unsere Kurse-Kitas">
 					<div class="card-body">
-						<h5 class="card-title">Shanty Kids</h5>
+						<h5 class="card-title">Projekte für Kitas - <br>Bellas Klangtonne & Rollender Musikkoffer</h5>
 						<p class="card-text">
-							Birgit Lünsmann <br>
-							Heidi Martens<br>
-							<a href="mailto:birgit@ladiesahoi.de">birgit@ladiesahoi.de</a>
+							Marion Wolf-Dietrich <br>
+							<a href="mailto:musica-altona@t-online.de">musica-altona@t-online.de</a>
 						</p>
 					</div>
 				</div>
