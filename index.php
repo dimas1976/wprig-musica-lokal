@@ -55,11 +55,11 @@ get_header();
                 </div>
             </div>
             <div class="row">
-                <div class=" col-md-7 col-lg-7 d-none d-md-block music-kid" data-aos="zoom-in">
-					<img src="<?=bloginfo("template_url"); ?>/img/sanger.png" alt="Sänger">
-				</div>
-                <div class="col-md-5 col-lg-4 pt-5 pt-md-3 pb-3 donation" data-aos="zoom-in-up">
-					<img src="<?=bloginfo("template_url"); ?>/img/start/spende.jpg" alt="Spende Aufruf">
+                <div class="col-lg-8 hidden-md-down music-kid" data-aos="zoom-in"></div>
+                <div class="col-md-12 col-lg-4 pt-5 pt-md-3 ml-md-1" data-aos="zoom-in-up">
+                    <p>
+                       &nbsp;
+                    </p>
                 </div>
             </div>
         </div>

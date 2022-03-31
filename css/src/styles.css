@@ -159,9 +159,6 @@ nav .navbar-toggler {
 #start-article .music-kid img {
   max-width: 100%;
 }
-#start-article .donation img {
-  max-width: 100%;
-}
 #start-article p {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -641,6 +638,9 @@ footer .foot-note p a {
   font-weight: 700;
   color: #fff;
   text-shadow: 2px 0px 5px black;
+}
+.donation img {
+  max-width: 100%;
 }
 @-moz-keyframes arrowMoveRight {
   0% {

@@ -43,8 +43,8 @@ get_header(); ?>
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/10.10.jpg" alt="Pinwall">
 				<div class="credit">Foto:@ Dally</div>
 			</div>
-			<div class="image"><img class="lazyload"
-									data-src="<?= bloginfo("template_url"); ?>/img/pinwall/jubilaum.jpg" alt="Pinwall">
+			<div class="image">
+				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/jubilaum.jpg" alt="Pinwall">
 			</div>
 		</div>
 	</div>
@@ -344,6 +344,11 @@ get_header(); ?>
 						</p>
 					</div>
 				</div>
+			</div>
+		</div>
+		<div class="row mt-4 mb-2">
+			<div class="col-sm-12 col-md-4 offset-md-4 donation">
+				<img src="<?=bloginfo("template_url"); ?>/img/start/spende.jpg" alt="Spende Aufruf">
 			</div>
 		</div>
 	</div>
