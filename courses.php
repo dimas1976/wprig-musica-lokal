@@ -104,7 +104,7 @@ get_header(); ?>
 						<h5 class="card-title">IBITHI - Rhythmus, Trommeln & Schlagzeug</h5>
 						<p class="card-text">
 							Thando Walbaum<br>
-							0171 4167627
+							ibithi@protonmail.com
 						</p>
 					</div>
 				</div>
