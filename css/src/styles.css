@@ -641,7 +641,13 @@ footer .foot-note p a {
   color: #fff;
   text-shadow: 2px 0px 5px black;
 }
-.donation img {
+.donation {
+  background-color: #f2f6f8;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.donation .donation__img {
   max-width: 100%;
 }
 @-moz-keyframes arrowMoveRight {
@@ -860,6 +866,9 @@ footer .foot-note p a {
   #courses-cards .container .row:last-child .card .credit {
     margin-bottom: 3rem;
   }
+  .donation .container {
+    width: 20rem;
+  }
   #motiv-foerderer.lazyloaded {
     height: 8rem;
     background: url('../img/foerderer/motiv_foerderer_xs.jpg') top center no-repeat;
@@ -1073,6 +1082,9 @@ footer .foot-note p a {
   #courses-cards .container .row:last-child div:first-child .card .credit {
     margin-bottom: 7rem;
   }
+  .donation .container {
+    width: 20rem;
+  }
   #motiv-foerderer.lazyloaded {
     display: none;
   }
@@ -1191,12 +1203,6 @@ footer .foot-note p a {
   }
   footer .contact .container .row .contact__adress {
     text-align: center;
-  }
-  footer .contact .container .row .contact__donation-logo {
-    padding-bottom: 1rem;
-  }
-  footer .contact .container .row .contact__donation-logo .donation-logo {
-    max-width: 30%;
   }
 }
 @media (min-width: 768px) and (max-width: 799px) {

@@ -346,11 +346,16 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
-		<div class="row mt-4 mb-2">
-			<div class="col-sm-12 col-md-4 offset-md-4 donation">
-				<img src="<?=bloginfo("template_url"); ?>/img/start/spende.jpg" alt="Spende Aufruf">
-			</div>
-		</div>
 	</div>
+</section>
+<section class="donation mb-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-4 offset-md-4">
+					<img class="donation__img" src="<?=bloginfo("template_url"); ?>/img/start/spende.jpg" alt="Spende Aufruf">
+				</div>
+			</div>
+
+		</div>
 </section>
 <?php get_footer(); ?>
