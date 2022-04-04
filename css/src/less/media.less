@@ -148,6 +148,12 @@
 		}
 	}
 
+	.donation {
+		.container {
+			width: @courses-cards-section-width-mobile;
+		}
+	}
+
 	#motiv-foerderer.lazyloaded {
 		height: 8rem;
 		background: url('../img/foerderer/motiv_foerderer_xs.jpg') top center no-repeat;
@@ -350,10 +356,10 @@
 			text-align: center;
 		}
 	}
-
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
+
+@media (min-width: 576px) and (max-width: 799px) {
 
 	#logo {
 		.slogan {
@@ -486,6 +492,11 @@
 					}
 				}
 			}
+		}
+	}
+	.donation {
+		.container {
+			width: @courses-cards-section-width-mobile;
 		}
 	}
 
@@ -662,11 +673,19 @@
 			}
 		}
 
-		.container {
-			text-align: center;
+		.contact {
+			.container {
+				text-align: center;
+
+				.row {
+					justify-content: center;
+					.contact__adress {
+						text-align: center;
+					}
+				}
+			}
 		}
 	}
-
 }
 
 @media (min-width: 768px) and (max-width: 799px) {
@@ -1158,7 +1177,7 @@
 		background-size: cover;
 	}
 
-	#start-article {
+/*	#start-article {
 		.music-kid {
 			width: 335px;
 			height: 443px;
@@ -1166,7 +1185,7 @@
 			margin-top: -5rem;
 			margin-left: -6rem;
 		}
-	}
+	}*/
 
 	#course-list {
 		height: 28.7rem;
@@ -1287,6 +1306,7 @@
 		background-size: cover;
 	}
 
+	/*
 	#start-article {
 		.music-kid {
 			width: 335px;
@@ -1296,6 +1316,7 @@
 			margin-left: -6rem;
 		}
 	}
+	*/
 
 	#course-list {
 		height: 28.7rem;

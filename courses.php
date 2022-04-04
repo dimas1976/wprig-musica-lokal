@@ -4,7 +4,7 @@
  */
 
 get_header(); ?>
-<div id="pinwall" data-aos="fade">
+<section id="pinwall" data-aos="fade">
 	<div class="container lazyload">
 		<div class="img-wrapper">
 			<div class="image">
@@ -43,12 +43,12 @@ get_header(); ?>
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/10.10.jpg" alt="Pinwall">
 				<div class="credit">Foto:@ Dally</div>
 			</div>
-			<div class="image"><img class="lazyload"
-									data-src="<?= bloginfo("template_url"); ?>/img/pinwall/jubilaum.jpg" alt="Pinwall">
+			<div class="image">
+				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/jubilaum.jpg" alt="Pinwall">
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <section id="courses-cards">
 	<div class="container pt-4 pb-4">
 		<div class="row mb-2">
@@ -347,5 +347,15 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
+</section>
+<section class="donation mb-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-4 offset-md-4">
+					<img class="donation__img" src="<?=bloginfo("template_url"); ?>/img/start/spende.jpg" alt="Spende Aufruf">
+				</div>
+			</div>
+
+		</div>
 </section>
 <?php get_footer(); ?>

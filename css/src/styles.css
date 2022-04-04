@@ -15,8 +15,10 @@
   font-size: 1.8rem;
   font-weight: 700;
   text-decoration: none;
-  color: #fa6900;
-  text-shadow: 0px 2px 11px #FA470B;
+  color: #E22279;
+  border: 2px solid #e22279;
+  padding: 0.5rem;
+  background-color: white;
 }
 @media (min-width: 1200px) {
   .anniversary-container__image {
@@ -156,6 +158,9 @@ nav .navbar-toggler {
   color: #4c4646;
   margin-top: 2rem;
 }
+#start-article .music-kid img {
+  max-width: 100%;
+}
 #start-article p {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -163,16 +168,6 @@ nav .navbar-toggler {
 }
 #start-article p span {
   padding-left: .2em;
-}
-#start-article .start-img {
-  position: relative;
-  text-align: center;
-}
-#start-article .start-img .credit {
-  position: absolute;
-  color: #fff;
-  right: 4rem;
-  bottom: 1rem;
 }
 #history-article p {
   font-size: 1rem;
@@ -646,6 +641,15 @@ footer .foot-note p a {
   color: #fff;
   text-shadow: 2px 0px 5px black;
 }
+.donation {
+  background-color: #f2f6f8;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.donation .donation__img {
+  max-width: 100%;
+}
 @-moz-keyframes arrowMoveRight {
   0% {
     left: 0;
@@ -862,6 +866,9 @@ footer .foot-note p a {
   #courses-cards .container .row:last-child .card .credit {
     margin-bottom: 3rem;
   }
+  .donation .container {
+    width: 20rem;
+  }
   #motiv-foerderer.lazyloaded {
     height: 8rem;
     background: url('../img/foerderer/motiv_foerderer_xs.jpg') top center no-repeat;
@@ -996,7 +1003,7 @@ footer .foot-note p a {
     text-align: center;
   }
 }
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 799px) {
   #logo .slogan p {
     font-size: 1.6rem;
   }
@@ -1074,6 +1081,9 @@ footer .foot-note p a {
   }
   #courses-cards .container .row:last-child div:first-child .card .credit {
     margin-bottom: 7rem;
+  }
+  .donation .container {
+    width: 20rem;
   }
   #motiv-foerderer.lazyloaded {
     display: none;
@@ -1185,7 +1195,13 @@ footer .foot-note p a {
   footer .foot-note .col-md-4 {
     padding-bottom: 1rem;
   }
-  footer .container {
+  footer .contact .container {
+    text-align: center;
+  }
+  footer .contact .container .row {
+    justify-content: center;
+  }
+  footer .contact .container .row .contact__adress {
     text-align: center;
   }
 }
@@ -1452,13 +1468,15 @@ footer .foot-note p a {
     background: url('../img/motiv_anmeldung/anmeldung_motiv_xl.jpg') top right no-repeat;
     background-size: cover;
   }
-  #start-article .music-kid {
-    width: 335px;
-    height: 443px;
-    background: url('../img/sanger.png') top center no-repeat;
-    margin-top: -5rem;
-    margin-left: -6rem;
-  }
+  /*	#start-article {
+		.music-kid {
+			width: 335px;
+			height: 443px;
+			background: url('../img/sanger.png') top center no-repeat;
+			margin-top: -5rem;
+			margin-left: -6rem;
+		}
+	}*/
   #course-list {
     height: 28.7rem;
     background: url('../img/kurslist_bg.jpg') top center no-repeat;
@@ -1518,13 +1536,17 @@ footer .foot-note p a {
     background: url('../img/motiv_anmeldung/anmeldung_motiv_xl.jpg') top right no-repeat;
     background-size: cover;
   }
-  #start-article .music-kid {
-    width: 335px;
-    height: 443px;
-    background: url('../img/sanger.png') top center no-repeat;
-    margin-top: -5rem;
-    margin-left: -6rem;
-  }
+  /*
+	#start-article {
+		.music-kid {
+			width: 335px;
+			height: 443px;
+			background: url('../img/sanger.png') top center no-repeat;
+			margin-top: -5rem;
+			margin-left: -6rem;
+		}
+	}
+	*/
   #course-list {
     height: 28.7rem;
     background: url('../img/kurslist_bg.jpg') top center no-repeat;
