@@ -830,7 +830,7 @@ footer .foot-note p a {
   }
   #motiv-media {
     height: 9.75rem;
-    background: url('../img/media/media_motiv_xs.jpg') center no-repeat;
+    background: url('../img/media/media_motiv_xs_new.jpg') center no-repeat;
     background-size: cover;
   }
   #motiv-media .credit {
@@ -1097,7 +1097,7 @@ footer .foot-note p a {
   }
   #motiv-media {
     height: 13rem;
-    background: url('../img/media/media_motiv_sm.jpg') center no-repeat;
+    background: url('../img/media/media_motiv_sm_new.jpg') center no-repeat;
     background-size: cover;
   }
   #accordion .card:first-child .card-body {
@@ -1260,7 +1260,7 @@ footer .foot-note p a {
   }
   #motiv-media {
     height: 17rem;
-    background: url('../img/media/media_motiv_md.jpg') center no-repeat;
+    background: url('../img/media/media_motiv_md_new.jpg') center no-repeat;
     background-size: cover;
   }
   #accordion .card:last-child .card-body {
@@ -1431,7 +1431,7 @@ footer .foot-note p a {
   }
   #motiv-media {
     height: 25rem;
-    background: url('../img/media/media_motiv_lg.jpg') center no-repeat;
+    background: url('../img/media/media_motiv_lg_new.jpg') center no-repeat;
     background-size: cover;
   }
   #motiv {
@@ -1571,7 +1571,7 @@ footer .foot-note p a {
 @media (min-width: 1300px) {
   #motiv-media {
     height: 45rem;
-    background: url('../img/media/media_motiv_xl.jpg') center no-repeat;
+    background: url('../img/media/media_motiv_xl_new.jpg') center no-repeat;
     background-size: cover;
   }
   #motiv {
