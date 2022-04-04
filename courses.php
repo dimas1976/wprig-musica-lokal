@@ -4,9 +4,9 @@
  */
 
 get_header(); ?>
-<section id="pinwall" data-aos="fade">
+<section id="pinwall">
 	<div class="container lazyload">
-		<div class="img-wrapper">
+		<div class="img-wrapper" data-aos="fade">
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/1.1.jpg" alt="Pinwall">
 				<div class="credit">Foto:@ Andreas Bock</div>
@@ -349,9 +349,9 @@ get_header(); ?>
 	</div>
 </section>
 <section class="donation mb-4">
-		<div class="container">
+		<div class="container lazyload">
 			<div class="row">
-				<div class="col-sm-12 col-md-4 offset-md-4">
+				<div class="col-sm-12 col-md-4 offset-md-4 aos-init aos-animate" data-aos="zoom-in">
 					<img class="donation__img" src="<?=bloginfo("template_url"); ?>/img/start/spende.jpg" alt="Spende Aufruf">
 				</div>
 			</div>
