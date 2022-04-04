@@ -15,8 +15,10 @@
   font-size: 1.8rem;
   font-weight: 700;
   text-decoration: none;
-  color: #fa6900;
-  text-shadow: 0px 2px 11px #FA470B;
+  color: #E22279;
+  border: 2px solid #e22279;
+  padding: 0.5rem;
+  background-color: white;
 }
 @media (min-width: 1200px) {
   .anniversary-container__image {
@@ -1414,7 +1416,7 @@ footer .foot-note p a {
     font-size: 1.6rem;
   }
   #motiv-media {
-    height: 23rem;
+    height: 25rem;
     background: url('../img/media/media_motiv_lg_new.jpg') center no-repeat;
     background-size: cover;
   }
@@ -1548,7 +1550,7 @@ footer .foot-note p a {
 }
 @media (min-width: 1300px) {
   #motiv-media {
-    height: 38rem;
+    height: 45rem;
     background: url('../img/media/media_motiv_xl_new.jpg') center no-repeat;
     background-size: cover;
   }
