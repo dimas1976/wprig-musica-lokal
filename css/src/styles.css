@@ -15,8 +15,10 @@
   font-size: 1.8rem;
   font-weight: 700;
   text-decoration: none;
-  color: #fa6900;
-  text-shadow: 0px 2px 11px #FA470B;
+  color: #E22279;
+  border: 2px solid #e22279;
+  padding: 0.5rem;
+  background-color: white;
 }
 @media (min-width: 1200px) {
   .anniversary-container__image {
@@ -556,12 +558,12 @@ nav .navbar-toggler {
 #motiv-media {
   position: relative;
   text-align: center;
-}
-#motiv-media .credit {
-  position: absolute;
-  color: #fff;
-  right: 2rem;
-  bottom: 1rem;
+  /*	.credit {
+		position: absolute;
+		color: #fff;
+		right: 2rem;
+		bottom: 1rem;
+	}*/
 }
 #protection {
   font-family: 'Lato', sans-serif;
@@ -821,8 +823,8 @@ footer .foot-note p a {
     font-size: .8rem;
   }
   #motiv-media {
-    height: 14.75rem;
-    background: url('../img/media/media_motiv_xs.jpg') top center no-repeat;
+    height: 9.75rem;
+    background: url('../img/media/media_motiv_xs_new.jpg') center no-repeat;
     background-size: cover;
   }
   #motiv-media .credit {
@@ -1082,8 +1084,8 @@ footer .foot-note p a {
     margin-top: 6.2rem;
   }
   #motiv-media {
-    height: 23rem;
-    background: url('../img/media/media_motiv_sm.jpg') top center no-repeat;
+    height: 13rem;
+    background: url('../img/media/media_motiv_sm_new.jpg') center no-repeat;
     background-size: cover;
   }
   #accordion .card:first-child .card-body {
@@ -1251,8 +1253,8 @@ footer .foot-note p a {
     margin-top: 13rem;
   }
   #motiv-media {
-    height: 23rem;
-    background: url('../img/media/media_motiv_md.jpg') top center no-repeat;
+    height: 17rem;
+    background: url('../img/media/media_motiv_md_new.jpg') center no-repeat;
     background-size: cover;
   }
   #accordion .card:last-child .card-body {
@@ -1331,12 +1333,9 @@ footer .foot-note p a {
     background-size: cover;
   }
   #motiv-media {
-    height: 23rem;
-    background: url('../img/media/media_motiv_md.jpg') top center no-repeat;
+    height: 19rem;
+    background: url('../img/media/media_motiv_md_new.jpg') center no-repeat;
     background-size: cover;
-  }
-  #accordion .card:last-child .card-body {
-    /* width: 43rem;*/
   }
   #motiv-history {
     height: 23rem;
@@ -1425,8 +1424,8 @@ footer .foot-note p a {
     font-size: 1.6rem;
   }
   #motiv-media {
-    height: 31rem;
-    background: url('../img/media/media_motiv_lg.jpg') center center no-repeat;
+    height: 25rem;
+    background: url('../img/media/media_motiv_lg_new.jpg') center no-repeat;
     background-size: cover;
   }
   #motiv {
@@ -1565,8 +1564,8 @@ footer .foot-note p a {
 }
 @media (min-width: 1300px) {
   #motiv-media {
-    height: 64rem;
-    background: url('../img/media/media_motiv_xl.jpg') top center no-repeat;
+    height: 45rem;
+    background: url('../img/media/media_motiv_xl_new.jpg') center no-repeat;
     background-size: cover;
   }
   #motiv {

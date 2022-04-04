@@ -5,7 +5,7 @@ Template Name: Media
 get_header();
 ?>
     <div id="motiv-media" class="mb-5" data-aos="fade-down">
-        <div class="credit">Foto: &copy; Dark Entertainment</div>
+        <div class="credit">Foto: &copy; Cem Renkligül </div>
     </div>
     <div id="accordion" class="pt-4 pb-5">
         <div class="card" data-aos="fade-right">
