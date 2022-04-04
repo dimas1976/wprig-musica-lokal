@@ -4,7 +4,7 @@
  */
 
 get_header(); ?>
-<div id="pinwall" data-aos="fade">
+<section id="pinwall" data-aos="fade">
 	<div class="container lazyload">
 		<div class="img-wrapper">
 			<div class="image">
@@ -48,7 +48,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <section id="courses-cards">
 	<div class="container pt-4 pb-4">
 		<div class="row mb-2">
