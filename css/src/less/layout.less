@@ -77,6 +77,13 @@ nav {
 	color: #4c4646;
 	margin-top: @block-mt;
 
+	.music-kid {
+		img {
+			max-width: 100%;
+		}
+	}
+
+
 	p {
 		font-family: 'Lato', sans-serif;
 		font-weight: 300;
@@ -84,18 +91,6 @@ nav {
 
 		span {
 			padding-left: .2em;
-		}
-	}
-
-	.start-img {
-		position: relative;
-		text-align: center;
-
-		.credit {
-			position: absolute;
-			color: #fff;
-			right: 4rem;
-			bottom: 1rem;
 		}
 	}
 }
@@ -189,6 +184,7 @@ nav {
 					height: 1.5rem;
 					margin-right: .5rem;
 				}
+
 				a {
 					color: #fa6900;
 					padding-left: .2rem;
@@ -373,27 +369,34 @@ nav {
 
 			.image {
 				position: relative;
+
 				&:last-child {
 					top: 1rem;
 					left: -1rem;
 				}
+
 				.credit {
 					bottom: .1rem;
 					font-size: .6rem;
 
 				}
+
 				.credit-cem {
 					left: .4rem;
 				}
+
 				.credit-dally {
 					left: .4rem;
 				}
+
 				.credit-walbaum {
 					left: .4rem;
 				}
+
 				.credit-fayssal {
 					left: .4rem;
 				}
+
 				&:nth-child(even) {
 					transform: rotate(12deg);
 				}
@@ -645,6 +648,7 @@ footer {
 			margin-bottom: 1em;
 			height: 0;
 			overflow: hidden;
+
 			iframe {
 				position: absolute;
 				top: 0;
@@ -654,6 +658,7 @@ footer {
 			}
 		}
 	}
+
 	.container {
 		.anniversary-cards-mixin;
 	}
@@ -662,6 +667,7 @@ footer {
 .greeting {
 	.container {
 		.anniversary-cards-mixin;
+
 		p {
 			font-size: @normal-font-size;
 			font-family: 'Lato', sans-serif;
@@ -688,6 +694,16 @@ footer {
 	font-weight: 700;
 	color: #fff;
 	text-shadow: 2px 0px 5px black;
+}
+
+.donation {
+	background-color: #f2f6f8;
+	margin-top: 2rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	.donation__img {
+		max-width: 100%;
+	}
 }
 
 

@@ -16,7 +16,7 @@
                         Musica Altona e.V. <br>
                         Hospitalstraße 111 <br>
                         im August Lütgens Park <br>
-                        (im Haus 7)
+                        (im Haus 7)<br>
                         22767 Hamburg<br>
                         musica-altona@t-online.de
                     </p>
