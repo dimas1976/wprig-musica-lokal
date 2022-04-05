@@ -639,8 +639,8 @@ footer .foot-note p a {
   bottom: 1rem;
   font-weight: 700;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
 }
 .donation {
   background-color: #f2f6f8;
