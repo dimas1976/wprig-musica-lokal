@@ -1,0 +1,7 @@
+/.github/
+/languages/
+/config/config.local.json
+/tests/
+/node_modules
+/vendor/
+/.idea/

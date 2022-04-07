@@ -1,0 +1,12 @@
+{
+  "theme": {
+    "slug": "wp_rig",
+    "name": "musica",
+    "author": "Dmitriy Kogan"
+  },
+  "dev": {
+    "browserSync": {
+      "proxyURL": "dev.local/wordpress/"
+    }
+  }
+}
