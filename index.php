@@ -9,9 +9,11 @@ get_header();
     <div id="motiv" data-aos="fade-down">
 		<p class="quotes text-center">
 			<q>Wenn du ein Instrument erlernst, dann lernst du auch Wahrnehmung, Teamarbeit und Respekt.</q><br>
-			(Mahani Teave)
+			<span class="quotes__author">
+				(Mahani Teave)
+			</span>
+			<span class="credit">Foto: @Andreas Bock</span>
 		</p>
-		<div class="credit">Foto: @Andreas Bock</div>
 	</div>
 
     <div id="start-article">
