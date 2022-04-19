@@ -9,7 +9,7 @@ get_header();
             <div class="row">
                 <div class="col pt-1 pb-3" data-aos="fade-right">
                     <p>
-						Ansprechpartnerinnen bei Sorgen der Eltern,Kinder und Jugendlichen.<br>
+						Ansprechpartnerinnen bei Sorgen der Eltern, Kinder und Jugendlichen.<br>
 						Beratung und Unterstützung durch:
                     </p>
 					<ul class="pl-3">
