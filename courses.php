@@ -110,6 +110,32 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-4">
+				<div class="card mb-3 mb-md-0" data-aos="flip-left">
+					<picture>
+						<source media="(min-width:1200px)"
+								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/brass.jpg 3.5x">
+						<source media="(min-width:992px)"
+								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/brass.jpg 3x">
+						<source media="(min-width:768px)"
+								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/brass.jpg 2x">
+						<source media="(min-width:576px)"
+								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/brass_xs.jpg 1x">
+						<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/brass.jpg">
+						<img class="card-img-top lazyload course-img"
+							 data-src="<?= bloginfo("template_url"); ?>/img/brass/brass.jpg" alt="Unsere Kurse-Brass">
+					</picture>
+					<div class="card-body">
+						<h5 class="card-title">KRASS BRASS - Blasinstrumente</h5>
+						<p class="card-text">
+							Willie Jakob <br>
+							015906259267
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row mb-2">
+			<div class="col-sm-12 col-md-4">
 				<div class="card mb-3 mb-md-0" data-aos="flip-right">
 					<div class="card-head">
 						<picture>
@@ -135,32 +161,6 @@ get_header(); ?>
 							Jan Feddersen <br>
 							<a href="mailto:jan_feddersen@gmx.net"><span
 									class="text-nowrap">jan_feddersen@gmx.net</span></a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row mb-2">
-			<div class="col-sm-12 col-md-4">
-				<div class="card mb-3 mb-md-0" data-aos="flip-left">
-					<picture>
-						<source media="(min-width:1200px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/brass.jpg 3.5x">
-						<source media="(min-width:992px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/brass.jpg 3x">
-						<source media="(min-width:768px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/brass.jpg 2x">
-						<source media="(min-width:576px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/brass_xs.jpg 1x">
-						<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/brass.jpg">
-						<img class="card-img-top lazyload course-img"
-							 data-src="<?= bloginfo("template_url"); ?>/img/brass/brass.jpg" alt="Unsere Kurse-Brass">
-					</picture>
-					<div class="card-body">
-						<h5 class="card-title">KRASS BRASS - Blasinstrumente</h5>
-						<p class="card-text">
-							Willie Jakob <br>
-							015906259267
 						</p>
 					</div>
 				</div>
