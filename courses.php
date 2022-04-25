@@ -156,7 +156,7 @@ get_header(); ?>
 						<div class="credit">Foto: &copy; Fayssal Boukari</div>
 					</div>
 					<div class="card-body">
-						<h5 class="card-title">Tastenspaß am Klavier I</h5>
+						<h5 class="card-title">Altonaer Tastenspaß am Klavier I</h5>
 						<p class="card-text">
 							Jan Feddersen <br>
 							<a href="mailto:jan_feddersen@gmx.net"><span
