@@ -7,9 +7,9 @@
  */
 ?>
 <div class="scroll-top mt-3">
-<button class="scroll-top__button">
+<div class="scroll-top__button">
 	<i class="fas fa-chevron-circle-right" data-fa-transform="shrink--6"></i>
-</button>
+</div>
 </div>
 <footer class="mb-5">
     <div class="contact">

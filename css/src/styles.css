@@ -663,6 +663,7 @@ footer .foot-note p a {
   color: #fa6900;
   transform: rotate(-90deg);
   margin-bottom: -0.5em;
+  cursor: pointer;
 }
 .scroll-top .scroll-top__button svg {
   font-size: clamp(2rem, 3.9vw, 2.5rem);
