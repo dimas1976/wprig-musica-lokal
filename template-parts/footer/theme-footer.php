@@ -6,6 +6,11 @@
  * Time: 14:44
  */
 ?>
+<div class="scroll-top mt-3">
+<div class="scroll-top__button">
+	<i class="fas fa-chevron-circle-right" data-fa-transform="shrink--6"></i>
+</div>
+</div>
 <footer class="mb-5">
     <div class="contact">
         <div class="container">

@@ -107,6 +107,10 @@ strong {
 .about-links-container a .fa-chevron-circle-right {
   color: #fa6900;
 }
+button {
+  border: none;
+  background-color: transparent;
+}
 #logo .slogan {
   font-family: 'Love Ya Like A Sister', sans-serif;
   font-weight: 600;
@@ -650,6 +654,20 @@ footer .foot-note p a {
 }
 .donation .donation__img {
   max-width: 100%;
+}
+.scroll-top {
+  display: grid;
+  justify-content: center;
+}
+.scroll-top .scroll-top__button {
+  color: #fa6900;
+  transform: rotate(-90deg);
+  margin-bottom: -0.5em;
+  cursor: pointer;
+}
+.scroll-top .scroll-top__button svg {
+  font-size: clamp(2rem, 3.9vw, 2.5rem);
+  cursor: pointer;
 }
 @-moz-keyframes arrowMoveRight {
   0% {
