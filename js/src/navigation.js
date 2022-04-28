@@ -22,6 +22,7 @@ if ( 'loading' === document.readyState ) {
 function initNavigation() {
 	initNavToggleSubmenus();
 	initNavToggleSmall();
+	scrollToTop();
 }
 
 /**
@@ -256,4 +257,11 @@ function islastFocusableElement( container, element, focusSelector ) {
 		return element === focusableElements[ focusableElements.length - 1 ];
 	}
 	return false;
+}
+
+function scrollToTop() {
+	const button = document.querySelector('.scroll-top__button');
+	button.addEventListener('click', () => {
+		window.scrollTo({top:0, behavior:'smooth'})
+	})
 }

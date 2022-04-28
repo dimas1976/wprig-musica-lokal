@@ -107,6 +107,10 @@ strong {
 .about-links-container a .fa-chevron-circle-right {
   color: #fa6900;
 }
+button {
+  border: none;
+  background-color: transparent;
+}
 #logo .slogan {
   font-family: 'Love Ya Like A Sister', sans-serif;
   font-weight: 600;
@@ -651,6 +655,20 @@ footer .foot-note p a {
 .donation .donation__img {
   max-width: 100%;
 }
+.scroll-top {
+  display: grid;
+  justify-content: center;
+}
+.scroll-top .scroll-top__button {
+  color: #fa6900;
+  transform: rotate(-90deg);
+  margin-bottom: -0.5em;
+  cursor: pointer;
+}
+.scroll-top .scroll-top__button svg {
+  font-size: clamp(2rem, 3.9vw, 2.5rem);
+  cursor: pointer;
+}
 @-moz-keyframes arrowMoveRight {
   0% {
     left: 0;
@@ -831,7 +849,7 @@ footer .foot-note p a {
   }
   #motiv-media {
     height: 9.75rem;
-    background: url('../img/media/media_motiv_xs_new.jpg') center no-repeat;
+    background: url('../img/media/media_motiv_xs.jpg') center no-repeat;
     background-size: cover;
   }
   #accordion .card:first-child .card-body {
@@ -1098,7 +1116,7 @@ footer .foot-note p a {
   }
   #motiv-media {
     height: 13rem;
-    background: url('../img/media/media_motiv_sm_new.jpg') center no-repeat;
+    background: url('../img/media/media_motiv_sm.jpg') center no-repeat;
     background-size: cover;
   }
   #accordion .card:first-child .card-body {
@@ -1261,7 +1279,7 @@ footer .foot-note p a {
   }
   #motiv-media {
     height: 17rem;
-    background: url('../img/media/media_motiv_md_new.jpg') center no-repeat;
+    background: url('../img/media/media_motiv_md.jpg') center no-repeat;
     background-size: cover;
   }
   #accordion .card:last-child .card-body {
@@ -1341,7 +1359,7 @@ footer .foot-note p a {
   }
   #motiv-media {
     height: 19rem;
-    background: url('../img/media/media_motiv_md_new.jpg') center no-repeat;
+    background: url('../img/media/media_motiv_md.jpg') center no-repeat;
     background-size: cover;
   }
   #motiv-history {
@@ -1432,7 +1450,7 @@ footer .foot-note p a {
   }
   #motiv-media {
     height: 25rem;
-    background: url('../img/media/media_motiv_lg_new.jpg') center no-repeat;
+    background: url('../img/media/media_motiv_lg.jpg') center no-repeat;
     background-size: cover;
   }
   #motiv {
@@ -1572,7 +1590,7 @@ footer .foot-note p a {
 @media (min-width: 1300px) {
   #motiv-media {
     height: 45rem;
-    background: url('../img/media/media_motiv_xl_new.jpg') center no-repeat;
+    background: url('../img/media/media_motiv_xl.jpg') center no-repeat;
     background-size: cover;
   }
   #motiv {

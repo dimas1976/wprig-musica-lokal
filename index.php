@@ -11,7 +11,7 @@ get_header();
 			<q>Wenn du ein Instrument erlernst, dann lernst du auch Wahrnehmung, Teamarbeit und Respekt.</q>
 			<br>
 			<span class="quotes__author">
-				(Mahani Teave)
+				 (Mahani Teave)
 			</span>
 			<span class="credit">Foto: @Andreas Bock</span>
 		</p>
