@@ -7,6 +7,7 @@ get_header();
     <div id="motiv-foerderer" data-aos="fade-down" class="lazyload">
 		<p class="quotes text-center">
 			Wir bedanken uns bei nachfolgenden Förderern, die unsere Arbeit durch finanzielle Zuwendungen und/oder Beratung ermöglichen.
+			<br>
 		</p>
 		<div class="credit">Foto: @Fayssal Boukari</div>
 	</div>
