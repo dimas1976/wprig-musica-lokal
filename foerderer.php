@@ -4,12 +4,15 @@ Template Name: Foerderer
 */
 get_header();
 ?>
-    <div id="motiv-foerderer" data-aos="fade-down" class="lazyload">
+    <div id="motiv-foerderer" data-aos="fade-down">
 		<p class="quotes text-center">
-			Wir bedanken uns bei nachfolgenden Förderern, die unsere Arbeit durch finanzielle Zuwendungen und/oder Beratung ermöglichen.
+			<q>Wir bedanken uns bei nachfolgenden Förderern, die unsere Arbeit durch finanzielle Zuwendungen und/oder Beratung ermöglichen.</q>
 			<br>
+			<span class="quotes__author">
+				 &nbsp;
+			</span>
+			<span class="credit">Foto: @Fayssal Boukari</span>
 		</p>
-		<div class="credit">Foto: @Fayssal Boukari</div>
 	</div>
     <div id="bsh">
         <div class="container mt-3 mt-md-5 mb-5 pt-3 pt-md-3 pb-4">
