@@ -593,6 +593,9 @@ footer .foot-note p a {
   color: #000;
   text-decoration: none;
 }
+.years {
+  font-family: 'Lato', sans-serif;
+}
 .years .years__wrapper .video {
   position: relative;
   padding-bottom: 30vh;
