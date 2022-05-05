@@ -640,15 +640,13 @@ footer {
 }
 
 .years {
+	font-family: @main-text-font-family;
 	.years__wrapper {
 		.video {
 			position: relative;
-			padding-bottom: 30vh;
+			height: 30vh;
 			padding-top: 0;
-			margin-bottom: 1em;
-			height: 0;
 			overflow: hidden;
-
 			iframe {
 				position: absolute;
 				top: 0;
@@ -656,6 +654,9 @@ footer {
 				max-width: 100%;
 				max-height: 100%;
 			}
+		}
+		.no-video {
+			margin-bottom: 1.7rem;
 		}
 	}
 
