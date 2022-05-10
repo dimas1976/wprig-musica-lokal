@@ -20,7 +20,7 @@ get_header();
     <div id="start-article">
         <div class="container pt-md-5">
             <div class="row">
-                <div class="col-sm-12 col-md-7" data-aos="fade-right">
+                <div class="col-sm-12 col-md-7" data-aos="zoom-in">
                     <h1 class="pb-3">
                         Kinder fördern durch Musik
                     </h1>
@@ -47,7 +47,7 @@ get_header();
                     </p>
                     <a class="btn btn-primary" href="./bewaehrtes-konzept-musizieren-in-der-gruppe-macht-stark/" role="button">ÜBER UNS</a>
                 </div>
-                <div class="col-sm-12 mt-5 mt-md-0 col-md-5" data-aos="fade-left">
+                <div class="col-sm-12 mt-5 mt-md-0 col-md-5" data-aos="zoom-in">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/8JzEtFdB7Yc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div>
                         <p>
