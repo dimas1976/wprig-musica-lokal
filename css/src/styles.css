@@ -559,12 +559,6 @@ nav .navbar-toggler {
 #motiv-media {
   position: relative;
   text-align: center;
-  /*	.credit {
-		position: absolute;
-		color: #fff;
-		right: 2rem;
-		bottom: 1rem;
-	}*/
 }
 #protection {
   font-family: 'Lato', sans-serif;
@@ -596,6 +590,11 @@ footer .foot-note p a {
 .years {
   font-family: 'Lato', sans-serif;
 }
+.years .years__wrapper {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 4em;
+}
 .years .years__wrapper .video {
   position: relative;
   height: 25vh;
@@ -609,14 +608,15 @@ footer .foot-note p a {
   max-width: 100%;
   max-height: 100%;
 }
-.years .years__wrapper .no-video {
-  margin-bottom: 1.5rem;
+.years .years__wrapper .no-video p {
+  margin: 0;
 }
-.years .container {
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
-  margin-bottom: 2rem;
-  padding-top: 1rem;
+.years .years__wrapper .divider {
+  width: 3em;
+  margin: auto;
+}
+.years .years__wrapper .divider img {
+  width: 100%;
 }
 .greeting .container {
   border: 1px solid rgba(0, 0, 0, 0.125);

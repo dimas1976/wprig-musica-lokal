@@ -13,13 +13,20 @@ get_header();
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen></iframe>
 		</article>
+		<div class="divider mt-4 mb-4" data-aos="zoom-in">
+			<img src="<?=bloginfo("template_url"); ?>/img/luftballons.jpg" alt="">
+		</div>
 		<article class="no-video" data-aos="zoom-in">
 			<h2>Gruß von der ESCHE zum Jubiläum</h2>
 			<p>
-				"Wir wünschen Euch von Herzen alles Gute zum Geburtstag! 20 Jahre – wow! Bewundernswert, was Ihr in dieser Zeit auf die Beine gestellt habt."<br>
+				"Wir wünschen Euch von Herzen alles Gute zum Geburtstag! 20 Jahre – wow!<br>
+				Bewundernswert, was Ihr in dieser Zeit auf die Beine gestellt habt."<br>
 				<a href="https://esche.eu/hoch-die-tassen/">Hier geht es zu dem ganzen Artikel</a>
 			</p>
 		</article>
+		<div class="divider mt-4 mb-4" data-aos="zoom-in">
+			<img src="<?=bloginfo("template_url"); ?>/img/luftballons.jpg" alt="">
+		</div>
 		<article class="video mb-3" data-aos="zoom-in">
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/7fTLla8w3Kk"
 					title="YouTube video player" frameborder="0"
@@ -27,6 +34,9 @@ get_header();
 					allowfullscreen></iframe>
 			</iframe>
 		</article >
+		<div class="divider mt-4 mb-4" data-aos="zoom-in">
+			<img src="<?=bloginfo("template_url"); ?>/img/luftballons.jpg" alt="">
+		</div>
 		<article class="video" data-aos="zoom-in">
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/n_g2E_aTm2g"
 					title="YouTube video player" frameborder="0"
