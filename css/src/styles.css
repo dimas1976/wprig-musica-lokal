@@ -598,7 +598,7 @@ footer .foot-note p a {
 }
 .years .years__wrapper .video {
   position: relative;
-  height: 30vh;
+  height: 25vh;
   padding-top: 0;
   overflow: hidden;
 }
@@ -610,7 +610,7 @@ footer .foot-note p a {
   max-height: 100%;
 }
 .years .years__wrapper .no-video {
-  margin-bottom: 1.7rem;
+  margin-bottom: 1.5rem;
 }
 .years .container {
   border: 1px solid rgba(0, 0, 0, 0.125);

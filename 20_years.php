@@ -7,7 +7,7 @@ get_header();
 ?>
 <section class="years">
 	<div class="years__wrapper container">
-		<article class="video" data-aos="fade-left">
+		<article class="video mb-3" data-aos="fade-left">
 			<iframe width="560" height="315" src="https://youtube.com/embed/UqiRtTTh_pM"
 					title="YouTube video player" frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
