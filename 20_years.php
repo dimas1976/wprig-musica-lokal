@@ -7,6 +7,12 @@ get_header();
 ?>
 <section class="years">
 	<div class="years__wrapper container">
+		<article class="image mb-3" data-aos="zoom-in">
+			<img src="<?=bloginfo("template_url"); ?>/img/anniversary/klaenge.jpg" alt="Anzeige zur Veranstaltung">
+		</article>
+		<div class="divider mt-4 mb-4" data-aos="zoom-in">
+			<img src="<?=bloginfo("template_url"); ?>/img/anniversary/luftballons.jpg" alt="">
+		</div>
 		<article class="video mb-3" data-aos="zoom-in">
 			<iframe width="560" height="315" src="https://youtube.com/embed/UqiRtTTh_pM"
 					title="YouTube video player" frameborder="0"
@@ -14,7 +20,7 @@ get_header();
 					allowfullscreen></iframe>
 		</article>
 		<div class="divider mt-4 mb-4" data-aos="zoom-in">
-			<img src="<?=bloginfo("template_url"); ?>/img/luftballons.jpg" alt="">
+			<img src="<?=bloginfo("template_url"); ?>/img/anniversary/luftballons.jpg" alt="">
 		</div>
 		<article class="no-video" data-aos="zoom-in">
 			<h2>Gruß von der ESCHE zum Jubiläum</h2>
@@ -25,7 +31,7 @@ get_header();
 			</p>
 		</article>
 		<div class="divider mt-4 mb-4" data-aos="zoom-in">
-			<img src="<?=bloginfo("template_url"); ?>/img/luftballons.jpg" alt="">
+			<img src="<?=bloginfo("template_url"); ?>/img/anniversary/luftballons.jpg"" alt="">
 		</div>
 		<article class="video mb-3" data-aos="zoom-in">
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/7fTLla8w3Kk"
@@ -35,7 +41,7 @@ get_header();
 			</iframe>
 		</article >
 		<div class="divider mt-4 mb-4" data-aos="zoom-in">
-			<img src="<?=bloginfo("template_url"); ?>/img/luftballons.jpg" alt="">
+			<img src="<?=bloginfo("template_url"); ?>/img/anniversary/luftballons.jpg"" alt="">
 		</div>
 		<article class="video" data-aos="zoom-in">
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/n_g2E_aTm2g"
