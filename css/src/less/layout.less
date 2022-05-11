@@ -597,13 +597,6 @@ nav {
 #motiv-media {
 	position: relative;
 	text-align: center;
-
-/*	.credit {
-		position: absolute;
-		color: #fff;
-		right: 2rem;
-		bottom: 1rem;
-	}*/
 }
 
 #protection {
@@ -642,9 +635,13 @@ footer {
 .years {
 	font-family: @main-text-font-family;
 	.years__wrapper {
+		display: grid;
+		justify-content: center;
+		margin-bottom: 4em;
+
 		.video {
 			position: relative;
-			height: 30vh;
+			height: 25vh;
 			padding-top: 0;
 			overflow: hidden;
 			iframe {
@@ -656,12 +653,17 @@ footer {
 			}
 		}
 		.no-video {
-			margin-bottom: 1.7rem;
+			p {
+				margin: 0;
+			}
 		}
-	}
-
-	.container {
-		.anniversary-cards-mixin;
+		.divider {
+			width: 3em;
+			margin: auto;
+			img {
+				width: 100%;
+			}
+		}
 	}
 }
 
