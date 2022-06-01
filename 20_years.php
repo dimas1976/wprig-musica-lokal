@@ -8,7 +8,7 @@ get_header();
 <section class="years">
 	<div class="years__wrapper container">
 		<article class="image mb-3" data-aos="zoom-in">
-			<img src="<?=bloginfo("template_url"); ?>/img/anniversary/klaenge.jpg" alt="Anzeige zur Veranstaltung">
+			<a href="https://musica-altona.de/wp-content/uploads/2022/06/klaenge.pdf" target="_blank"><img src="<?=bloginfo("template_url"); ?>/img/anniversary/klaenge.jpg" alt="Anzeige zur Veranstaltung"></a>
 		</article>
 		<div class="divider mt-4 mb-4" data-aos="zoom-in">
 			<img src="<?=bloginfo("template_url"); ?>/img/anniversary/luftballons.jpg" alt="">
