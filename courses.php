@@ -101,7 +101,7 @@ get_header(); ?>
 					</div>
 
 					<div class="card-body">
-						<h5 class="card-title">IBITHI - Rhythmus, Trommeln & Schlagzeug</h5>
+						<h5 class="card-title">IBITHI - Trommeln, Percussion & Schlagzeug</h5>
 						<p class="card-text">
 							Thando Walbaum<br>
 							ibithi@protonmail.com
@@ -203,16 +203,16 @@ get_header(); ?>
 				<div class="card mb-3 mb-md-0" data-aos="flip-left">
 					<picture>
 						<source media="(min-width:1200px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/brass.jpg 3.5x">
+								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/krass.jpg 3.5x">
 						<source media="(min-width:992px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/brass.jpg 3x">
+								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/krass.jpg 3x">
 						<source media="(min-width:768px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/brass.jpg 2x">
+								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/krass.jpg 2x">
 						<source media="(min-width:576px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/brass_xs.jpg 1x">
-						<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/brass.jpg">
+								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/krass_xs.jpg 1x">
+						<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/krass.jpg">
 						<img class="card-img-top lazyload course-img"
-							 data-src="<?= bloginfo("template_url"); ?>/img/brass/brass.jpg" alt="Unsere Kurse-Brass">
+							 data-src="<?= bloginfo("template_url"); ?>/img/brass/krass.jpg" alt="Unsere Kurse-Brass">
 					</picture>
 					<div class="card-body">
 						<h5 class="card-title">KRASS BRASS - Blasinstrumente</h5>

@@ -80,7 +80,7 @@ get_header();
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
                         <li>
-                            <i class="fas fa-music"></i> IBITHI – Rhythmus, Trommeln & Schlagzeug
+                            <i class="fas fa-music"></i> Trommeln, Percussion & Schlagzeug
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
                         <li>
