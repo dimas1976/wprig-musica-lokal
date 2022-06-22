@@ -111,6 +111,9 @@ button {
   border: none;
   background-color: transparent;
 }
+figure {
+  margin: 0;
+}
 #logo .slogan {
   font-family: 'Love Ya Like A Sister', sans-serif;
   font-weight: 600;
@@ -598,6 +601,10 @@ footer .foot-note p a {
 .years .years__wrapper .image {
   width: 45%;
   margin: auto;
+}
+.years .years__wrapper .image .ndr-report {
+  display: grid;
+  row-gap: 1rem;
 }
 .years .years__wrapper .image img {
   width: 100%;
