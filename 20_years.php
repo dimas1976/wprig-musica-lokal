@@ -11,8 +11,10 @@ get_header();
 		<article class="image mb-3" data-aos="zoom-in">
 			<figure class="ndr-report">
 				<img src="<?=bloginfo("template_url"); ?>/img/anniversary/ndr_logo.webp" alt="NDR-Logo">
-				<figcaption>NDR 90,3 Kulturjournal (zu hören immer wochentags zwischen 19 und 20 Uhr) - eine tolle Reportage von Petra Volquardsen zu unserem Jubiläum. Viel Spaß beim Hören...</figcaption>
-				<audio controls src="<?=bloginfo("template_url"); ?>/audio/mitschnitt.mp3"></audio>
+				<figcaption>
+					<audio controls src="<?=bloginfo("template_url"); ?>/audio/mitschnitt.mp3"></audio>
+					<p>NDR 90,3 Kulturjournal (zu hören immer wochentags zwischen 19 und 20 Uhr) - eine tolle Reportage von Petra Volquardsen zu unserem Jubiläum. Viel Spaß beim Hören...</p>
+				</figcaption>
 			</figure>
 		</article>
 		<div class="divider mt-4 mb-4" data-aos="zoom-in">

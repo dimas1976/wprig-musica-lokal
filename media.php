@@ -69,12 +69,14 @@ get_header();
             </div>
 			<div class="container">
 				<div class="row">
-					<div id="collapseOne" class="collapse show col-sm-12 col-md-6" aria-labelledby="headingOne" data-parent="#accordion">
+					<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
 						<div class="card-body">
 							<figure class="ndr-report">
 								<img src="<?=bloginfo("template_url"); ?>/img/anniversary/ndr_logo.webp" alt="NDR-Logo">
-								<figcaption>NDR 90,3 Kulturjournal (zu hören immer wochentags zwischen 19 und 20 Uhr) - eine tolle Reportage von Petra Volquardsen zu unserem Jubiläum. Viel Spaß beim Hören...</figcaption>
-								<audio controls src="<?=bloginfo("template_url"); ?>/audio/mitschnitt.mp3"></audio>
+								<figcaption>
+									<audio controls src="<?=bloginfo("template_url"); ?>/audio/mitschnitt.mp3"></audio>
+									<p>NDR 90,3 Kulturjournal (zu hören immer wochentags zwischen 19 und 20 Uhr) - eine tolle Reportage von Petra Volquardsen zu unserem Jubiläum. Viel Spaß beim Hören...</p>
+								</figcaption>
 							</figure>
 						</div>
 					</div>
