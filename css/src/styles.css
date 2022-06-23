@@ -602,11 +602,6 @@ footer .foot-note p a {
   width: 45%;
   margin: auto;
 }
-.years .years__wrapper .image .ndr-report {
-  display: grid;
-  row-gap: 1rem;
-  justify-content: center;
-}
 .years .years__wrapper .image img {
   width: 100%;
 }
@@ -688,6 +683,11 @@ footer .foot-note p a {
 .scroll-top .scroll-top__button svg {
   font-size: clamp(2rem, 3.9vw, 2.5rem);
   cursor: pointer;
+}
+.ndr-report {
+  display: grid;
+  row-gap: 1rem;
+  justify-content: center;
 }
 @-moz-keyframes arrowMoveRight {
   0% {
