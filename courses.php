@@ -203,7 +203,7 @@ get_header(); ?>
 				<div class="card mb-3 mb-md-0" data-aos="flip-left">
 					<picture>
 						<source media="(min-width:1200px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/kras_new.jpg 3.5x">
+								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/krass_new.jpg 3.5x">
 						<source media="(min-width:992px)"
 								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/krass_new.jpg 3x">
 						<source media="(min-width:768px)"
