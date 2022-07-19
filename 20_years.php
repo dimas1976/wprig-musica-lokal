@@ -39,6 +39,15 @@ get_header();
 		<div class="divider mt-4 mb-4" data-aos="zoom-in">
 			<img src="<?=bloginfo("template_url"); ?>/img/anniversary/luftballons.jpg" alt="">
 		</div>
+		<article class="video mb-3" data-aos="zoom-in">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/ObZotciimfM"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+		</article>
+		<div class="divider mt-4 mb-4" data-aos="zoom-in">
+			<img src="<?=bloginfo("template_url"); ?>/img/anniversary/luftballons.jpg" alt="">
+		</div>
 		<article class="no-video" data-aos="zoom-in">
 			<h2>Gruß von der ESCHE zum Jubiläum</h2>
 			<p>
