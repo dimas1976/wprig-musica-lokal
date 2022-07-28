@@ -96,12 +96,16 @@ nav {
 }
 
 #history-article {
+	.container {
+		display: grid;
+		justify-items: center;
+	}
 	p {
 		.paragraph-text-mixin();
 	}
 
 	.card-body {
-		padding-left: 0;
+		padding: 0;
 
 		img {
 			padding-bottom: .5em;
@@ -113,8 +117,7 @@ nav {
 		}
 	}
 	.reward {
-		display: grid;
-		justify-content: center;
+		width: 55%;
 		figure {
 			figcaption {
 				max-width: fit-content;

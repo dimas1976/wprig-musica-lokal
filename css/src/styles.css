@@ -173,13 +173,17 @@ nav .navbar-toggler {
 #start-article p span {
   padding-left: .2em;
 }
+#history-article .container {
+  display: grid;
+  justify-items: center;
+}
 #history-article p {
   font-size: 1rem;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
 #history-article .card-body {
-  padding-left: 0;
+  padding: 0;
 }
 #history-article .card-body img {
   padding-bottom: .5em;
@@ -189,8 +193,7 @@ nav .navbar-toggler {
   font-weight: 300;
 }
 #history-article .reward {
-  display: grid;
-  justify-content: center;
+  width: 55%;
 }
 #history-article .reward figure figcaption {
   max-width: fit-content;

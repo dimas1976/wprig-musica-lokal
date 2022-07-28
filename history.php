@@ -119,7 +119,7 @@ get_header();
 				(Patricia Renz)
 			</div>
 		</div>
-		<div class="card-body reward">
+		<div class="card-body reward mt-5">
 			<figure>
 				<img class="img-fluid lazyload"
 					 data-src="<?= bloginfo("template_url"); ?>/img/media/gallery/bundespraesidialamt.jpg"
