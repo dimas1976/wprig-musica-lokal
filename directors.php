@@ -10,14 +10,13 @@ get_header();
                 <div class="col-sm-12 col-md-4">
                     <div class="card mb-4 mb-md-0" data-aos="flip-left">
                         <picture>
-                            <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth.jpg 3.5x">
-                            <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth.jpg 3x">
-                            <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth.jpg 2x">
-                            <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth.jpg 1x">
-                            <source data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth.jpg">
-                            <img class="card-img-top lazyload director-img beth" data-src="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth.jpg"  alt="Bethina Walbaum">
+                            <source media="(min-width:1200px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth_new.jpg 3.5x">
+                            <source media="(min-width:992px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth_new.jpg 3x">
+                            <source media="(min-width:768px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth_new.jpg 2x">
+                            <source media="(min-width:576px)" data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth_new.jpg 1x">
+                            <source data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth_new.jpg">
+                            <img class="card-img-top lazyload director-img beth" data-src="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth_new.jpg"  alt="Bethina Walbaum">
                         </picture>
-                        <div class="credit">Foto: &copy; Gerd Wilkens</div>
                         <div class="card-body" data-aos="fade-up">
                             <h5 class="card-title">Bethina Walbaum</h5>
                             <p class="card-text text-left">

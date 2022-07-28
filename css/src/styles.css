@@ -188,6 +188,13 @@ nav .navbar-toggler {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
+#history-article .reward {
+  display: grid;
+  justify-content: center;
+}
+#history-article .reward figure figcaption {
+  max-width: fit-content;
+}
 #links {
   background-color: #edf8fe;
 }
@@ -524,6 +531,9 @@ nav .navbar-toggler {
   font-size: 1rem;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+}
+#about-section p .about-section__quote {
+  font-weight: 700 ;
 }
 #about-section h2 {
   font-family: 'Love Ya Like A Sister' !important;
