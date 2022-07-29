@@ -49,7 +49,7 @@ get_header();
 					Kinder und Jugendliche in ihrem Selbstvertrauen zu stärken. Jeder Auftritt und der Applaus,
 					aber auch schon die kleinen Erfolge im Unterricht, bringen die Kinder voran – z.B. wenn es
 					plötzlich nach einigem Üben 'klingt' und manchmal sogar richtig einen 'Flow' schafft. Wir sind
-					überzeugt, dass die Kraft der Musik und des gemeinsamen Musizierens etwas Besonderes ist.“
+					überzeugt, dass die Kraft der Musik und des gemeinsamen Musizierens etwas Besonderes ist.“<br>
 					Unter der Leitung von erfahrenen Dozenten:innen und Musikpädagogen:innen treffen sich die
 					Schüler:innen in Altonaer Schulen und anderen Einrichtungen. Auf einen einzigen Musikstil
 					müssen sich die inzwischen über 300 Nachwuchsmusiker:innen nicht festlegen, denn bei
@@ -61,13 +61,13 @@ get_header();
 					„Ob Elternstunde oder unser KinderMusikfest - für manche Kinder ist es der erste Auftritt,
 					andere sind schon länger dabei. Bei allem steht aber immer der Spaß an erster Stelle. Es geht
 					nicht um eine perfekte Darbietung, sondern um den Mut aufzutreten und etwas von dem
-					Erlernten zeigen zu wollen.“</p>
-					<p>Mit dem 'Rollenden Musikkoffer', der regelmäßig durch die Kitas des Stadtteils zieht, erleben
+					Erlernten zeigen zu wollen.“<br>
+					Mit dem 'Rollenden Musikkoffer', der regelmäßig durch die Kitas des Stadtteils zieht, erleben
 					schon die ganz Kleinen seit vielen Jahren ein lebendiges Programm der musikalischen
 					Früherziehung. Anfang 2019 kam 'Bellas Klangtonne' dazu, ein Projekt für die Elementar
 					Kinder in Kitas, im März 2022 folgte 'Bella spielt Ukulele'.
 					Bereits hier wird das Prinzip des Gruppenunterrichts gepflegt, der sich dann für Kinder ab dem
-						ersten Schuljahr in den Instrumental- und natürlich auch Orchestergruppen fortsetzt.</p>
+						ersten Schuljahr in den Instrumental- und natürlich auch Orchestergruppen fortsetzt.
 
             </div>
         </div>
