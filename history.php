@@ -9,7 +9,7 @@ get_header();
 		<div class="row">
 			<div class="col">
 				<p class="quotes text-center">
-					die erste Musica Altona Band 'A.N.D. von 2008.
+					Die erste Musica Altona Band 'A.N.D. von 2008.
 				</p>
 			</div>
 		</div>
