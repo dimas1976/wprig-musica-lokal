@@ -88,10 +88,101 @@ get_header();
 				</p>
 			</div>
 		</div>
+		<section id="directors">
+			<div class="container pb-5 text-center">
+				<h2 class="pb-4" data-aos="zoom-in">Der ehrenamtliche Vorstand von Musica Altona</h2>
+				<div class="row">
+					<div class="col-sm-12 col-md-4">
+						<div class="card mb-4 mb-md-0" data-aos="flip-left">
+							<picture>
+								<source media="(min-width:1200px)"
+										data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth_new.jpg 3.5x">
+								<source media="(min-width:992px)"
+										data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth_new.jpg 3x">
+								<source media="(min-width:768px)"
+										data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth_new.jpg 2x">
+								<source media="(min-width:576px)"
+										data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth_new.jpg 1x">
+								<source
+									data-srcset="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth_new.jpg">
+								<img class="card-img-top lazyload director-img beth"
+									 data-src="<?= bloginfo("template_url"); ?>/img/directors/bethina/beth_new.jpg"
+									 alt="Bethina Walbaum">
+							</picture>
+							<div class="card-body" data-aos="fade-up">
+								<h5 class="card-title">Bethina Walbaum</h5>
+								<p class="card-text text-left">
+									Selbständige Musikerin, Gründungsmitglied.<br>
+									Tätigkeitsfeld: Organisation und Betreuung von Veranstaltungen, Auftritten und Ferien
+									Workshops. Updates der Homepage in Kooperation mit den Webdesignern.<br>
+									<a href="mailto=kontakt@musica-altona.de">kontakt@musica-altona.de</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-4">
+						<div class="card mb-4 mb-md-0" data-aos="flip-left">
+							<picture>
+								<source media="(min-width:1200px)"
+										data-srcset="<?= bloginfo("template_url"); ?>/img/directors/patricia/patricia.jpg 3.5x">
+								<source media="(min-width:992px)"
+										data-srcset="<?= bloginfo("template_url"); ?>/img/directors/patricia/patricia.jpg 3x">
+								<source media="(min-width:768px)"
+										data-srcset="<?= bloginfo("template_url"); ?>/img/directors/patricia/patricia.jpg 2x">
+								<source media="(min-width:576px)"
+										data-srcset="<?= bloginfo("template_url"); ?>/img/directors/patricia/patricia_sm.jpg 1x">
+								<source
+									data-srcset="<?= bloginfo("template_url"); ?>/img/directors/patricia/patricia_xs.jpg">
+								<img class="card-img-top lazyload director-img"
+									 data-src="<?= bloginfo("template_url"); ?>/img/directors/patricia/patricia.jpg"
+									 alt="Patricia Renz">
+							</picture>
+							<div class="card-body mt-3" data-aos="fade-up">
+								<h5 class="card-title">Patricia Renz</h5>
+								<p class="card-text text-left">
+									Schulleiterin der Louise-Schröder Schule und Gründungsmitglied.<br>
+									Tätigkeitsfeld: Vereins-Vorsitzende, Fundraising und Antragstellung, Eltern- und
+									Dozentenberatung, Koordination, Konzept-Arbeit. <br>
+									<a href="mailto: info@musica-altona.de">info@musica-altona.de</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-4">
+						<div class="card mb-md-0" data-aos="flip-left">
+							<picture>
+								<source media="(min-width:1200px)"
+										data-srcset="<?= bloginfo("template_url"); ?>/img/directors/marion/marion.jpg 3.5x">
+								<source media="(min-width:992px)"
+										data-srcset="<?= bloginfo("template_url"); ?>/img/directors/marion/marion.jpg 3x">
+								<source media="(min-width:768px)"
+										data-srcset="<?= bloginfo("template_url"); ?>/img/directors/marion/marion.jpg 2x">
+								<source media="(min-width:576px)"
+										data-srcset="<?= bloginfo("template_url"); ?>/img/directors/marion/marion_sm.jpg 1x">
+								<source
+									data-srcset="<?= bloginfo("template_url"); ?>/img/directors/marion/marion_xs.jpg">
+								<img class="card-img-top lazyload director-img"
+									 data-src="<?= bloginfo("template_url"); ?>/img/directors/marion/marion.jpg"
+									 alt="Marion Wolf-Dietrich">
+							</picture>
+							<div class="card-body mt-3" data-aos="fade-up">
+								<h5 class="card-title">Marion Wolf-Dietrich</h5>
+								<p class="card-text text-left">
+									Erzieherin und Leiterin einer Elbkinder Kita in Altona - jetzt im Ruhestand. Mitgründerin des
+									Vereins.<br>
+									Tätigkeitsfeld: Kontakt und Ansprechperson für den Verein. Programme musikalischer
+									Grundbildung für Kleinkinder und Vorschüler, Koordination der Angebote für Kitas, Beratung
+									und Vernetzung des Vereins im Stadtteil, Kontakte zu Förderinstitutionen und dem Bezirk.<br>
+									<a href="mailto:musica-altona@t-online.de">musica-altona@t-online.de</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 		<div class="row pb-5">
 			<div class="col-sm col-md-6 mt-4 mb-4 about-links-container">
-				<a class="mb-2" href="./vorstand" title="Zur Vorstand-Seite">der Vorstand von Musica Altona <i
-						class="fas fa-chevron-circle-right ml-2"></i></a>
 				<a href="./geschichte" title="Zur Geschichte-Seite">die Gründungsgeschichte von Musica Altona <i
 						class="fas fa-chevron-circle-right ml-2"></i></a>
 			</div>
