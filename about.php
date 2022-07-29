@@ -21,7 +21,7 @@ get_header();
 					geben können. Ein besonderer Dank an Hugbert Flitner, der sich damals unermüdlich auf allen
 					Ebenen dafür einsetzte - bei der Stiftung, aber auch bei den Menschen hier im Stadtteil. Er
 					vermittelte: „das ist eine Idee, aus der wird was und Ihr schafft das und wir stehen mit Geld
-					und Vorschlägen an Eurer Seite.“
+					und Vorschlägen an Eurer Seite.“<br>
 					So entstand ein vielschichtiges musikalisches Angebot, das in Gruppen stattfindet,
 					wohnortnah und auch für Familien mit geringerem Einkommen erschwinglich ist.
 					Auf diesem Weg werden auch diejenigen gefördert, die erschwerte Zugangsmöglichkeiten zu
