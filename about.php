@@ -23,7 +23,7 @@ get_header();
 					vermittelte: „das ist eine Idee, aus der wird was und Ihr schafft das und wir stehen mit Geld
 					und Vorschlägen an Eurer Seite.“<br>
 					So entstand ein vielschichtiges musikalisches Angebot, das in Gruppen stattfindet,
-					wohnortnah und auch für Familien mit geringerem Einkommen erschwinglich ist.
+					wohnortnah und auch für Familien mit geringerem Einkommen erschwinglich ist.<br>
 					Auf diesem Weg werden auch diejenigen gefördert, die erschwerte Zugangsmöglichkeiten zu
 					Musikinstrumenten haben, Interesse und Talent jedoch mitbringen. Inklusion ist selbstredend.
 					Musica Altona versteht sich zudem als Plattform des sozialen und künstlerischen Austausches
