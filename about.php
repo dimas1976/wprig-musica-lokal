@@ -71,7 +71,7 @@ get_header();
 					Mit dem 'Rollenden Musikkoffer', der regelmäßig durch die Kitas des Stadtteils zieht, erleben
 					schon die ganz Kleinen seit vielen Jahren ein lebendiges Programm der musikalischen
 					Früherziehung. Anfang 2019 kam 'Bellas Klangtonne' dazu, ein Projekt für die Elementar
-					Kinder in Kitas, im März 2022 folgte 'Bella spielt Ukulele'.
+					Kinder in Kitas, im März 2022 folgte 'Bella spielt Ukulele'.<br>
 					Bereits hier wird das Prinzip des Gruppenunterrichts gepflegt, der sich dann für Kinder ab dem
 					ersten Schuljahr in den Instrumental- und natürlich auch Orchestergruppen fortsetzt.
 				</p>
