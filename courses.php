@@ -104,7 +104,7 @@ get_header(); ?>
 						<h5 class="card-title">IBITHI - Trommeln, Percussion & Schlagzeug</h5>
 						<p class="card-text">
 							Thando Walbaum<br>
-							ibithi@protonmail.com
+							<a href="mailto:ibithi@protonmail.com">ibithi@protonmail.com</a>
 						</p>
 					</div>
 				</div>

@@ -96,12 +96,16 @@ nav {
 }
 
 #history-article {
+	.container {
+		display: grid;
+		justify-items: center;
+	}
 	p {
 		.paragraph-text-mixin();
 	}
 
 	.card-body {
-		padding-left: 0;
+		padding: 0;
 
 		img {
 			padding-bottom: .5em;
@@ -110,6 +114,14 @@ nav {
 		figcaption {
 			font-family: 'Lato', sans-serif;
 			font-weight: 300;
+		}
+	}
+	.reward {
+		width: 55%;
+		figure {
+			figcaption {
+				max-width: fit-content;
+			}
 		}
 	}
 }
@@ -542,6 +554,10 @@ nav {
 #about-section {
 	p {
 		.paragraph-text-mixin();
+		.about-section__quote {
+			font-weight: 700 ;
+			color: hsl(0,0%,50%);
+		}
 	}
 
 	h2 {

@@ -173,13 +173,17 @@ nav .navbar-toggler {
 #start-article p span {
   padding-left: .2em;
 }
+#history-article .container {
+  display: grid;
+  justify-items: center;
+}
 #history-article p {
   font-size: 1rem;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
 #history-article .card-body {
-  padding-left: 0;
+  padding: 0;
 }
 #history-article .card-body img {
   padding-bottom: .5em;
@@ -187,6 +191,12 @@ nav .navbar-toggler {
 #history-article .card-body figcaption {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+}
+#history-article .reward {
+  width: 55%;
+}
+#history-article .reward figure figcaption {
+  max-width: fit-content;
 }
 #links {
   background-color: #edf8fe;
@@ -524,6 +534,10 @@ nav .navbar-toggler {
   font-size: 1rem;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+}
+#about-section p .about-section__quote {
+  font-weight: 700 ;
+  color: #808080;
 }
 #about-section h2 {
   font-family: 'Love Ya Like A Sister' !important;
