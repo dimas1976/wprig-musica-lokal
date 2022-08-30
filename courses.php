@@ -230,25 +230,25 @@ get_header(); ?>
 					<div class="card-head">
 						<picture>
 							<source media="(min-width:1200px)"
-									data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/geige/geige_xl.jpg 3.5x">
+									data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/geige/nima_xlg.jpg 3.5x">
 							<source media="(min-width:992px)"
-									data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/geige/geige_lg.jpg 3x">
+									data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/geige/nima_lg.jpg 3x">
 							<source media="(min-width:768px)"
-									data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/geige/geige_md.jpg 2x">
+									data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/geige/nima_md.jpg 2x">
 							<source media="(min-width:576px)"
-									data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/geige/geige_sm.jpg 1x">
-							<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/geige/geige_xs.jpg">
+									data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/geige/nima_sm.jpg 1x">
+							<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/geige/nima_xs.jpg">
 							<img class="card-img-top lazyload course-img"
-								 data-src="<?= bloginfo("template_url"); ?>/img/kurse/geige/geige_xl.jpg"
-								 alt="Unsere Kurse-Geige">
+								 data-src="<?= bloginfo("template_url"); ?>/img/kurse/geige/nima_xl.jpg"
+								 alt="Dozent von dem Kurs Geigenkurs heißt Nima Asadollahi Ali">
 						</picture>
-						<div class="credit">Foto: &copy; Cem Renkligül</div>
+						<div class="credit">Foto: &copy; Nima Asadollahi Ali</div>
 					</div>
 					<div class="card-body">
 						<h5 class="card-title">Geigenkurs Violino Altona</h5>
 						<p class="card-text">
-							Talita Pichler<br>
-							<a href="mailto:pichlertalita@gmail.com">pichlertalita@gmail.com</a>
+							Nima Asadollahi Ali<br>
+							<a href="mailto:nimanderson72@gmail.com">nimanderson72@gmail.com</a>
 						</p>
 					</div>
 				</div>
@@ -272,9 +272,7 @@ get_header(); ?>
 					<div class="card-body">
 						<h5 class="card-title">Shanty Kids</h5>
 						<p class="card-text">
-							Birgit Lünsmann <br>
-							Heidi Martens<br>
-							<a href="mailto:birgit@ladiesahoi.de">birgit@ladiesahoi.de</a>
+							<a href="mailto:kontakt@musica-altona.de">kontakt@musica-altona.de</a>
 						</p>
 					</div>
 				</div>
