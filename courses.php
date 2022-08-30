@@ -239,7 +239,7 @@ get_header(); ?>
 									data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/geige/nima_sm.jpg 1x">
 							<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/geige/nima_xs.jpg">
 							<img class="card-img-top lazyload course-img"
-								 data-src="<?= bloginfo("template_url"); ?>/img/kurse/geige/nima_xl.jpg"
+								 data-src="<?= bloginfo("template_url"); ?>/img/kurse/geige/nima_xlg.jpg"
 								 alt="Dozent von dem Kurs Geigenkurs heißt Nima Asadollahi Ali">
 						</picture>
 						<div class="credit">Foto: &copy; Nima Asadollahi Ali</div>
