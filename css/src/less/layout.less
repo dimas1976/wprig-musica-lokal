@@ -96,12 +96,16 @@ nav {
 }
 
 #history-article {
+	.container {
+		display: grid;
+		justify-items: center;
+	}
 	p {
 		.paragraph-text-mixin();
 	}
 
 	.card-body {
-		padding-left: 0;
+		padding: 0;
 
 		img {
 			padding-bottom: .5em;
@@ -110,6 +114,14 @@ nav {
 		figcaption {
 			font-family: 'Lato', sans-serif;
 			font-weight: 300;
+		}
+	}
+	.reward {
+		width: 55%;
+		figure {
+			figcaption {
+				max-width: fit-content;
+			}
 		}
 	}
 }
@@ -542,6 +554,10 @@ nav {
 #about-section {
 	p {
 		.paragraph-text-mixin();
+		.about-section__quote {
+			font-weight: 700 ;
+			color: hsl(0,0%,50%);
+		}
 	}
 
 	h2 {
@@ -640,7 +656,7 @@ footer {
 		margin-bottom: 4em;
 
 		.image {
-			width: 45%;
+			width: 80%;
 			margin: auto;
 			img {
 				width: 100%;
@@ -708,8 +724,6 @@ footer {
 	font-weight: 700;
 	color: #fff;
 	background-color: rgba(0, 0, 0, .3);
-
-
 }
 
 .donation {
@@ -737,4 +751,12 @@ footer {
 	}
 }
 
-
+.ndr-report {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 2rem;
+	justify-content: center;
+	img {
+		width: 100%;
+	}
+}

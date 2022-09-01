@@ -111,6 +111,9 @@ button {
   border: none;
   background-color: transparent;
 }
+figure {
+  margin: 0;
+}
 #logo .slogan {
   font-family: 'Love Ya Like A Sister', sans-serif;
   font-weight: 600;
@@ -170,13 +173,17 @@ nav .navbar-toggler {
 #start-article p span {
   padding-left: .2em;
 }
+#history-article .container {
+  display: grid;
+  justify-items: center;
+}
 #history-article p {
   font-size: 1rem;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
 #history-article .card-body {
-  padding-left: 0;
+  padding: 0;
 }
 #history-article .card-body img {
   padding-bottom: .5em;
@@ -184,6 +191,12 @@ nav .navbar-toggler {
 #history-article .card-body figcaption {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+}
+#history-article .reward {
+  width: 55%;
+}
+#history-article .reward figure figcaption {
+  max-width: fit-content;
 }
 #links {
   background-color: #edf8fe;
@@ -522,6 +535,10 @@ nav .navbar-toggler {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
+#about-section p .about-section__quote {
+  font-weight: 700 ;
+  color: #808080;
+}
 #about-section h2 {
   font-family: 'Love Ya Like A Sister' !important;
   font-size: 2em !important;
@@ -596,7 +613,7 @@ footer .foot-note p a {
   margin-bottom: 4em;
 }
 .years .years__wrapper .image {
-  width: 45%;
+  width: 80%;
   margin: auto;
 }
 .years .years__wrapper .image img {
@@ -680,6 +697,15 @@ footer .foot-note p a {
 .scroll-top .scroll-top__button svg {
   font-size: clamp(2rem, 3.9vw, 2.5rem);
   cursor: pointer;
+}
+.ndr-report {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+  justify-content: center;
+}
+.ndr-report img {
+  width: 100%;
 }
 @-moz-keyframes arrowMoveRight {
   0% {
@@ -863,13 +889,6 @@ footer .foot-note p a {
     height: 9.75rem;
     background: url('../img/media/media_motiv_xs.jpg') center no-repeat;
     background-size: cover;
-  }
-  #accordion .card:first-child .card-body {
-    /* text-align: center;*/
-  }
-  #accordion .card:first-child .card-body iframe {
-    width: 320px;
-    height: 200px;
   }
   #motiv-history {
     height: 14.75rem;
@@ -1124,16 +1143,6 @@ footer .foot-note p a {
     height: 13rem;
     background: url('../img/media/media_motiv_sm.jpg') center no-repeat;
     background-size: cover;
-  }
-  #accordion .card:first-child .card-body {
-    /* text-align: center;*/
-  }
-  #accordion .card:first-child .card-body iframe {
-    width: 320px;
-    height: 200px;
-  }
-  #accordion .card:last-child .card-body {
-    /*width: 26rem;*/
   }
   #start-article .row:last-child p {
     margin-bottom: 6rem;

@@ -6,7 +6,24 @@
 get_header();
 ?>
 <section class="years">
+
 	<div class="years__wrapper container">
+		<article class="image mb-3" data-aos="zoom-in">
+			<figure class="ndr-report">
+				<picture>
+					<source srcset="<?=bloginfo("template_url"); ?>/img/anniversary/ndr_logo.webp" type="image/webp">
+					<source srcset="<?=bloginfo("template_url"); ?>/img/anniversary/ndr_logo.jpg" type="image/jpeg">
+					<img src="<?=bloginfo("template_url"); ?>/img/anniversary/ndr_logo.jpg" alt="NDR-Logo">
+				</picture>
+				<figcaption>
+					<audio controls src="<?=bloginfo("template_url"); ?>/audio/mitschnitt.mp3"></audio>
+					<p>NDR 90,3 Kulturjournal (zu hören immer wochentags zwischen 19 und 20 Uhr) - eine tolle Reportage von Petra Volquardsen zu unserem Jubiläum. Viel Spaß beim Hören...</p>
+				</figcaption>
+			</figure>
+		</article>
+		<div class="divider mt-4 mb-4" data-aos="zoom-in">
+			<img src="<?=bloginfo("template_url"); ?>/img/anniversary/luftballons.jpg" alt="">
+		</div>
 		<article class="image mb-3" data-aos="zoom-in">
 			<a href="https://musica-altona.de/wp-content/uploads/2022/06/klaenge.pdf" target="_blank"><img src="<?=bloginfo("template_url"); ?>/img/anniversary/klaenge_n.jpg" alt="Anzeige zur Veranstaltung"></a>
 		</article>
@@ -14,7 +31,16 @@ get_header();
 			<img src="<?=bloginfo("template_url"); ?>/img/anniversary/luftballons.jpg" alt="">
 		</div>
 		<article class="video mb-3" data-aos="zoom-in">
-			<iframe width="560" height="315" src="https://youtube.com/embed/UqiRtTTh_pM"
+			<iframe width="560" height="315" src="https://youtube.com/embed/VW2j85ZMqnY"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+		</article>
+		<div class="divider mt-4 mb-4" data-aos="zoom-in">
+			<img src="<?=bloginfo("template_url"); ?>/img/anniversary/luftballons.jpg" alt="">
+		</div>
+		<article class="video mb-3" data-aos="zoom-in">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/ObZotciimfM"
 					title="YouTube video player" frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen></iframe>

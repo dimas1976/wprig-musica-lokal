@@ -104,7 +104,7 @@ get_header(); ?>
 						<h5 class="card-title">IBITHI - Trommeln, Percussion & Schlagzeug</h5>
 						<p class="card-text">
 							Thando Walbaum<br>
-							ibithi@protonmail.com
+							<a href="mailto:ibithi@protonmail.com">ibithi@protonmail.com</a>
 						</p>
 					</div>
 				</div>
@@ -203,16 +203,16 @@ get_header(); ?>
 				<div class="card mb-3 mb-md-0" data-aos="flip-left">
 					<picture>
 						<source media="(min-width:1200px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/krass.jpg 3.5x">
+								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/krass_new.jpg 3.5x">
 						<source media="(min-width:992px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/krass.jpg 3x">
+								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/krass_new.jpg 3x">
 						<source media="(min-width:768px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/krass.jpg 2x">
+								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/krass_new.jpg 2x">
 						<source media="(min-width:576px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/krass_xs.jpg 1x">
-						<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/krass.jpg">
+								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/krass_xs_new.jpg 1x">
+						<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/brass/krass_new.jpg">
 						<img class="card-img-top lazyload course-img"
-							 data-src="<?= bloginfo("template_url"); ?>/img/brass/krass.jpg" alt="Unsere Kurse-Brass">
+							 data-src="<?= bloginfo("template_url"); ?>/img/brass/krass_new.jpg" alt="Unsere Kurse-Brass">
 					</picture>
 					<div class="card-body">
 						<h5 class="card-title">KRASS BRASS - Blasinstrumente</h5>
@@ -240,15 +240,15 @@ get_header(); ?>
 							<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/geige/geige_xs.jpg">
 							<img class="card-img-top lazyload course-img"
 								 data-src="<?= bloginfo("template_url"); ?>/img/kurse/geige/geige_xl.jpg"
-								 alt="Unsere Kurse-Geige">
+								 alt="Teilnehmer von dem Geigenkurs am Üben">
 						</picture>
 						<div class="credit">Foto: &copy; Cem Renkligül</div>
 					</div>
 					<div class="card-body">
 						<h5 class="card-title">Geigenkurs Violino Altona</h5>
 						<p class="card-text">
-							Talita Pichler<br>
-							<a href="mailto:pichlertalita@gmail.com">pichlertalita@gmail.com</a>
+							Nima Asadollahi Ali<br>
+							<a href="mailto:nimanderson72@gmail.com">nimanderson72@gmail.com</a>
 						</p>
 					</div>
 				</div>
@@ -272,9 +272,7 @@ get_header(); ?>
 					<div class="card-body">
 						<h5 class="card-title">Shanty Kids</h5>
 						<p class="card-text">
-							Birgit Lünsmann <br>
-							Heidi Martens<br>
-							<a href="mailto:birgit@ladiesahoi.de">birgit@ladiesahoi.de</a>
+							<a href="mailto:kontakt@musica-altona.de">kontakt@musica-altona.de</a>
 						</p>
 					</div>
 				</div>
