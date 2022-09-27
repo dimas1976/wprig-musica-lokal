@@ -270,31 +270,18 @@ nav .navbar-toggler {
 }
 #lecturers {
   font-family: 'Lato', sans-serif;
-  /*  .ingrid-quotes {
-		padding-left: 5rem;
-	  }*/
-  /*  .olle-qoutes {
-		padding-left: 4.5rem;
-	  }*/
-  /*  .willie-quotes {
-		padding-left: 10rem;
-	  }*/
 }
 #lecturers blockquote {
   font-size: 1.3rem;
-  font-weight: 500;
   font-style: italic;
 }
 #lecturers p {
   font-size: 1.2rem;
-  font-weight: 500;
 }
 #lecturers > div:nth-child(odd) {
-  background-color: #e7e7e6;
-}
-#lecturers > div:nth-child(odd) .fa-quote-left,
-#lecturers > div:nth-child(odd) .fa-quote-right {
-  color: #fa6900;
+  background-color: #6AB8DE;
+  color: #fff;
+  font-weight: 700;
 }
 #lecturers > div:nth-child(even) {
   background-color: #abddf9;
