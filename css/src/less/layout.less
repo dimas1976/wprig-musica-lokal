@@ -217,7 +217,18 @@ nav {
 
 #lecturers {
 	font-family: 'Lato', sans-serif;
-
+	.col-md-4 {
+		padding-bottom: 1rem;
+		text-align: center;
+		.credit {
+/*			position: absolute;
+			right: 13rem;
+			bottom: 1.1rem;*/
+			color: #fff;
+			margin-top: -2rem;
+			font-size: .8rem;
+		}
+	}
 	blockquote {
 		font-size: 1.3rem;
 		font-style: italic;
@@ -243,10 +254,6 @@ nav {
 
 	.dumisani {
 		width: 17.1rem;
-	}
-
-	.oliver {
-		width: 12rem;
 	}
 
 	.ingrid {
@@ -280,50 +287,9 @@ nav {
 		.col-md-4 {
 			position: relative;
 			text-align: center;
-
-			.credit {
-				position: absolute;
-				top: 0;
-				bottom: 0;
-				left: 0;
-				right: 0;
-				color: #fff;
-				white-space: nowrap;
-			}
 		}
 	}
 
-	> div:first-child {
-		.col-md-4 {
-			.credit {
-				margin-top: 17rem;
-			}
-		}
-	}
-
-	> div:nth-child(5) {
-		.col-md-4 {
-			.credit {
-				margin-top: 27rem;
-			}
-		}
-	}
-
-	> div:nth-child(8) {
-		.col-md-4 {
-			.credit {
-				margin-top: 17.5rem;
-			}
-		}
-	}
-
-	> div:nth-child(13) {
-		.col-md-4 {
-			.credit {
-				margin-top: 16rem;
-			}
-		}
-	}
 }
 
 #accordion {
@@ -690,7 +656,7 @@ footer {
 
 }
 
-.credit {
+.card-head .credit {
 	position: absolute;
 	color: #fff;
 	right: 2rem;

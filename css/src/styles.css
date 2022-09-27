@@ -271,6 +271,18 @@ nav .navbar-toggler {
 #lecturers {
   font-family: 'Lato', sans-serif;
 }
+#lecturers .col-md-4 {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+#lecturers .col-md-4 .credit {
+  /*			position: absolute;
+			right: 13rem;
+			bottom: 1.1rem;*/
+  color: #fff;
+  margin-top: -2rem;
+  font-size: .8rem;
+}
 #lecturers blockquote {
   font-size: 1.3rem;
   font-style: italic;
@@ -293,9 +305,6 @@ nav .navbar-toggler {
 }
 #lecturers .dumisani {
   width: 17.1rem;
-}
-#lecturers .oliver {
-  width: 12rem;
 }
 #lecturers .ingrid {
   width: 18rem;
@@ -321,30 +330,6 @@ nav .navbar-toggler {
 #lecturers > div:nth-child(13) .col-md-4 {
   position: relative;
   text-align: center;
-}
-#lecturers > div:first-child .col-md-4 .credit,
-#lecturers > div:nth-child(5) .col-md-4 .credit,
-#lecturers > div:nth-child(8) .col-md-4 .credit,
-#lecturers > div:nth-child(13) .col-md-4 .credit {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  color: #fff;
-  white-space: nowrap;
-}
-#lecturers > div:first-child .col-md-4 .credit {
-  margin-top: 17rem;
-}
-#lecturers > div:nth-child(5) .col-md-4 .credit {
-  margin-top: 27rem;
-}
-#lecturers > div:nth-child(8) .col-md-4 .credit {
-  margin-top: 17.5rem;
-}
-#lecturers > div:nth-child(13) .col-md-4 .credit {
-  margin-top: 16rem;
 }
 #accordion .btn {
   font-size: 2rem;
@@ -644,7 +629,7 @@ footer .foot-note p a {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
-.credit {
+.card-head .credit {
   position: absolute;
   color: #fff;
   right: 2rem;
@@ -1155,46 +1140,10 @@ footer .foot-note p a {
   #lecturers .col-md-4 {
     text-align: center;
   }
-  #lecturers > div:first-child .col-md-4 .credit,
-  #lecturers > div:nth-child(5) .col-md-4 .credit,
-  #lecturers > div:nth-child(8) .col-md-4 .credit,
-  #lecturers > div:last-child .col-md-4 .credit {
-    font-size: .8rem;
-  }
-  #lecturers > div:first-child .col-md-4 .credit {
-    margin-top: 11rem;
-  }
-  #lecturers > div:nth-child(5) .col-md-4 .credit {
-    margin-top: 16.5rem;
-  }
-  #lecturers > div:nth-child(8) .col-md-4 .credit {
-    color: #fff;
-    text-shadow: 0.5px 0.5px #000;
-    margin-top: 11rem;
-  }
-  #lecturers > div:last-child .col-md-4 .credit {
-    margin-top: 16.5rem;
-  }
-  #lecturers .dumisani,
-  #lecturers .ingrid,
-  #lecturers .willi,
-  #lecturers .oliver,
-  #lecturers .pablo,
-  #lecturers .krischa,
-  #lecturers .gino,
-  #lecturers .jan,
-  #lecturers .serena,
-  #lecturers .heidi,
-  #lecturers .huseyin {
-    width: 11rem;
-  }
   #lecturers .ingrid-quotes,
   #lecturers .olle-qoutes,
   #lecturers .willie-quotes {
     padding-left: 15px;
-  }
-  #lecturers .olle {
-    width: 12rem;
   }
   #lecturers blockquote {
     font-size: 1.5rem;
@@ -1322,11 +1271,6 @@ footer .foot-note p a {
   }
   #news-articles .card .card-img-top {
     width: 8rem;
-  }
-}
-@media (min-width: 800px) and (max-width: 992px) and (orientation: portrait) {
-  #lecturers > div:nth-child(13) .col-md-4 .credit {
-    margin-top: 12rem;
   }
 }
 @media (min-width: 800px) and (max-width: 992px) {
