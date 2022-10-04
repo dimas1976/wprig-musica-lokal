@@ -153,6 +153,19 @@ get_header(); ?>
 					<p class="lecturer--light">Hüseyin Duman</p>
 				</div>
 			</div>
+			<div class="lecturer-wrapper lecturer-wrapper--light">
+				<div class="lecturer-wrapper__quote order-last order-md-first pt-2 pt-md-5 pb-5 pb-md-3">
+					<blockquote>
+						<sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
+						Ich konnte gar nicht anders, als das Angebot anzunehmen, Teil dieser schönen, respektvollen Initiative zu sein; bei der auch viele Talente gefördert werden, von denen wir vielleicht nie etwas gehört hätten, wenn Musica Altona das nicht möglich gemacht hätte. <sub class="pl-2"><i
+								class="fas fa-quote-right"></i></sub>
+					</blockquote>
+					<p class="lecturer--dark">Nima Asadollahi Ali</p>
+				</div>
+				<div class="lecturer-wrapper__image order-first order-md-last">
+					<img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/nima.jpg" class="img-fluid lazyload" alt="Jan Feddersen">
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
