@@ -234,7 +234,7 @@ nav {
 		.lecturer-wrapper {
 			display: grid;
 			grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
-			justify-content: space-between;
+			justify-content: start;
 			.lecturer-wrapper__quote {
 				padding: 0 1rem;
 				blockquote {
@@ -260,6 +260,9 @@ nav {
 					bottom: 0;
 				}
 			}
+		}
+		.lecturer-wrapper--space-between {
+			justify-content: space-between;
 		}
 
 		.lecturer-wrapper--dark {

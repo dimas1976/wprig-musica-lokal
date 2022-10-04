@@ -286,7 +286,7 @@ nav .navbar-toggler {
 #lecturers .lecturer-container .lecturer-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
-  justify-content: space-between;
+  justify-content: start;
 }
 #lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__quote {
   padding: 0 1rem;
@@ -310,6 +310,9 @@ nav .navbar-toggler {
 #lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__image .credit {
   position: absolute;
   bottom: 0;
+}
+#lecturers .lecturer-container .lecturer-wrapper--space-between {
+  justify-content: space-between;
 }
 #lecturers .lecturer-container .lecturer-wrapper--dark {
   background-color: #6ab8de;
