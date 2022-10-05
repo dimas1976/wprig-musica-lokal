@@ -295,12 +295,6 @@ nav .navbar-toggler {
   font-size: 1.3rem;
   font-style: italic;
 }
-#lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__quote .lecturer--light {
-  color: #f8d81e;
-}
-#lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__quote .lecturer--dark {
-  color: #cca019;
-}
 #lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__image {
   position: relative;
 }
@@ -318,7 +312,10 @@ nav .navbar-toggler {
   background-color: #6ab8de;
 }
 #lecturers .lecturer-container .lecturer-wrapper--light {
-  background-color: #abddf9;
+  background-color: #DED86A;
+}
+#lecturers .lecturer-container .lecturer-wrapper--light .lecturer-wrapper__quote {
+  text-shadow: 2px 2px 26px #676319;
 }
 #accordion .btn {
   font-size: 2rem;
