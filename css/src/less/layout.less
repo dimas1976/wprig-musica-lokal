@@ -235,6 +235,7 @@ nav {
 			display: grid;
 			grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
 			justify-content: start;
+			border-radius: 10px;
 			.lecturer-wrapper__quote {
 				padding: 0 1rem;
 				blockquote {
@@ -255,6 +256,12 @@ nav {
 				.img-fluid {
 					width: 100%;
 				}
+				.first {
+					border-radius: 10px 0 0 10px;
+				}
+				.last {
+					border-radius: 0 10px 10px 0;
+				}
 				.credit {
 					position: absolute;
 					bottom: 0;
@@ -265,15 +272,19 @@ nav {
 			justify-content: space-between;
 		}
 
-		.lecturer-wrapper--dark {
-			background-color: #6ab8de;
+		.lecturer-wrapper--first-order-color {
+			//background-color: #6ab8de;
+			background-color: #47a7d7;
+
 		}
 
-		.lecturer-wrapper--light {
-			background-color: #DED86A;
-			.lecturer-wrapper__quote {
-				text-shadow: 2px 2px 26px hsl(57, 61%, 25%);
-			}
+		.lecturer-wrapper--reversed-order-color {
+			//background-color: #DED86A;
+			//background-color: #ebe00a;
+			background-color: #ff9800;
+			//.lecturer-wrapper__quote {
+			//	text-shadow: 2px 2px 26px hsl(57, 61%, 25%);
+			//}
 		}
 	}
 }

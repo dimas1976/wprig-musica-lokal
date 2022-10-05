@@ -287,6 +287,7 @@ nav .navbar-toggler {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
   justify-content: start;
+  border-radius: 10px;
 }
 #lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__quote {
   padding: 0 1rem;
@@ -301,6 +302,12 @@ nav .navbar-toggler {
 #lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__image .img-fluid {
   width: 100%;
 }
+#lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__image .first {
+  border-radius: 10px 0 0 10px;
+}
+#lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__image .last {
+  border-radius: 0 10px 10px 0;
+}
 #lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__image .credit {
   position: absolute;
   bottom: 0;
@@ -308,14 +315,11 @@ nav .navbar-toggler {
 #lecturers .lecturer-container .lecturer-wrapper--space-between {
   justify-content: space-between;
 }
-#lecturers .lecturer-container .lecturer-wrapper--dark {
-  background-color: #6ab8de;
+#lecturers .lecturer-container .lecturer-wrapper--first-order-color {
+  background-color: #47a7d7;
 }
-#lecturers .lecturer-container .lecturer-wrapper--light {
-  background-color: #DED86A;
-}
-#lecturers .lecturer-container .lecturer-wrapper--light .lecturer-wrapper__quote {
-  text-shadow: 2px 2px 26px #676319;
+#lecturers .lecturer-container .lecturer-wrapper--reversed-order-color {
+  background-color: #ff9800;
 }
 #accordion .btn {
   font-size: 2rem;
