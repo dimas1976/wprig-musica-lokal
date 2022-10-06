@@ -308,6 +308,12 @@ nav .navbar-toggler {
 #lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__image .last {
   border-radius: 0 10px 10px 0;
 }
+@media (max-width: 575px) {
+  #lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__image .first,
+  #lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__image .last {
+    border-radius: 10px 10px 0 0;
+  }
+}
 #lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__image .credit {
   position: absolute;
   bottom: 0;
