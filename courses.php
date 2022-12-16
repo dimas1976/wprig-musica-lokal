@@ -104,7 +104,8 @@ get_header(); ?>
 						<h5 class="card-title">IBITHI - Trommeln, Percussion & Schlagzeug</h5>
 						<p class="card-text">
 							Thando Walbaum<br>
-							<a href="mailto:ibithi@protonmail.com">ibithi@protonmail.com</a>
+							<a href="mailto:ibithi@protonmail.com">ibithi@protonmail.com</a><br>
+							oder <a href="mailto:kontakt@music-altona.de">kontakt@music-altona.de</a>
 						</p>
 					</div>
 				</div>
@@ -248,7 +249,7 @@ get_header(); ?>
 						<h5 class="card-title">Geigenkurs Violino Altona</h5>
 						<p class="card-text">
 							Nima Asadollahi Ali<br>
-							<a href="mailto:nimanderson72@gmail.com">nimanderson72@gmail.com</a>
+							<a href="mailto:nimanderson72@gmail.com">nimaasadollahi@icloud.com</a>
 						</p>
 					</div>
 				</div>
@@ -297,7 +298,7 @@ get_header(); ?>
 						<h5 class="card-title">Keyboard</h5>
 						<p class="card-text">
 							Oliver Höppner<br>
-							<a href="mailto:hamburglebt@gmail.com">hamburglebt@gmail.com</a>
+							<a href="mailto:hamburglebt@gmail.com">keyboard.altona@gmail.com</a>
 						</p>
 					</div>
 				</div>
