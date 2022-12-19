@@ -32,7 +32,7 @@ get_header(); ?>
 					</blockquote>
 					<p class="lecturer--light">Gino Ramirez</p>
 				</div>
-				<div class="lecturer-wrapper__image">
+				<div class="lecturer-wrapper__image order-first order-md-last">
 					<img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/gino.jpg"
 						 class="img-fluid lazyload first" alt="Gino Ramirez">
 				</div>
@@ -55,8 +55,7 @@ get_header(); ?>
 				<div class="lecturer-wrapper__quote order-last order-md-first pt-2 pt-md-5 pb-5 pb-md-3 text-left">
 					<blockquote>
 						<sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
-						Musica Altona bietet musikalische aber auch soziale Möglichkeiten, mit denen Kinder aufwachsen
-						sollten.
+						Musica Altona schafft musikalische aber auch soziale Möglichkeiten, mit denen Kinder aufwachsen sollten.
 						<sub class="pl-2"><i class="fas fa-quote-right"></i></sub>
 					</blockquote>
 					<p class="lecturer--dark">Thando Walbaum</p>
