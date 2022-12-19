@@ -131,7 +131,12 @@ nav .navbar-toggler {
 .credit {
   font-size: 0.8rem;
 }
-#motiv,
+#motiv .credit {
+  position: absolute;
+  color: #fff;
+  right: 2rem;
+  bottom: .1rem;
+}
 #motiv-foerderer {
   position: relative;
 }
@@ -270,94 +275,57 @@ nav .navbar-toggler {
 }
 #lecturers {
   font-family: 'Lato', sans-serif;
-  /*  .ingrid-quotes {
-		padding-left: 5rem;
-	  }*/
-  /*  .olle-qoutes {
-		padding-left: 4.5rem;
-	  }*/
-  /*  .willie-quotes {
-		padding-left: 10rem;
-	  }*/
+  color: #fff;
+  font-weight: 700;
 }
-#lecturers blockquote {
+#lecturers .lecturer-container {
+  padding: 0;
+  display: grid;
+  gap: .5rem;
+}
+#lecturers .lecturer-container .lecturer-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+  justify-content: start;
+  border-radius: 10px;
+}
+#lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__quote {
+  padding: 0 1rem;
+}
+#lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__quote blockquote {
   font-size: 1.3rem;
-  font-weight: 500;
   font-style: italic;
 }
-#lecturers p {
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-#lecturers > div:nth-child(odd) {
-  background-color: #e7e7e6;
-}
-#lecturers > div:nth-child(odd) .fa-quote-left,
-#lecturers > div:nth-child(odd) .fa-quote-right {
-  color: #fa6900;
-}
-#lecturers > div:nth-child(even) {
-  background-color: #abddf9;
-}
-#lecturers img {
-  border-style: solid;
-  border-width: 7px;
-  border-color: rgba(255, 255, 255, 0.7);
-}
-#lecturers .dumisani {
-  width: 17.1rem;
-}
-#lecturers .oliver {
-  width: 12rem;
-}
-#lecturers .ingrid {
-  width: 18rem;
-}
-#lecturers .willi {
-  width: 18rem;
-}
-#lecturers .heidi {
-  width: 23rem;
-}
-#lecturers .pablo {
-  width: 19rem;
-}
-#lecturers .jan {
-  width: 15rem;
-}
-#lecturers .gino {
-  width: 17rem;
-}
-#lecturers > div:first-child .col-md-4,
-#lecturers > div:nth-child(5) .col-md-4,
-#lecturers > div:nth-child(8) .col-md-4,
-#lecturers > div:nth-child(13) .col-md-4 {
+#lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__image {
   position: relative;
-  text-align: center;
 }
-#lecturers > div:first-child .col-md-4 .credit,
-#lecturers > div:nth-child(5) .col-md-4 .credit,
-#lecturers > div:nth-child(8) .col-md-4 .credit,
-#lecturers > div:nth-child(13) .col-md-4 .credit {
+#lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__image .img-fluid {
+  width: 100%;
+}
+#lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__image .first {
+  border-radius: 10px 0 0 10px;
+}
+#lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__image .last {
+  border-radius: 0 10px 10px 0;
+}
+@media (max-width: 575px) {
+  #lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__image .first,
+  #lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__image .last {
+    border-radius: 10px 10px 0 0;
+  }
+}
+#lecturers .lecturer-container .lecturer-wrapper .lecturer-wrapper__image .credit {
   position: absolute;
-  top: 0;
   bottom: 0;
-  left: 0;
-  right: 0;
-  color: #fff;
-  white-space: nowrap;
 }
-#lecturers > div:first-child .col-md-4 .credit {
-  margin-top: 17rem;
+#lecturers .lecturer-container .lecturer-wrapper--space-between {
+  justify-content: space-between;
 }
-#lecturers > div:nth-child(5) .col-md-4 .credit {
-  margin-top: 27rem;
+#lecturers .lecturer-container .lecturer-wrapper--first-order-color {
+  background-color: #47a7d7;
 }
-#lecturers > div:nth-child(8) .col-md-4 .credit {
-  margin-top: 17.5rem;
-}
-#lecturers > div:nth-child(13) .col-md-4 .credit {
-  margin-top: 16rem;
+#lecturers .lecturer-container .lecturer-wrapper--reversed-order-color {
+  background-color: #ff9800;
 }
 #accordion .btn {
   font-size: 2rem;
@@ -515,7 +483,7 @@ nav .navbar-toggler {
   color: #fff;
   top: 0;
   left: 0;
-  right: 0;
+  right: 2rem;
   bottom: 0;
   margin-top: 19.5rem;
   font-size: 0.8rem;
@@ -657,7 +625,7 @@ footer .foot-note p a {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
-.credit {
+.card-head .credit {
   position: absolute;
   color: #fff;
   right: 2rem;
@@ -964,53 +932,6 @@ footer .foot-note p a {
   #directors .card .credit {
     margin-top: 29rem;
   }
-  #lecturers .col-md-4 {
-    text-align: center;
-  }
-  #lecturers > div:first-child .col-md-4 .credit,
-  #lecturers > div:nth-child(5) .col-md-4 .credit,
-  #lecturers > div:nth-child(8) .col-md-4 .credit,
-  #lecturers > div:last-child .col-md-4 .credit {
-    font-size: .8rem;
-  }
-  #lecturers > div:nth-child(5) .col-md-4 .credit {
-    margin-top: 17rem;
-  }
-  #lecturers > div:nth-child(8) .col-md-4 .credit {
-    text-shadow: 0.5px 0.5px #000;
-    margin-top: 11rem;
-  }
-  #lecturers > div:nth-child(13) .col-md-4 .credit {
-    margin-top: 10rem;
-  }
-  #lecturers > div:last-child .col-md-4 .credit {
-    margin-top: 10rem;
-  }
-  #lecturers .dumisani,
-  #lecturers .ingrid,
-  #lecturers .willi,
-  #lecturers .oliver,
-  #lecturers .pablo,
-  #lecturers .krischa,
-  #lecturers .gino,
-  #lecturers .jan,
-  #lecturers .serena,
-  #lecturers .heidi,
-  #lecturers .huseyin,
-  #lecturers .thando {
-    width: 11rem;
-  }
-  #lecturers .ingrid-quotes,
-  #lecturers .olle-qoutes,
-  #lecturers .willie-quotes {
-    padding-left: 15px;
-  }
-  #lecturers .olle {
-    width: 12rem;
-  }
-  #lecturers blockquote {
-    font-size: 1.5rem;
-  }
   #news-articles {
     margin-top: 2rem;
   }
@@ -1039,9 +960,6 @@ footer .foot-note p a {
   }
   footer .container {
     text-align: center;
-  }
-  .credit {
-    font-size: .3rem;
   }
 }
 @media (min-width: 576px) and (max-width: 799px) {
@@ -1168,46 +1086,10 @@ footer .foot-note p a {
   #lecturers .col-md-4 {
     text-align: center;
   }
-  #lecturers > div:first-child .col-md-4 .credit,
-  #lecturers > div:nth-child(5) .col-md-4 .credit,
-  #lecturers > div:nth-child(8) .col-md-4 .credit,
-  #lecturers > div:last-child .col-md-4 .credit {
-    font-size: .8rem;
-  }
-  #lecturers > div:first-child .col-md-4 .credit {
-    margin-top: 11rem;
-  }
-  #lecturers > div:nth-child(5) .col-md-4 .credit {
-    margin-top: 16.5rem;
-  }
-  #lecturers > div:nth-child(8) .col-md-4 .credit {
-    color: #fff;
-    text-shadow: 0.5px 0.5px #000;
-    margin-top: 11rem;
-  }
-  #lecturers > div:last-child .col-md-4 .credit {
-    margin-top: 16.5rem;
-  }
-  #lecturers .dumisani,
-  #lecturers .ingrid,
-  #lecturers .willi,
-  #lecturers .oliver,
-  #lecturers .pablo,
-  #lecturers .krischa,
-  #lecturers .gino,
-  #lecturers .jan,
-  #lecturers .serena,
-  #lecturers .heidi,
-  #lecturers .huseyin {
-    width: 11rem;
-  }
   #lecturers .ingrid-quotes,
   #lecturers .olle-qoutes,
   #lecturers .willie-quotes {
     padding-left: 15px;
-  }
-  #lecturers .olle {
-    width: 12rem;
   }
   #lecturers blockquote {
     font-size: 1.5rem;
@@ -1335,11 +1217,6 @@ footer .foot-note p a {
   }
   #news-articles .card .card-img-top {
     width: 8rem;
-  }
-}
-@media (min-width: 800px) and (max-width: 992px) and (orientation: portrait) {
-  #lecturers > div:nth-child(13) .col-md-4 .credit {
-    margin-top: 12rem;
   }
 }
 @media (min-width: 800px) and (max-width: 992px) {

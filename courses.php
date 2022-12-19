@@ -104,7 +104,8 @@ get_header(); ?>
 						<h5 class="card-title">IBITHI - Trommeln, Percussion & Schlagzeug</h5>
 						<p class="card-text">
 							Thando Walbaum<br>
-							<a href="mailto:ibithi@protonmail.com">ibithi@protonmail.com</a>
+							<a href="mailto:ibithi@protonmail.com">ibithi@protonmail.com</a><br>
+							oder <a href="mailto:kontakt@music-altona.de">kontakt@music-altona.de</a>
 						</p>
 					</div>
 				</div>
@@ -248,31 +249,7 @@ get_header(); ?>
 						<h5 class="card-title">Geigenkurs Violino Altona</h5>
 						<p class="card-text">
 							Nima Asadollahi Ali<br>
-							<a href="mailto:nimanderson72@gmail.com">nimanderson72@gmail.com</a>
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-12 col-md-4">
-				<div class="card mb-3 mb-md-0" data-aos="flip-up">
-					<picture>
-						<source media="(min-width:1200px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/shanty/shanty_xl.jpg 3.5x">
-						<source media="(min-width:992px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/shanty/shanty_xl.jpg 3x">
-						<source media="(min-width:768px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/shanty/shanty_md.jpg 2x">
-						<source media="(min-width:576px)"
-								data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/shanty/shanty_sm.jpg 1x">
-						<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/shanty/shanty_xs.jpg">
-						<img class="card-img-top lazyload course-img"
-							 data-src="<?= bloginfo("template_url"); ?>/img/kurse/shanty/shanty_xl.jpg"
-							 alt="Unsere Kurse-Musikkoffer">
-					</picture>
-					<div class="card-body">
-						<h5 class="card-title">Shanty Kids</h5>
-						<p class="card-text">
-							<a href="mailto:kontakt@musica-altona.de">kontakt@musica-altona.de</a>
+							<a href="mailto:nimanderson72@gmail.com">nimaasadollahi@icloud.com</a>
 						</p>
 					</div>
 				</div>
@@ -297,13 +274,11 @@ get_header(); ?>
 						<h5 class="card-title">Keyboard</h5>
 						<p class="card-text">
 							Oliver Höppner<br>
-							<a href="mailto:hamburglebt@gmail.com">hamburglebt@gmail.com</a>
+							<a href="mailto:hamburglebt@gmail.com">keyboard.altona@gmail.com</a>
 						</p>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row mb-2">
 			<div class="col-sm-12 col-md-4">
 				<div class="card mb-3 mb-md-0" data-aos="flip-up">
 					<picture>
@@ -330,6 +305,9 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
+
+		</div>
+		<div class="row mb-2">
 			<div class="col-sm-12 col-md-4">
 				<div class="card mb-3 mb-md-0" data-aos="flip-left">
 					<img class="card-img-top lazyload course-img"
