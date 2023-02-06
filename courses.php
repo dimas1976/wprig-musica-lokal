@@ -21,11 +21,11 @@ get_header(); ?>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/7.7.jpg" alt="Pinwall">
-				<div class="credit credit-dally">Foto:@ Dally</div>
+				<div class="credit">Foto:@ Jürgen Kolmar</div>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/6.6.jpg" alt="Pinwall">
-				<div class="credit">Foto:@ M.Wolf-Dietrich</div>
+				<div class="credit">Foto:@ Jürgen Kolmar</div>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/5.5.jpg" alt="Pinwall">
@@ -41,10 +41,11 @@ get_header(); ?>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/10.10.jpg" alt="Pinwall">
-				<div class="credit">Foto:@ Dally</div>
+				<div class="credit">Foto:@ Jürgen Kolmar</div>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/jubilaum.jpg" alt="Pinwall">
+				<div class="credit">Foto:@ Jürgen Kolmar</div>
 			</div>
 		</div>
 	</div>
