@@ -95,14 +95,14 @@ get_header();
                             <i class="fas fa-music"></i> KrassBrass - Blasinstrumente
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
-                    </ul>
-                </div>
-                <div class="col-md-5 offset-md-1">
-                    <ul>
 						<li>
 							<i class="fas fa-music"></i> Saz
 							<a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
 						</li>
+                    </ul>
+                </div>
+                <div class="col-md-5 offset-md-1">
+                    <ul>
                         <li>
                             <i class="fas fa-music"></i> Keyboard
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
@@ -113,6 +113,14 @@ get_header();
                         </li>
                         <li>
                             <i class="fas fa-music"></i> Projekte für Kitas
+                            <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
+                        </li>
+						<li>
+                            <i class="fas fa-music"></i> Bratsche
+                            <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
+                        </li>
+						<li>
+                            <i class="fas fa-music"></i> Musiktheorie und Gehörbildung
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
                     </ul>
