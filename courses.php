@@ -243,10 +243,10 @@ get_header(); ?>
 								 data-src="<?= bloginfo("template_url"); ?>/img/kurse/geige/geige_xl.jpg"
 								 alt="Teilnehmer von dem Geigenkurs am Üben">
 						</picture>
-						<div class="credit">Foto: &copy; Cem Renkligül</div>
+						<div class="credit">Foto: &copy; Jürgen Kolmar</div>
 					</div>
 					<div class="card-body">
-						<h5 class="card-title">Geigenkurs Violino Altona</h5>
+						<h5 class="card-title">Geige | Bratsche | Musiktheorie und Gehörbildung</h5>
 						<p class="card-text">
 							Nima Asadollahi Ali<br>
 							<a href="mailto:nimanderson72@gmail.com">nimaasadollahi@icloud.com</a>
