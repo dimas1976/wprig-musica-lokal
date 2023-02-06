@@ -128,7 +128,7 @@ get_header(); ?>
 								 data-src="<?= bloginfo("template_url"); ?>/img/kurse/gitarre/gitarre_xl.jpg"
 								 alt="Unsere Kurse-Gitarre">
 						</picture>
-						<div class="credit card__credit__ukulele">Foto: &copy; Cem Renkligül</div>
+						<div class="credit card__credit__ukulele">Foto: &copy; Jürgen Kolmar</div>
 					</div>
 					<div class="card-body">
 						<h5 class="card-title">Altonaer Gitarren/Ukulele und Band</h5>
