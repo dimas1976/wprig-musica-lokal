@@ -368,8 +368,12 @@ nav .navbar-toggler {
   left: -1rem;
 }
 #pinwall .container.lazyloaded .img-wrapper .image .credit {
+  position: absolute;
   bottom: .1rem;
   font-size: .6rem;
+  color: #e7e7e6;
+  font-weight: 700;
+  backdrop-filter: blur(57px);
 }
 #pinwall .container.lazyloaded .img-wrapper .image .credit-cem {
   left: .4rem;

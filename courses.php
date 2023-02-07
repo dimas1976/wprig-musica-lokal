@@ -21,11 +21,11 @@ get_header(); ?>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/7.7.jpg" alt="Pinwall">
-				<div class="credit credit-dally">Foto:@ Dally</div>
+				<div class="credit">Foto:@ Jürgen Kolmar</div>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/6.6.jpg" alt="Pinwall">
-				<div class="credit">Foto:@ M.Wolf-Dietrich</div>
+				<div class="credit">Foto:@ Jürgen Kolmar</div>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/5.5.jpg" alt="Pinwall">
@@ -41,10 +41,11 @@ get_header(); ?>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/10.10.jpg" alt="Pinwall">
-				<div class="credit">Foto:@ Dally</div>
+				<div class="credit">Foto:@ Jürgen Kolmar</div>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/jubilaum.jpg" alt="Pinwall">
+				<div class="credit">Foto:@ Jürgen Kolmar</div>
 			</div>
 		</div>
 	</div>
@@ -127,7 +128,7 @@ get_header(); ?>
 								 data-src="<?= bloginfo("template_url"); ?>/img/kurse/gitarre/gitarre_xl.jpg"
 								 alt="Unsere Kurse-Gitarre">
 						</picture>
-						<div class="credit card__credit__ukulele">Foto: &copy; Cem Renkligül</div>
+						<div class="credit card__credit__ukulele">Foto: &copy; Jürgen Kolmar</div>
 					</div>
 					<div class="card-body">
 						<h5 class="card-title">Altonaer Gitarren/Ukulele und Band</h5>
@@ -243,10 +244,10 @@ get_header(); ?>
 								 data-src="<?= bloginfo("template_url"); ?>/img/kurse/geige/geige_xl.jpg"
 								 alt="Teilnehmer von dem Geigenkurs am Üben">
 						</picture>
-						<div class="credit">Foto: &copy; Cem Renkligül</div>
+						<div class="credit">Foto: &copy; Jürgen Kolmar</div>
 					</div>
 					<div class="card-body">
-						<h5 class="card-title">Geigenkurs Violino Altona</h5>
+						<h5 class="card-title">Geige | Bratsche | Musiktheorie und Gehörbildung</h5>
 						<p class="card-text">
 							Nima Asadollahi Ali<br>
 							<a href="mailto:nimanderson72@gmail.com">nimaasadollahi@icloud.com</a>

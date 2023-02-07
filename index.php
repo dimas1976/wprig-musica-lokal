@@ -74,31 +74,40 @@ get_header();
             </div>
             <div class="row">
                 <div class="col-md-6 col-lg-5 offset-lg-1">
-                    <ul>
-                        <li>
+					<ul>
+						<li>
                             <i class="fas fa-music"></i> Altonaer Tastenspaß am Klavier
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
-                        <li>
+						<li>
                             <i class="fas fa-music"></i> Trommeln, Percussion & Schlagzeug
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
-                        <li>
+						<li>
                             <i class="fas fa-music"></i> Geigenkurs Violino Altona
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
-                        <li>
+						<li>
+							<i class="fas fa-music"></i> Bratsche
+							<a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
+						</li>
+						<li>
                             <i class="fas fa-music"></i> Cello
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
-                        <li>
-                            <i class="fas fa-music"></i> KrassBrass - Blasinstrumente
-                            <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
-                        </li>
+						<li>
+							<i class="fas fa-music"></i> Musiktheorie und Gehörbildung
+							<a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
+						</li>
+
                     </ul>
-                </div>
-                <div class="col-md-5 offset-md-1">
+				</div>
+				<div class="col-md-5 offset-md-1">
                     <ul>
+						<li>
+							<i class="fas fa-music"></i> KrassBrass - Blasinstrumente
+							<a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
+						</li>
 						<li>
 							<i class="fas fa-music"></i> Saz
 							<a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
@@ -107,17 +116,17 @@ get_header();
                             <i class="fas fa-music"></i> Keyboard
                             <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
                         </li>
-                        <li>
-                            <i class="fas fa-music"></i> Altonaer Gitarren, Ukulele und Band
-                            <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
-                        </li>
-                        <li>
-                            <i class="fas fa-music"></i> Projekte für Kitas
-                            <a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
-                        </li>
+						<li>
+							<i class="fas fa-music"></i> Altonaer Gitarren, Ukulele und Band
+							<a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
+						</li>
+						<li>
+							<i class="fas fa-music"></i> Projekte für Kitas
+							<a href="./unsere-kurse/" title="Link zu den Kursen"><i class="fas fa-chevron-circle-right"></i></a>
+						</li>
                     </ul>
                 </div>
-            </div>
+			</div>
         </div>
     </div>
 
