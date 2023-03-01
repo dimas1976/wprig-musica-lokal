@@ -43,11 +43,7 @@ get_header(); ?>
 					</div>
 					<div class="registration-description">
 						<p>
-							Zur <span class="description-bold">Anmeldung</span> bekommst Du in Deiner ersten
-							Unterrichtsstunde den Anmeldebogen (zweifache Ausführung). Ein Exemplar davon bekommt Musica
-							Altona e.V. und eines behalten Deine Eltern.
-							Außerdem gibt es zum Anmeldebogen ein SEPA-Lastschriftmandat, welches Deine Eltern bitte
-							ausfüllen und ebenfalls dem Dozenten zurückgeben.
+							Zur <span class="description-bold">Anmeldung</span> bekommst Du in Deiner ersten Unterrichtsstunde  den Vertrag/Anmeldebogen (zweifache Ausführung). Ein Exemplar davon bekommt Musica Altona e.V. und eines behalten Deine Eltern. Außerdem gibt es zum Anmeldebogen ein SEPA-Lastschriftmandat, welches Deine Eltern bitte ausfüllen und ebenfalls der Kursleitung zurückgeben.
 						</p>
 					</div>
 				</article>
@@ -59,11 +55,20 @@ get_header(); ?>
 					</div>
 					<div class="registration-description">
 						<p>
-							<span class="description-bold">Kursgebühr:</span> 30€ / Klavier 35€.<br>
-							&nbsp;<br>
-							Bildungs-und Teilhabepaket (BuT) wird akzeptiert.<br>
-							Antrag auf Ermässigung ist möglich (nur schriftlich).
+							<span class="description-bold">Kursgebühr:</span> 40€<br>
+							Klavier und Gruppen mit weniger als 3 Schüler/-innen: 45€.
 						</p>
+						<ul>
+							<li>
+								Bildungs-und Teilhabepaket (BuT) wird akzeptiert.
+							</li>
+							<li>
+								Antrag auf Ermässigung ist möglich (nur schriftlich).
+							</li>
+							<li>
+								Geschwisterrabatt wird gewährt
+							</li>
+						</ul>
 					</div>
 				</article>
 			</div>
