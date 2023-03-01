@@ -57,11 +57,18 @@ get_header(); ?>
 						<p>
 							<span class="description-bold">Kursgebühr:</span> 40€<br>
 							Klavier und Gruppen mit weniger als 3 Schüler/-innen: 45€.
-							&nbsp;<br>
-							Bildungs-und Teilhabepaket (BuT) wird akzeptiert.<br>
-							Antrag auf Ermässigung ist möglich (nur schriftlich).<br>
-							Geschwisterrabatt wird gewährt
 						</p>
+						<ul>
+							<li>
+								Bildungs-und Teilhabepaket (BuT) wird akzeptiert.
+							</li>
+							<li>
+								Antrag auf Ermässigung ist möglich (nur schriftlich).
+							</li>
+							<li>
+								Geschwisterrabatt wird gewährt
+							</li>
+						</ul>
 					</div>
 				</article>
 			</div>

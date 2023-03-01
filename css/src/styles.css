@@ -417,6 +417,9 @@ nav .navbar-toggler {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
+#registration-articles ul {
+  font-family: 'Lato';
+}
 #news-articles .card {
   -webkit-flex-direction: row;
   -moz-flex-direction: row;
