@@ -518,6 +518,21 @@
 			}
 		}
 	}
+	#registration-articles {
+		ul {
+			font-family: 'Lato';
+
+			li::before {
+				content: '\2022 ';
+				color: #85919d;
+				font-weight: bold; /* If you want it to be bold */
+				display: inline-block; /* Needed to add space between the bullet and the text */
+				width: 1.2em; /* Also needed for space (tweak if needed)*/
+				margin-left: -1.2em; /* Also needed for space (tweak if needed) */
+			}
+		}
+	}
+
 }
 
 @media (min-width: 768px) and (max-width: 799px) {
@@ -1065,8 +1080,23 @@
 		}
 	}
 
-}
+	#registration-articles {
+		ul {
+			font-family: 'Lato';
 
+			li::before {
+				content: '\2022 ';
+				color: #85919d;
+				font-weight: bold; /* If you want it to be bold */
+				display: inline-block; /* Needed to add space between the bullet and the text */
+				width: 1.2em; /* Also needed for space (tweak if needed)*/
+				margin-left: -1.2em; /* Also needed for space (tweak if needed) */
+			}
+		}
+	}
+
+
+}
 @media (min-width: 1048px) and (max-width: 1344px ) {
 	#motiv-foerderer{
 		height: 29rem;

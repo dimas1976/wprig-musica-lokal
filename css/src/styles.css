@@ -423,10 +423,10 @@ nav .navbar-toggler {
 #registration-articles ul li::before {
   content: '\2022 ';
   color: #85919d;
-  display: inline-block;
-  /* Needed to add space between the bullet and the text */
+  font-weight: bold;
+  /* If you want it to be bold */
   width: 1em;
-  /* Also needed for space (tweak if needed) */
+  /* Also needed for space (tweak if needed)*/
   margin-left: -1em;
   /* Also needed for space (tweak if needed) */
 }
@@ -1137,6 +1137,21 @@ footer .foot-note p a {
   footer .contact .container .row .contact__adress {
     text-align: center;
   }
+  #registration-articles ul {
+    font-family: 'Lato';
+  }
+  #registration-articles ul li::before {
+    content: '\2022 ';
+    color: #85919d;
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1.2em;
+    /* Also needed for space (tweak if needed)*/
+    margin-left: -1.2em;
+    /* Also needed for space (tweak if needed) */
+  }
 }
 @media (min-width: 768px) and (max-width: 799px) {
   #logo .slogan p {
@@ -1421,6 +1436,21 @@ footer .foot-note p a {
   }
   #courses-cards .container .row:last-child div:first-child .card .credit {
     margin-bottom: 3rem;
+  }
+  #registration-articles ul {
+    font-family: 'Lato';
+  }
+  #registration-articles ul li::before {
+    content: '\2022 ';
+    color: #85919d;
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1.2em;
+    /* Also needed for space (tweak if needed)*/
+    margin-left: -1.2em;
+    /* Also needed for space (tweak if needed) */
   }
 }
 @media (min-width: 1048px) and (max-width: 1344px) {
