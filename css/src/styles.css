@@ -420,6 +420,16 @@ nav .navbar-toggler {
 #registration-articles ul {
   font-family: 'Lato';
 }
+#registration-articles ul li::before {
+  content: '\2022 ';
+  color: #85919d;
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  /* Also needed for space (tweak if needed) */
+}
 #news-articles .card {
   -webkit-flex-direction: row;
   -moz-flex-direction: row;
