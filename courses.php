@@ -37,7 +37,7 @@ get_header(); ?>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/9.9.jpg" alt="Pinwall">
-				<div class="credit credit-walbaum">Foto:@ Bethina Walbaum</div>
+				<div class="credit credit-walbaum">Foto:@ Jürgen Kolmar</div>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/10.10.jpg" alt="Pinwall">
@@ -45,6 +45,10 @@ get_header(); ?>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/jubilaum.jpg" alt="Pinwall">
+				<div class="credit">Foto:@ Jürgen Kolmar</div>
+			</div>
+			<div class="image">
+				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/klavier.jpg" alt="Pinwall">
 				<div class="credit">Foto:@ Jürgen Kolmar</div>
 			</div>
 		</div>
