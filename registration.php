@@ -55,7 +55,7 @@ get_header(); ?>
 					</div>
 					<div class="registration-description">
 						<p>
-							<span class="description-bold">Kursgebühr:</span> 40€<br>
+							<span class="description-bold">Kursgebühr:</span> €40.- (pro Monat). <br>
 							Klavier und Gruppen mit weniger als 3 Schüler/-innen: 45€ pro Monat.
 						</p>
 						<ul>
