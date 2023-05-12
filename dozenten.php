@@ -47,7 +47,7 @@ get_header(); ?>
 						<sup class="pr-2"><i class="fas fa-quote-left"></i></sup>Musica Altona fühlt sich an wie
 						Elektrizität <sub class="pl-2"><i class="fas fa-quote-right"></i></sub>
 					</blockquote>
-					<p class="lecturer--dark">Pablo Ruiz</p>
+					<p class="lecturer--dark">Pablo Ruiz-Aragón</p>
 				</div>
 
 			</div>
