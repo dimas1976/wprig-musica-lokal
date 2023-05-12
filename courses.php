@@ -137,8 +137,8 @@ get_header(); ?>
 					<div class="card-body">
 						<h5 class="card-title">Altonaer Gitarren/Ukulele und Band</h5>
 						<p class="card-text">
-							Pablo Ruiz<br>
-							0152 23590886<br>
+							Pablo Ruiz-Aragón<br>
+							0178 7811434<br>
 							<a href="mailto:pablesa@gmx.de">pablesa@gmx.de</a>
 						</p>
 					</div>
