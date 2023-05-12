@@ -71,30 +71,40 @@ get_header();
     <div id="logos">
         <div class="container mb-5">
             <div class="row">
-                <div class="col-6 pb-4 col-md-3" data-aos="zoom-in">
+                <div class="col-6 pb-4 col-md-3 j-m-sponsor" data-aos="zoom-in">
                     <a href="https://www.deutsches-stiftungszentrum.de/stiftungen/j%C3%BCrgen-und-monika-blankenburg-stiftung" target="_blank" title="Zu Jürgen und Monika Blankenburg Stiftung"><img class="img-fluid lazyload" data-src="<?= bloginfo("template_url"); ?>/img/logos/b.jpg" alt="Wir bedanken uns bei nachfolgenden Förderern-Jürgen & Monika Blankenburg Stiftung"></a>
                 </div>
-                <div class="col-6 pb-4 col-md-3" data-aos="zoom-in">
+                <div class="col-4 pb-4 col-md-2" data-aos="zoom-in">
                     <a href="http://www.budnianer-hilfe.de/" title="zu Budnianer Hilfe e.V." target="_blank"><img class="img-fluid lazyload" data-src="<?= bloginfo("template_url"); ?>/img/logos/buhi.jpg" alt="Wir bedanken uns bei nachfolgenden Förderern-Budnianer Hilfe e.V"></a>
                 </div>
                 <div class="col-6 pb-4 col-md-3" data-aos="zoom-in">
                     <a href="http://www.celloundco.de/" target="_blank" title="zu Cello & Co."><img class="img-fluid lazyload" data-src="<?= bloginfo("template_url"); ?>/img/logos/cello.jpg" alt="Wir bedanken uns bei nachfolgenden Förderern-cello & co"></a>
                 </div>
-                <div class="col-6 pb-4 col-md-3" data-aos="zoom-in">
-                    <a href="https://esche.eu/" title="zu die Esche in Hamburg Altona" target="_blank"><img class="img-fluid lazyload" data-src="<?= bloginfo("template_url"); ?>/img/logos/esche.jpg" alt="Wir bedanken uns bei nachfolgenden Förderern-Die Esche in Hamburg Altona"></a>
-                </div>
+				<div class="col-4 pb-4 col-md-2" data-aos="zoom-in">
+					<a href="https://www.telekom-stiftung.de/" title="zu Deutsche Telekom Stiftung"><img class="img-fluid lazyload" data-src="<?= bloginfo("template_url"); ?>/img/logos/ikw.jpg" alt="Wir bedanken uns bei nachfolgenden Förderern-Deutsche Telekom Stiftung"></a>
+				</div>
             </div>
-            <div class="row">
+            <div class="row second-line">
                 <div class="col-6 pb-4 col-md-4" data-aos="zoom-in">
                     <a href="http://www.ida-ehre-kulturverein.de/" target="_blank" title="zu Ida Ehre Kulturverein e.V."><img class="img-fluid lazyload" data-src="<?= bloginfo("template_url"); ?>/img/logos/ida.jpg" alt="Wir bedanken uns bei nachfolgenden Förderern-Ida Ehre Kulturverein e.V."></a>
-                </div>
-                <div class="col-6 pb-4 col-md-4" data-aos="zoom-in">
-                    <a href="https://www.telekom-stiftung.de/" title="zu Deutsche Telekom Stiftung"><img class="img-fluid lazyload" data-src="<?= bloginfo("template_url"); ?>/img/logos/ikw.jpg" alt="Wir bedanken uns bei nachfolgenden Förderern-Deutsche Telekom Stiftung"></a>
                 </div>
                 <div class="col-6 pb-4 col-md-4" data-aos="zoom-in">
                     <a href="http://stiftung-kinderjahre.de/" title="zu Stiftung Kinderjahre" target="_blank"><img class="img-fluid lazyload" data-src="<?= bloginfo("template_url"); ?>/img/logos/kinderjahre.jpg" alt="Wir bedanken uns bei nachfolgenden Förderern-Stiftung Kinderjahre"></a>
                 </div>
             </div>
+			<div class="cooperation-container">
+				<h2 class="cooperation-headline">Kooperation mit:</h2>
+				<div class="logo-container">
+					<div class="esche">
+						<a href="https://esche.eu/" title="zu die Esche in Hamburg Altona" target="_blank">
+							<img class="img-fluid lazyload" data-src="<?= bloginfo("template_url"); ?>/img/logos/esche.jpg" alt="Wir bedanken uns bei nachfolgenden Förderern-Die Esche in Hamburg Altona">
+						</a>
+					</div>
+					<div class="delux">
+						<img class="img-fluid lazyload" data-src="<?= bloginfo("template_url"); ?>/img/logos/delux.jpg" alt="Wir bedanken uns bei nachfolgenden Förderern-BürgerStiftung Hamburg">
+					</div>
+				</div>
+			</div>
         </div>
     </div>
 <?php
