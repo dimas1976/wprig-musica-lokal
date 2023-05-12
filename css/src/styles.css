@@ -565,6 +565,41 @@ nav .navbar-toggler {
 #protection {
   font-family: 'Lato', sans-serif;
 }
+#logos .container {
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+}
+#logos .container .row {
+  align-items: end;
+  justify-content: center;
+}
+#logos .container .row .j-m-sponsor {
+  text-align: center;
+}
+#logos .container .second-line {
+  justify-content: center;
+}
+#logos .container .cooperation-container .cooperation-headline {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#logos .container .cooperation-container .logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+#logos .container .cooperation-container .logo-container .esche {
+  width: 25%;
+}
+#logos .container .cooperation-container .logo-container .delux {
+  width: 25%;
+}
+#logos .container .cooperation-container .logo-container img {
+  width: 100%;
+  height: auto;
+}
 footer {
   background-color: #3bade6;
   font-family: 'Lato', sans-serif;
