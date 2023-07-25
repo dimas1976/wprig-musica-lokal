@@ -375,6 +375,9 @@ nav .navbar-toggler {
   font-weight: 700;
   backdrop-filter: blur(57px);
 }
+#pinwall .container.lazyloaded .img-wrapper .image .credit.credit--right {
+  right: 1rem;
+}
 #pinwall .container.lazyloaded .img-wrapper .image .credit-cem {
   left: .4rem;
 }
