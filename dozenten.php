@@ -150,7 +150,7 @@ get_header(); ?>
 					<p class="lecturer--dark">Jan Feddersen</p>
 				</div>
 			</div>
-			<div class="lecturer-wrapper lecturer-wrapper--reversed-order-color">
+	<!--		<div class="lecturer-wrapper lecturer-wrapper--reversed-order-color">
 				<div class="lecturer-wrapper__quote pt-2 pt-md-5 pb-5 pb-md-3 order-last order-md-first">
 					<blockquote>
 						<sup class="pr-2"><i class="fas fa-quote-left"></i></sup> Musica Altona ist sozial, gutes
@@ -167,14 +167,9 @@ get_header(); ?>
 						 class="img-fluid lazyload last"
 						 alt="Olle Wolski">
 				</div>
-			</div>
-			<div class="lecturer-wrapper lecturer-wrapper--first-order-color">
-				<div class="lecturer-wrapper__image">
-					<img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/huseyin.jpg"
-						 class="img-fluid lazyload last"
-						 alt="Hueseyin Duman">
-				</div>
-				<div class="lecturer-wrapper__quote pt-2 pt-md-5 pb-5 pb-md-3">
+			</div>-->
+			<div class="lecturer-wrapper lecturer-wrapper--reversed-order-color">
+				<div class="lecturer-wrapper__quote pt-2 pt-md-5 pb-5 pb-md-3 order-last order-md-first">
 					<blockquote>
 						<sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
 
@@ -185,6 +180,12 @@ get_header(); ?>
 					</blockquote>
 					<p class="lecturer--light">Hüseyin Duman</p>
 				</div>
+				<div class="lecturer-wrapper__image order-first order-md-last">
+					<img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/huseyin.jpg"
+						 class="img-fluid lazyload last"
+						 alt="Hueseyin Duman">
+				</div>
+
 			</div>
 		</div>
 	</div>
