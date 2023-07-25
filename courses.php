@@ -16,8 +16,8 @@ get_header(); ?>
 				<div class="credit credit-cem">Foto:@ Cem Renkligül</div>
 			</div>
 			<div class="image">
-				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/4.4.jpg" alt="Pinwall">
-				<div class="credit">Foto:@ Cem Renkligül</div>
+				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/jubilaum.jpg" alt="Pinwall">
+				<div class="credit">Foto:@ Jürgen Kolmar</div>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/7.7.jpg" alt="Pinwall">
@@ -44,7 +44,7 @@ get_header(); ?>
 				<div class="credit">Foto:@ Jürgen Kolmar</div>
 			</div>
 			<div class="image">
-				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/jubilaum.jpg" alt="Pinwall">
+				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/team.jpg" alt="Pinwall">
 				<div class="credit">Foto:@ Jürgen Kolmar</div>
 			</div>
 			<div class="image">
