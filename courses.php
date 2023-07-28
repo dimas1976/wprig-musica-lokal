@@ -45,7 +45,7 @@ get_header(); ?>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/team.jpg" alt="Pinwall">
-				<div class="credit">Foto:@ Jürgen Kolmar</div>
+				<div class="credit">Foto:@ Musica Altona</div>
 			</div>
 			<div class="image">
 				<img class="lazyload" data-src="<?= bloginfo("template_url"); ?>/img/pinwall/klavier.jpg" alt="Pinwall">
