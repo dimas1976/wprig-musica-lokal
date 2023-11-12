@@ -304,8 +304,7 @@ get_header(); ?>
 						<h5 class="card-title">Saz</h5>
 						<p class="card-text">
 							Hüseyin Duman <br>
-							(Kooperation mit Musica Altona)<br>
-							<a href="mailto:kontakt@musica-altona.de">kontakt@musica-altona.de</a>
+							<a href="mailto:huseyinduman@web.de">huseyinduman@web.de</a>
 						</p>
 					</div>
 				</div>
