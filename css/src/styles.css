@@ -533,6 +533,9 @@ nav .navbar-toggler {
   font-weight: 700 !important;
   color: #000 !important;
 }
+#about-section .name {
+  white-space: nowrap;
+}
 #bsh .col-md-4 {
   position: relative;
   text-align: center;
