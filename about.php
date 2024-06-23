@@ -14,13 +14,12 @@ get_header();
 			<div class="col-sm-12">
 				<h2 class="pb-3" data-aos="zoom-in">Ein vielseitiges Musikprojekt in der Nachbarschaft</h2>
 				<p class="pb-3" data-aos="zoom-in-up">
-					Ein vielseitiges Musikprojekt in der Nachbarschaft
 					Der Musica Altona e. V. wurde 2002 von der BürgerStiftung Hamburg zusammen mit einigen Institutionen und engagierten Musiker*innen in Altona-Altstadt initiiert, um Kindern und Jugendlichen in einem interkulturellen Rahmen das Musizieren zu ermöglichen. Ohne die kontinuierliche Unterstützung von der Bürgerstiftung Hamburg hätte es dieses Projekt nicht geben können. Ein besonderer Dank an <span class="name">Hugbert Flitner</span>, der sich damals unermüdlich auf allen Ebenen dafür einsetzte - bei der Stiftung, aber auch bei den Menschen hier im Stadtteil. Er vermittelte: „das ist eine Idee, aus der wird was und Ihr schafft das und wir stehen mit Geld und Vorschlägen an Eurer Seite.“
 					So entstand ein vielschichtiges musikalisches Angebot, das in Gruppen stattfindet, wohnortnah und auch für Familien mit geringerem Einkommen erschwinglich ist.
 					Auf diesem Weg werden auch diejenigen gefördert, die erschwerte Zugangsmöglichkeiten zu Musikinstrumenten haben, Interesse und Talent jedoch mitbringen. Inklusion ist selbstredend. Musica Altona versteht sich zudem als Plattform des sozialen und künstlerischen Austausches in einer multikulturellen Stadt, die eine weltoffene Persönlichkeitsbildung der Einzelnen unterstützt.
 					„Vor 20 Jahren traf sich eine Gruppe unterschiedlicher Menschen drüben in der KITA Hospitalstraße im August-Lüttgens Park und gründete Musica Altona. Die Idee dabei war, Kindern eine Freizeitalternative zu bieten. Damals sah es nämlich in der Nachmittags-und Freizeitbetreuung noch sehr mager aus. Viele Kinder und Jugendliche „daddelten“ ziellos durch den Stadtteil oder versumpften zu Hause alleine vor den Fernsehern, guckten Videos...“<br>
 					<span class="about-section__quote">Marion Wolf-Dietrich (Vorstand)</span>
-				</p>
+				</p>gi
 			</div>
 		</div>
 		<div class="row">
