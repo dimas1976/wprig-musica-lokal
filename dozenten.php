@@ -85,38 +85,6 @@ get_header(); ?>
 					<p class="lecturer--dark">Krischa Weber</p>
 				</div>
 			</div>
-			<div class="lecturer-wrapper lecturer-wrapper--reversed-order-color">
-				<div class="lecturer-wrapper__quote order-last order-md-first pt-2 pt-md-5 pb-5 pb-md-3">
-					<blockquote>
-						<sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
-						Ich konnte gar nicht anders, als das Angebot anzunehmen, Teil dieser schönen, respektvollen
-						Initiative zu sein; bei der auch viele Talente gefördert werden, von denen wir vielleicht nie
-						etwas gehört hätten, wenn Musica Altona das nicht möglich gemacht hätte. <sub class="pl-2"><i
-								class="fas fa-quote-right"></i></sub>
-					</blockquote>
-					<p class="lecturer--dark">Nima Asadollahi Ali</p>
-				</div>
-				<div class="lecturer-wrapper__image order-first order-md-last">
-					<img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/nima.jpg"
-						 class="img-fluid lazyload last"
-						 alt="Nima Asadollahi Ali">
-				</div>
-			</div>
-			<div class="lecturer-wrapper lecturer-wrapper--first-order-color">
-				<div class="lecturer-wrapper__image ">
-					<img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/willi.jpg"
-						 class="img-fluid willi lazyload first" alt="Willie Jakob">
-				</div>
-				<div class="lecturer-wrapper__quote pt-2 pt-md-5 pb-5 pb-md-3">
-
-					<blockquote>
-						<sup class="pr-2"><i class="fas fa-quote-left"></i></sup>Musica Altona: in einem tollen Team bei
-						Kindern die Freude an Musik fördern!<sub class="pl-2"><i
-								class="fas fa-quote-right"></i></sub>
-					</blockquote>
-					<p class="lecturer--dark">Willie Jakob</p>
-				</div>
-			</div>
 			<div class="lecturer-wrapper lecturer-wrapper--reversed-order-color lecturer-wrapper--space-between">
 				<div class="lecturer-wrapper__quote pt-2 pt-md-5 pb-5 pb-md-3 order-last order-md-first">
 					<blockquote>
@@ -133,21 +101,20 @@ get_header(); ?>
 					<div class="credit">Foto: &copy; Jürgen Kolmar</div>
 				</div>
 			</div>
+
 			<div class="lecturer-wrapper lecturer-wrapper--first-order-color">
-				<div class="lecturer-wrapper__image">
-					<img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/jan.jpg"
-						 class="img-fluid lazyload first"
-						 alt="Jan Feddersen">
+				<div class="lecturer-wrapper__image ">
+					<img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/willi.jpg"
+						 class="img-fluid willi lazyload first" alt="Willie Jakob">
 				</div>
 				<div class="lecturer-wrapper__quote pt-2 pt-md-5 pb-5 pb-md-3">
+
 					<blockquote>
-						<sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
-						In Musica Altona vereinen sich ein sozialer und ein künstlerischer Anspruch. Im Zentrum steht
-						die Freude am gemeinsamen Musizieren. Das finde ich wunderbar und bin sehr froh, dass ich dabei
-						bin. <sub class="pl-2"><i
+						<sup class="pr-2"><i class="fas fa-quote-left"></i></sup>Musica Altona: in einem tollen Team bei
+						Kindern die Freude an Musik fördern!<sub class="pl-2"><i
 								class="fas fa-quote-right"></i></sub>
 					</blockquote>
-					<p class="lecturer--dark">Jan Feddersen</p>
+					<p class="lecturer--dark">Willie Jakob</p>
 				</div>
 			</div>
 			<div class="lecturer-wrapper lecturer-wrapper--reversed-order-color">
@@ -167,7 +134,24 @@ get_header(); ?>
 						 class="img-fluid lazyload last"
 						 alt="Hueseyin Duman">
 				</div>
+			</div>
 
+			<div class="lecturer-wrapper lecturer-wrapper--first-order-color">
+				<div class="lecturer-wrapper__image">
+					<img data-src="<?= bloginfo("template_url"); ?>/img/dozenten/jan.jpg"
+						 class="img-fluid lazyload first"
+						 alt="Jan Feddersen">
+				</div>
+				<div class="lecturer-wrapper__quote pt-2 pt-md-5 pb-5 pb-md-3">
+					<blockquote>
+						<sup class="pr-2"><i class="fas fa-quote-left"></i></sup>
+						In Musica Altona vereinen sich ein sozialer und ein künstlerischer Anspruch. Im Zentrum steht
+						die Freude am gemeinsamen Musizieren. Das finde ich wunderbar und bin sehr froh, dass ich dabei
+						bin. <sub class="pl-2"><i
+								class="fas fa-quote-right"></i></sub>
+					</blockquote>
+					<p class="lecturer--dark">Jan Feddersen</p>
+				</div>
 			</div>
 		</div>
 	</div>

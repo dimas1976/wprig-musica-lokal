@@ -231,21 +231,21 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="row mb-2">
-			<div class="col-sm-12 col-md-4">
+			<!--<div class="col-sm-12 col-md-4">
 				<div class="card mb-3 mb-md-0" data-aos="flip-up">
 					<div class="card-head">
 						<picture>
 							<source media="(min-width:1200px)"
-									data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/geige/geige_xl.jpg 3.5x">
+									data-srcset="<?/*= bloginfo("template_url"); */?>/img/kurse/geige/geige_xl.jpg 3.5x">
 							<source media="(min-width:992px)"
-									data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/geige/geige_lg.jpg 3x">
+									data-srcset="<?/*= bloginfo("template_url"); */?>/img/kurse/geige/geige_lg.jpg 3x">
 							<source media="(min-width:768px)"
-									data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/geige/geige_md.jpg 2x">
+									data-srcset="<?/*= bloginfo("template_url"); */?>/img/kurse/geige/geige_md.jpg 2x">
 							<source media="(min-width:576px)"
-									data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/geige/geige_sm.jpg 1x">
-							<source data-srcset="<?= bloginfo("template_url"); ?>/img/kurse/geige/geige_xs.jpg">
+									data-srcset="<?/*= bloginfo("template_url"); */?>/img/kurse/geige/geige_sm.jpg 1x">
+							<source data-srcset="<?/*= bloginfo("template_url"); */?>/img/kurse/geige/geige_xs.jpg">
 							<img class="card-img-top lazyload course-img"
-								 data-src="<?= bloginfo("template_url"); ?>/img/kurse/geige/geige_xl.jpg"
+								 data-src="<?/*= bloginfo("template_url"); */?>/img/kurse/geige/geige_xl.jpg"
 								 alt="Teilnehmer von dem Geigenkurs am Üben">
 						</picture>
 						<div class="credit">Foto: &copy; Jürgen Kolmar</div>
@@ -258,7 +258,7 @@ get_header(); ?>
 						</p>
 					</div>
 				</div>
-			</div>
+			</div>-->
 			<div class="col-sm-12 col-md-4">
 				<div class="card mb-3 mb-md-0" data-aos="flip-left">
 					<picture>
@@ -309,9 +309,6 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-
-		</div>
-		<div class="row mb-2">
 			<div class="col-sm-12 col-md-4">
 				<div class="card mb-3 mb-md-0" data-aos="flip-left">
 					<img class="card-img-top lazyload course-img"
