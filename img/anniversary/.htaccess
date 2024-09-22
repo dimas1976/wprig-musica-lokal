@@ -1,0 +1,13 @@
+#AuthType Basic
+#AuthName "Admin-Bereich"
+#AuthUserFile /homepages/28/d809557826/htdocs/clickandbuilds/MusicaAltona/wp-admin/.htpasswd
+#Require user FirstAdmin!
+<files admin-ajax.php>
+
+order allow,deny
+
+allow from all
+
+satisfy any
+</files>
+"
